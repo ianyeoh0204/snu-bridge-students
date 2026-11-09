@@ -1,0 +1,28 @@
+{
+  "name": "snu-bridge-students",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --config vite.public.config.mjs",
+    "build": "node scripts/export-student-data.mjs && node scripts/validate-public.mjs && vite build --config vite.public.config.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "collect": "node scripts/collect.mjs",
+    "generate": "node scripts/generate.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "^1.31.0",
+    "linkedom": "^0.18.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.2",
+    "vite": "8.3.7",
+    "@tailwindcss/postcss": "4.2.1",
+    "tailwindcss": "4.2.1"
+  }
+}

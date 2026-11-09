@@ -1,0 +1,766 @@
+[
+  {
+    "notice_id": "58196",
+    "title": "Your graduation project: four different dates",
+    "degrees": [
+      "undergraduate"
+    ],
+    "period": "Fall 2026",
+    "summary": "Poster upload, advisor review, panel setup and the presentation each have their own date. The later presentation does not extend the poster deadline.",
+    "steps": [
+      "The subsidised poster upload closed on 9 November at 23:59. Late posters must be printed at your own expense.",
+      "Get your advisor’s review of thesis and poster drafts by 16 November. No exact cutoff time is stated.",
+      "At least one person per laboratory helps set up panels on 19 November at 15:00; a class at that time is an exception.",
+      "Arrive before 10:00 for the 20 November presentation. Judging runs 10:00–16:00, with attendance checks at 10:30, 12:00 and 15:30."
+    ],
+    "notes": [
+      "For a conflicting class, bring a printed mySNU timetable. Staff verify it and issue the absence form on the day.",
+      "One A1 portrait poster PDF per team; use the official notice’s form."
+    ],
+    "evidence_quote": "당일에 시간표 확인후 드립니다.",
+    "topic": "Graduation project",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v",
+    "source_hash": "6b47dd5aaef786ca972ea32281c039a6bf9b2133e78641f45c55bc009be59076",
+    "source_checked_at": "2026-11-09T21:01:47.773Z",
+    "generated_at": "2026-11-09T21:10:12.925Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read; no independent Korean-reader review.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58071",
+    "title": "Choose a professor for your Spring 2027 project",
+    "degrees": [
+      "undergraduate"
+    ],
+    "period": "Spring 2027",
+    "summary": "The project assignment process begins in the preceding semester. An interview and its signed paper confirmation are part of the process.",
+    "steps": [
+      "For the first round, meet the professor and submit the interview confirmation during 3–17 November 2026.",
+      "Submit the paper to Kim Su-jin in Building 301, Room 308 (office inside the laboratory). First assignments are announced on 18 November.",
+      "If you need the second round, project choices run 19–26 November, changes 27 November–1 December, and interviews 2–16 December. Check your assignment status first.",
+      "Use ECE intranet → Classes → Graduation project to find projects and enter preferences."
+    ],
+    "notes": [
+      "Do not assume a professor has accepted you until the official assignment is confirmed.",
+      "Later presentation dates will be announced separately."
+    ],
+    "evidence_quote": "1차 면담",
+    "topic": "Graduation project",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v",
+    "source_hash": "fab19bf3e523fa7ae0244f6f66576a8dd2ea3ba1030dad6903de41624bab6eb5",
+    "source_checked_at": "2026-11-09T21:01:35.761Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58045",
+    "title": "Finish and sign your thesis in the project semester",
+    "degrees": [
+      "undergraduate"
+    ],
+    "period": "Fall 2026",
+    "summary": "Whether you are graduating now or later changes what you submit, but it does not remove the requirement to finish the thesis and obtain the advisor’s signature in the project semester.",
+    "steps": [
+      "Graduating this semester: submit the thesis with a signed approval page by 21 December 2026. Write your student number in pencil on the cover; binding is not required.",
+      "If you cannot submit by then, submit the specified confirmation form to Building 301, Room 319 by 21 December. The latest permitted thesis submission under that form is 28 December.",
+      "Not graduating this semester: finish the thesis, obtain the advisor’s signature by 21 December and keep it for your graduation semester."
+    ],
+    "notes": [
+      "For non-graduating students who cannot finish by 21 December, obtain the advisor’s permission in advance for a signature by 28 December.",
+      "After the approval page is signed, do not change the thesis content on your own.",
+      "A deferred submission is not a blanket permission to postpone writing and signing."
+    ],
+    "evidence_quote": "논문 제출일 확인서는 제출만 미루는 것이고",
+    "topic": "Graduation project",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58045&md=v",
+    "source_hash": "43d27d6579f56eeedc982b9b966f999e278f65d93efc0d97f34ed9eff5ee4af1",
+    "source_checked_at": "2026-11-09T21:01:34.692Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58200",
+    "title": "Winter tuition: find the actual payment schedule",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Winter 2026",
+    "summary": "If you registered for a winter course, check its payment and refund schedule before paying. The payment dates are in images or attached files that this brief has not read.",
+    "steps": [
+      "Open the official notice and its English payment-and-refund PDF.",
+      "Verify the payment window and refund conditions in that file, or upload it to ChatGPT with the source URL.",
+      "Check the final course-cancellation announcement on 8 December. That is a separate event."
+    ],
+    "notes": [
+      "8 December is not established as the tuition payment deadline.",
+      "An English PDF exists on the Korean page; absence of a matching English-board post does not mean no English material exists."
+    ],
+    "evidence_quote": "",
+    "topic": "Registration & fees",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v",
+    "source_hash": "79627d9425bcd933a7bb75dc43c782f718eea1d16e541a7b038ba8596e778203",
+    "source_checked_at": "2026-11-09T21:01:48.868Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58182",
+    "title": "Course feedback: extended to 12 November",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Fall 2026",
+    "summary": "The mid-semester course survey has been extended by one week, from 5 to 12 November. Graduate Thesis Research courses are excluded.",
+    "steps": [
+      "If you want to give feedback on an eligible course, complete the survey during 29 October–12 November.",
+      "Check the survey route in the official notice and choose the relevant course."
+    ],
+    "notes": [
+      "The HTML gives a closing date without an exact time.",
+      "This is an optional feedback opportunity, not a new graduation requirement."
+    ],
+    "evidence_quote": "2026.10.29.(목) ~ 11.12.(목) ※ 1주일 연장",
+    "topic": "Classes",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58182&md=v",
+    "source_hash": "fe1609812a3a16a2594fae90e5b95a6ff6fbb2b8ef0222955b6eec19d3fc5233",
+    "source_checked_at": "2026-11-09T21:01:45.679Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58191",
+    "title": "New safety training: book before attending",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "November 2026",
+    "summary": "For laboratory researchers who have not completed the required new safety training, a session is announced for 20 November. Booking may close early when seats run out.",
+    "steps": [
+      "Ask for a place by emailing your affiliation, name, portal ID and contact details to the official contact in the notice.",
+      "After confirmation, attend Building 98, Room 101 on 20 November, 09:30–18:30.",
+      "Keep the correct new-training certificate for procedures that require it."
+    ],
+    "notes": [
+      "The notice does not state a fixed booking deadline. The training date is not the application deadline.",
+      "New safety training and regular periodic training are different."
+    ],
+    "evidence_quote": "좌석이 부족 시 조기 마감",
+    "topic": "Training",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58191&md=v",
+    "source_hash": "6ffc2b7a934391348984b5a7f521c4ac8cc0391ad5e18dfe00beed61c00cf583",
+    "source_checked_at": "2026-11-09T21:01:46.939Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read; no independent Korean-reader review.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58126",
+    "title": "Plan around admission-interview building closures",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "November–December 2026",
+    "summary": "Admission interviews affect building access and some classes. The two closure periods must be checked separately.",
+    "steps": [
+      "Check engineering-class arrangements and Building 302 access for 26 November 09:00–27 November 20:00.",
+      "Check Building 39 and classes taught by interviewers for 3 December 09:00–4 December 20:00.",
+      "Confirm any make-up class or course-specific arrangement with the instructor."
+    ],
+    "notes": [
+      "A building closure is an event window, not a student application deadline."
+    ],
+    "evidence_quote": "",
+    "topic": "Classes",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58126&md=v",
+    "source_hash": "1443d98fc9b769443645f5d2332902eda0c01797d8848cd140c2da8f8e6f6d51",
+    "source_checked_at": "2026-11-09T21:01:39.301Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read; no independent Korean-reader review.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58159",
+    "title": "Confirm whether the internship second round is running",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Winter 2026",
+    "summary": "A possible second application round is listed for 10–11 November. The notice says that round may not be held, and detailed eligibility remains in unread materials.",
+    "steps": [
+      "Confirm with the responsible office that the second round is taking place.",
+      "Check the full eligibility and role details in the official materials before applying.",
+      "Use 10–11 November only if the round and your eligibility are confirmed."
+    ],
+    "notes": [
+      "This brief cannot establish eligibility from the HTML alone.",
+      "The source gives dates without a precise closing time."
+    ],
+    "evidence_quote": "2026.11.10.(화) ~ 2026.11.11.(수)",
+    "topic": "Opportunities",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58159&md=v",
+    "source_hash": "e00ba913b8879f9e3b0aeba71c8e1358ea2cd075e91f0f64b3c452ac332db573",
+    "source_checked_at": "2026-11-09T21:01:43.366Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58152",
+    "title": "Research internship: application closed, programme later",
+    "degrees": [
+      "undergraduate"
+    ],
+    "period": "Winter 2026–27",
+    "summary": "Applications closed on 29 October at 18:00. The programme period of 15 December–8 February is for selected participants.",
+    "steps": [
+      "If selected, follow the internship arrangements for 15 December 2026–8 February 2027.",
+      "If you did not apply in time, ask the office about alternatives; do not interpret the programme start as an open application."
+    ],
+    "notes": [
+      "For student-number years 2024 or earlier, the department checks safety training. If the certificate cannot be printed, the notice waives that certificate submission."
+    ],
+    "evidence_quote": "10월 29일(목) 18:00까지",
+    "topic": "Opportunities",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v",
+    "source_hash": "819c34fbc896fbb4d2b7058017bec9143e247414c7cbb30bcf65a8762ebfbd17",
+    "source_checked_at": "2026-11-09T21:01:57.690Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58072",
+    "title": "Thesis review: office documents and library upload",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Fall 2026 / February 2027 graduation",
+    "summary": "The thesis process has multiple submissions. Passing the review does not replace the office documents or the final library upload.",
+    "steps": [
+      "Master’s review result documents: by 14 December 2026 at 17:00.",
+      "PhD/integrated review result documents: by 21 December 2026 at 17:00.",
+      "Final confirmation and approval documents for the department: 15–22 January 2027, closing at 17:00.",
+      "Final thesis PDF for the library: 15 January–1 February 2027, closing at 23:59."
+    ],
+    "notes": [
+      "These dates apply to the stated review semester. Check eligibility, publication evidence and the full document checklist in the current source.",
+      "Use the Fall 2026 publication rule; an older spring notice may describe a superseded standard."
+    ],
+    "evidence_quote": "2026년 12월 14일(월) 17:00까지",
+    "topic": "Thesis & graduation",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v",
+    "source_hash": "35f55c5fd3670397749e3ac9c66a84c5738044d5c480607907bce18d8737c5a2",
+    "source_checked_at": "2026-11-09T21:01:36.842Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58022",
+    "title": "Thesis Research requires two submissions",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Fall 2026 · historical",
+    "summary": "Students registered for Graduate Thesis Research 430.960 had to submit both the online form and a signed paper during 3–17 September 2026. Missing submission leads to a U grade.",
+    "steps": [
+      "Complete the Google Form linked in the notice.",
+      "Prepare one page with the research topic, thesis title and at least three references.",
+      "Obtain the signature of the professor of your registered Thesis Research course.",
+      "Submit the paper to Building 301, Room 319."
+    ],
+    "notes": [
+      "If that professor differs from your advisor, list both names and get the course professor’s signature.",
+      "Integrated students taking two sections need prior permission and a separate form from each professor.",
+      "These September dates have passed. Find the new notice for another semester."
+    ],
+    "evidence_quote": "미제출 시 성적은 U로 부여됩니다",
+    "topic": "Thesis & graduation",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58022&md=v",
+    "source_hash": "9a869763a0623a09aef522a934b452440a267ac7eb5251264125523fa00a5e5a",
+    "source_checked_at": "2026-11-09T21:01:32.339Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58012",
+    "title": "Fall registration: ECE’s over-quota window was shorter",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Fall 2026 · historical",
+    "summary": "ECE undergraduate courses used a department-specific over-quota request deadline. This rule refers to the course level, not simply the student’s degree.",
+    "steps": [
+      "For ECE undergraduate courses, over-quota requests ran 1–3 September 2026, ending at 18:00 on 3 September.",
+      "The stated overlapping-course request window was 1–9 September.",
+      "The course-classification or grading-option date was 23 September. Check the relevant procedure before applying."
+    ],
+    "notes": [
+      "The consolidated image schedule and attached files have not been read; this is a partial action brief.",
+      "An over-quota request and its final confirmation are separate stages. Check the original instructions.",
+      "Historical dates must not be reused for the next semester."
+    ],
+    "evidence_quote": "2026.09.01.(화)~09.03.(목) 18:00",
+    "topic": "Registration & fees",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v",
+    "source_hash": "ce1c5ac5088d5694453bf01b4405c8b01b14e7477b5cfd79be3240a55570e758",
+    "source_checked_at": "2026-11-09T21:01:31.372Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "56747",
+    "title": "Check ECE’s rules before counting your graduate credits",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Standing guidance · check current rules",
+    "summary": "The university’s general rules do not capture every ECE completion or graduation requirement. Use the department’s self-checklist and ask the office about ambiguous courses.",
+    "steps": [
+      "Check which courses count as ECE graduate major courses. ECE-managed 430 and M2608 codes are examples, not a complete substitute for the rules.",
+      "For the qualifying exam’s six-credit condition, exclude Thesis Research, S/U courses, the specified modular seminar courses and credits carried across programmes.",
+      "Get advisor approval for relevant outside-department credits and check the cap and the ECE-versus-outside credit balance.",
+      "Keep evidence that you submitted the outside-department approval form. The linked follow-up form helps the office cross-check it."
+    ],
+    "notes": [
+      "Outside-department credits can count toward approved completion credits without counting as ECE major credits or qualifying-exam credits.",
+      "Publication recognition and final eligibility remain the department’s decision; revisit notices each semester."
+    ],
+    "evidence_quote": "논문연구",
+    "topic": "Degree essentials",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=56747&md=v",
+    "source_hash": "0be95adacee5a6b017023fbcff9ce2a1c63c61637744e600e6d597d89de65ef5",
+    "source_checked_at": "2026-11-09T21:01:20.229Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "51949",
+    "title": "Research ethics: a credit-bearing course can be required",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Cohort rule · Spring 2022 entrants onward",
+    "summary": "The notice requires one course from the research-ethics course group for entrants from Spring 2022. An online training certificate should not automatically be treated as the same requirement.",
+    "steps": [
+      "Check an eligible research-ethics course, such as M2480.000100, M1570.000300 or 990.501A, against the current course list.",
+      "Check common-competency credit caps: master’s 3, PhD 3 and integrated 6, with a maximum of 3 research-ethics credits under the stated post-2022 rule.",
+      "If you completed a research-ethics group course during a master’s in the same graduate school, verify the stated PhD repeat-course exemption."
+    ],
+    "notes": [
+      "Pre-2022 courses and entrants have transitional provisions; ask the office if they affect you.",
+      "Actual course offerings can change."
+    ],
+    "evidence_quote": "2022년 1학기 입학생부터 적용",
+    "topic": "Training",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=51949&md=v",
+    "source_hash": "7e8f93fd01cb1e56b69503b14c97e6fe82b941331f419f82730210e2b95405a5",
+    "source_checked_at": "2026-11-09T21:00:47.233Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58134",
+    "title": "Online research ethics: distinguish the BK21 extension",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Fall 2026",
+    "summary": "The ordinary online training period ended on 31 October. The notice separately allows BK21 participating graduate students to take it through December 2026.",
+    "steps": [
+      "Check whether the BK21 exception applies to you.",
+      "In eTL, open SNUON course lists and search Research ethics / 연구윤리. Choose the science and engineering course if appropriate.",
+      "Complete every video and download/read the PDF learning material; then print the completion certificate."
+    ],
+    "notes": [
+      "The source says “through December” for BK21 without a precise day or time.",
+      "This online training is not automatically a substitute for the credit-bearing research-ethics course requirement."
+    ],
+    "evidence_quote": "BK21 참여대학원생은 2026년 12월까지 수강 가능",
+    "topic": "Training",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58134&md=v",
+    "source_hash": "ff092042fa346108e737e26a408e8da35e886a42eb5c67351a63edf105b844e4",
+    "source_checked_at": "2026-11-09T21:01:40.105Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58023",
+    "title": "Outside-department credits need approval",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Fall 2026 · historical submission window",
+    "summary": "Relevant outside-department or undergraduate courses can require advisor-approved recognition. Taking a course does not automatically make it count toward your ECE degree.",
+    "steps": [
+      "The stated application window was 3–17 September 2026; submit the relevant signed form to the office in Room 319.",
+      "Check the cohort-specific cap. For entrants from 2021, the stated formula uses one half of completion credits minus Thesis Research credits.",
+      "Check the additional rule requiring ECE graduate credits, excluding Thesis Research, to exceed outside-department and undergraduate credits.",
+      "If an earlier form was omitted, the notice permits an advisor-approved retrospective application marked 사후신청."
+    ],
+    "notes": [
+      "The source also gives a master’s numerical example that can appear to sit at the boundary of the “exceed” condition. Ask the office before relying on that boundary.",
+      "Approved outside credits do not count toward the qualifying exam’s ECE six-credit condition.",
+      "Undergraduate credits have a separate combined six-credit limit across graduate study."
+    ],
+    "evidence_quote": "사후신청",
+    "topic": "Degree essentials",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58023&md=v",
+    "source_hash": "f907c6c59c577cacbb77d0c8e4bc1a7e928dda9dded8045bb1141942460f3e6d",
+    "source_checked_at": "2026-11-09T21:01:51.200Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57151",
+    "title": "Completion and graduation lists need your own check",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "February 2026 · historical",
+    "summary": "This historical notice shows why 수료 (coursework completion) and 학위취득 (degree award) must be checked separately. A published list can still change after the office reviews records.",
+    "steps": [
+      "Check the completion/graduation list for your actual semester and compare it with ECE’s self-checklist.",
+      "Tell the office if you are missing, incorrectly included, seeking deferral or missing an outside-course approval.",
+      "Check your official English name in mySNU before your degree certificate is issued."
+    ],
+    "notes": [
+      "The January/February 2026 correction and survey deadlines have passed. Do not use them for a future graduation.",
+      "A student on leave cannot complete or graduate under this notice.",
+      "Excess-semester registration and credit rules can affect tuition and student status; ask the office about your case."
+    ],
+    "evidence_quote": "",
+    "topic": "Thesis & graduation",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v",
+    "source_hash": "0ea592a38293197c3ac4f1f0003a8bc5570400e7822459a8cf73ddeb63d7a0d9",
+    "source_checked_at": "2026-11-09T21:01:21.333Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57441",
+    "title": "Qualifying exam: all three registration steps matter",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Spring 2026 · historical",
+    "summary": "The spring notice required a Google Form, a portal application and paper documents at the office. Completing just one did not register a student.",
+    "steps": [
+      "Historical Google Form: 11–18 February. Portal application: 20 February at 10:00–27 February.",
+      "Submit the printed application with advisor approval plus the three specified training certificates.",
+      "The exam was 13 March, 10:00–12:00, with arrival by 09:50.",
+      "For a future sitting, check the current notice and your SNU email for its schedule and room."
+    ],
+    "notes": [
+      "The new safety-training certificate is required; the regular six-hour training is not a substitute.",
+      "Check eligible ECE graduate credits, registered semesters and the recorded language-test result separately.",
+      "International-student language requirements depend on the stated nationality/language rules. English-taught coursework alone does not establish exemption."
+    ],
+    "evidence_quote": "세 가지 모두 완료하셔야 접수됩니다",
+    "topic": "Degree essentials",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v",
+    "source_hash": "a353c99bc16c19ec4507d2f846518c917fe593697c9113f41295bda6ae796f90",
+    "source_checked_at": "2026-11-09T21:01:24.649Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57448",
+    "title": "Research-student registration is not ordinary enrolment",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Spring 2026 · historical",
+    "summary": "This notice concerns students who have completed coursework and need research-student status for facilities, thesis review or specified research work. It explicitly excludes ordinary enrolled students.",
+    "steps": [
+      "Find the research-student registration notice for your semester.",
+      "The historical spring fee was ₩200,000, paid using the mySNU bill or its assigned bank account; payment itself was the registration method.",
+      "The spring final period closed on 31 March 2026 at 17:00. Late registration was not offered."
+    ],
+    "notes": [
+      "Students who completed coursework and sought thesis review needed research-student registration; the notice treats PhD preliminary review separately.",
+      "These fee and timing details belong to Spring 2026; verify the next semester’s notice."
+    ],
+    "evidence_quote": "재학생은 해당사항 없음",
+    "topic": "Registration & fees",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57448&md=v",
+    "source_hash": "df8e2a72ac0ec10435d173451fca1fd7e8fd523e835e5e06a50814a5d95a394d",
+    "source_checked_at": "2026-11-09T21:01:25.737Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57606",
+    "title": "Publication rules changed for Fall 2026 thesis reviews",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Effective Fall 2026",
+    "summary": "For master’s review from Fall 2026, merely proving that a journal paper was submitted no longer satisfies the stated publication rule. Evidence must be available before the review-result document deadline.",
+    "steps": [
+      "Master’s: check a published or accepted domestic/international conference paper or journal paper, your author position and advisor co-authorship.",
+      "Master’s shared-first-authorship is not accepted under the stated rule, even if your name is listed first.",
+      "PhD/integrated: satisfy both the SCI(E)-level item and the second conference/domestic-journal/registered-international-patent item, with the stated authorship conditions.",
+      "Confirm recognition with the office for ambiguous cases and check subsequent revisions."
+    ],
+    "notes": [
+      "For both PhD conditions, publication/acceptance evidence must be issuable before the review-result documents are due.",
+      "An older Spring 2026 review notice describes the prior master’s rule."
+    ],
+    "evidence_quote": "2026학년도 2학기 심사대상자부터 논문지 투고하였음을 증명할 수 있는 서류는 제출하여도 인정 불가",
+    "topic": "Thesis & graduation",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57606&md=v",
+    "source_hash": "d20d494a3209d61635a843a9e1a92a577820f56f3294b38a98fd4919824207fd",
+    "source_checked_at": "2026-11-09T21:01:26.857Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read; no independent Korean-reader review.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57626",
+    "title": "Thesis review is a sequence, not a single deadline",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Spring 2026 · historical",
+    "summary": "This spring notice separates eligibility, online registration, office papers, review fees, result documents and final thesis submissions. Its calendar and old publication rule are historical.",
+    "steps": [
+      "Before review, check language/major qualifying results, ECE completion requirements, publication evidence and research-student registration if you have completed coursework.",
+      "Historical application and office papers closed on 31 March at 17:00; review fees ran 20 April–3 May.",
+      "Historical result deadlines were 12 June at 17:00 for master’s and 19 June at 17:00 for PhD.",
+      "Final department documents ran 17–24 July; the library upload window ran 17 July–2 August."
+    ],
+    "notes": [
+      "The general university completion simulator does not include all ECE rules.",
+      "Do not use the spring master’s submitted-paper allowance for Fall 2026. See the revised publication rule.",
+      "Some extensions require contacting the office; they are not automatic."
+    ],
+    "evidence_quote": "서울대학교 수료 시뮬레이터 시스템에는 학과 내규가 반영되어 있지 않아 정확하지 않습니다",
+    "topic": "Thesis & graduation",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v",
+    "source_hash": "4b30e0295c540ac09f3d8e647f35d461d56bc9344e3d835b332f94eebfa342fc",
+    "source_checked_at": "2026-11-09T21:01:28.013Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57627",
+    "title": "PhD preliminary review happens before the final-review semester",
+    "degrees": [
+      "phd",
+      "integrated"
+    ],
+    "period": "February 2027 graduation · historical preliminary window",
+    "summary": "For a February 2027 PhD degree, this notice required preliminary review by Spring 2026, before the Fall 2026 initial/final reviews. Passing the PhD qualifying exam was a prerequisite.",
+    "steps": [
+      "Historical committee appointment documents: 13–27 April 2026.",
+      "Historical guidance-result and journal-publication confirmation documents: 15 June–27 July.",
+      "Submit the journal-publication confirmation even if you have not yet published: use its unpublished section and obtain the advisor’s signature."
+    ],
+    "notes": [
+      "The preliminary stage has no review-fee payment or online application under this notice.",
+      "If you have publication output, submit the first-page evidence with the specified names and venue highlighted.",
+      "For another graduation semester, find its corresponding preliminary-review notice."
+    ],
+    "evidence_quote": "예심은 심사료 납부 및 온라인 접수가 없습니다",
+    "topic": "Thesis & graduation",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v",
+    "source_hash": "e7f466a2b5e22b0b9a5a5134d11bc205b3f5d78379822447d7f9031484e09720",
+    "source_checked_at": "2026-11-09T21:01:29.068Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57374",
+    "title": "Read the prerequisite logic before choosing your courses",
+    "degrees": [
+      "undergraduate"
+    ],
+    "period": "Spring 2026 revised guide",
+    "summary": "Official prerequisites can require both courses or one of several alternatives. The guide also revises recommended semesters and course offerings.",
+    "steps": [
+      "For Basic Circuit Theory and Laboratory, the guide requires Engineering Mathematics 1 AND one approved Physics 2 alternative.",
+      "Basic Electromagnetics similarly requires Engineering Mathematics 2 AND an approved Physics 2 alternative.",
+      "Basic Electronic Circuits requires both Basic Circuit Theory and Basic Electromagnetics. Signals and Systems requires Engineering Mathematics 1.",
+      "Use the course planner below to see the five sourced examples, then verify your current semester’s course listing."
+    ],
+    "notes": [
+      "These prerequisite rules are stated for entrants from 2020.",
+      "Fundamentals of Physics 2 (물리의 기본 2) is explicitly not a substitute.",
+      "From 2026 Advanced Control Techniques is listed in semester 1; the peer map shows semester 2. Verify the current offering."
+    ],
+    "evidence_quote": "2020학번부터 적용",
+    "topic": "Course planning",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57374&md=v",
+    "source_hash": "6e891599267dc99204e9fecf862f33b54e88ab1fcf2b99d0a6c079532ed3c5a1",
+    "source_checked_at": "2026-11-09T21:01:22.532Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57376",
+    "title": "Over-quota registration needs a final student confirmation",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Spring 2026 · historical",
+    "summary": "A request, instructor approval and final student confirmation are three different steps. ECE undergraduate courses used an earlier request deadline than the general timetable.",
+    "steps": [
+      "Historical ECE undergraduate over-quota requests closed on 5 March at 18:00.",
+      "The student had to complete final confirmation by 11 March for the approved request to appear in registration.",
+      "Mock registration did not register you for the actual semester.",
+      "Check current semester dates, course-level restrictions and available credits before choosing courses."
+    ],
+    "notes": [
+      "Course level matters even when a graduate student wants an undergraduate course.",
+      "Some excess-semester students must retain at least one credit; withdrawing to zero can affect student status.",
+      "The spring timetable is archived, not an active registration window."
+    ],
+    "evidence_quote": "학생 수강확정",
+    "topic": "Registration & fees",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v",
+    "source_hash": "5aa2e435e24de0102f9be8ce63db2855ffb98fd4f5d7b66743ba8ff09eb43556",
+    "source_checked_at": "2026-11-09T21:01:23.597Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "57700",
+    "title": "Summer registration and tuition were separate steps",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "period": "Summer 2026 · historical",
+    "summary": "Registering for a summer course did not complete payment. The notice stated that unpaid courses would be automatically cancelled.",
+    "steps": [
+      "Historical registration: 6–13 May, excluding weekends; changes: 18–21 May.",
+      "First tuition payment window: 28 May–2 June; final payment: 4–8 June.",
+      "The course period was 23 June–3 August. Different withdrawal windows gave full, two-thirds or half refunds."
+    ],
+    "notes": [
+      "The maximum was nine credits including domestic exchange credits.",
+      "Do not reuse summer dates for winter registration; each seasonal notice has its own schedule."
+    ],
+    "evidence_quote": "미납 시 수강신청 자동 취소",
+    "topic": "Registration & fees",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v",
+    "source_hash": "c8ba4e6ff6c94a614bddbcdbec6661cc151acfa583a489d19958ce1c39753cfd",
+    "source_checked_at": "2026-11-09T21:01:30.250Z",
+    "generated_at": "2026-11-09T21:10:12.931Z",
+    "review_status": "AI draft — not independently reviewed",
+    "source_changed": false,
+    "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
+    "english_kind": "Action brief, not a complete official translation"
+  }
+]

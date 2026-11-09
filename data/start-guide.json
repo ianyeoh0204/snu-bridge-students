@@ -1,0 +1,228 @@
+{
+  "purpose": "Help new ECE students understand course relationships and department procedures before registration.",
+  "source_layers": [
+    {
+      "type": "official",
+      "label": "ECE undergraduate curriculum",
+      "url": "https://ece.snu.ac.kr/academics/undergraduate/curriculum",
+      "status": "Official page exists; current semester offerings still require checking."
+    },
+    {
+      "type": "official",
+      "label": "ECE cohort-specific completion requirements",
+      "url": "https://ece.snu.ac.kr/academics/undergraduate/requirements",
+      "status": "Choose the student’s entry cohort and programme. Linked files are not automatically read."
+    },
+    {
+      "type": "official_historical_notice",
+      "label": "Spring 2026 revised course guide, 4 March 2026",
+      "notice_id": "57374",
+      "url": "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=57374",
+      "status": "Evidence of stated rules and changes as of that notice; not a guarantee for future semesters."
+    },
+    {
+      "type": "peer_provided",
+      "label": "Unofficial ECE course map dated 4 March 2026",
+      "status": "Provided by the project owner, relayed from an international undergraduate. Author not verified. Image not re-hosted; paths are partial English interpretations."
+    }
+  ],
+  "questions": [
+    "What is your degree?",
+    "What is your entry year?",
+    "Are you choosing courses for a specific semester?",
+    "Which courses have you already completed?"
+  ],
+  "undergraduate_first_steps": [
+    {
+      "title": "Identify your cohort’s requirements",
+      "why": "Major requirements and general education rules vary by entry year; an attractive roadmap is not a graduation audit.",
+      "source": "https://ece.snu.ac.kr/academics/undergraduate/requirements"
+    },
+    {
+      "title": "Check required prerequisites before choosing advanced courses",
+      "why": "A course can be useful preparation without being a compulsory prerequisite. Keep those relationships distinct.",
+      "notice_id": "57374"
+    },
+    {
+      "title": "Check the actual semester offering and course code",
+      "why": "The revised guide changes some recommended semesters and offerings. Cross-listed course codes can count differently.",
+      "notice_ids": [
+        "57374",
+        "58075"
+      ]
+    },
+    {
+      "title": "Find the current registration and over-quota notice",
+      "why": "Each semester has its own dates and request process. September 2026 deadlines must not be reused.",
+      "notice_id": "58012"
+    },
+    {
+      "title": "Understand the graduation project early",
+      "why": "Choosing a professor, submitting the poster, presenting and getting the thesis signed are separate steps.",
+      "notice_ids": [
+        "58071",
+        "58196",
+        "58045"
+      ]
+    }
+  ],
+  "graduate_first_steps": [
+    {
+      "title": "Distinguish coursework completion from graduation",
+      "notice_ids": [
+        "56747",
+        "58072"
+      ],
+      "why": "수료 and graduation are different milestones; the university simulator may omit ECE requirements."
+    },
+    {
+      "title": "Check the qualifying exam and required training",
+      "notice_ids": [
+        "57441",
+        "56747",
+        "58191",
+        "51949"
+      ],
+      "why": "Eligibility depends on programme, semesters, eligible credits and the current rule; English-taught coursework alone does not prove exemption."
+    },
+    {
+      "title": "If registered for Thesis Research, check its confirmation requirement",
+      "notice_id": "58022",
+      "why": "The historical example requires both an online form and signed paper, with exceptions for different course professors and two sections."
+    },
+    {
+      "title": "Plan thesis review and publication evidence",
+      "notice_ids": [
+        "57606",
+        "58072"
+      ],
+      "why": "Current rules, publication evidence, office documents and library upload are distinct requirements."
+    }
+  ],
+  "official_prerequisite_examples": [
+    {
+      "course_ko": "프로그래밍방법론",
+      "course_en": "Programming Methodology",
+      "all_of": [
+        "컴퓨터의 개념 및 실습"
+      ],
+      "cohort": "2020 entrants onward, as stated in the Spring 2026 guide",
+      "notice_id": "57374"
+    },
+    {
+      "course_ko": "기초회로이론 및 실험",
+      "course_en": "Basic Circuit Theory and Laboratory",
+      "all_of": [
+        "공학수학1",
+        {
+          "any_of": [
+            "물리학2",
+            "고급물리학2",
+            "일반물리학및실험2"
+          ]
+        }
+      ],
+      "exception": "물리의 기본 2 is not a substitute. 일반물리학및실험2 is the Physics Education course.",
+      "cohort": "2020 entrants onward, as stated in the Spring 2026 guide",
+      "notice_id": "57374"
+    },
+    {
+      "course_ko": "기초전자기학 및 연습",
+      "course_en": "Basic Electromagnetics and Exercises",
+      "all_of": [
+        "공학수학2",
+        {
+          "any_of": [
+            "물리학2",
+            "고급물리학2",
+            "일반물리학및실험2"
+          ]
+        }
+      ],
+      "exception": "물리의 기본 2 is not a substitute.",
+      "cohort": "2020 entrants onward, as stated in the Spring 2026 guide",
+      "notice_id": "57374"
+    },
+    {
+      "course_ko": "기초전자회로 및 실험",
+      "course_en": "Basic Electronic Circuits and Laboratory",
+      "all_of": [
+        "기초회로이론 및 실험",
+        "기초전자기학 및 연습"
+      ],
+      "cohort": "2020 entrants onward, as stated in the Spring 2026 guide",
+      "notice_id": "57374"
+    },
+    {
+      "course_ko": "신호 및 시스템",
+      "course_en": "Signals and Systems",
+      "all_of": [
+        "공학수학1"
+      ],
+      "cohort": "2020 entrants onward, as stated in the Spring 2026 guide",
+      "notice_id": "57374"
+    }
+  ],
+  "exploration_paths": {
+    "computing": {
+      "label": "Computing and AI",
+      "courses": [
+        "Computer Concepts and Practice (컴퓨터의 개념 및 실습)",
+        "Programming Methodology (프로그래밍방법론)",
+        "Data Structures (자료구조의 기초)",
+        "Algorithms (알고리즘의 기초)",
+        "Machine Learning (기계학습 기초)",
+        "Deep Learning (딥러닝의 기초)"
+      ],
+      "relationship": "Exploratory learning sequence from the peer map; only explicitly sourced prerequisite rules are compulsory."
+    },
+    "signals": {
+      "label": "Signals, communications and control",
+      "courses": [
+        "Engineering Mathematics (공학수학)",
+        "Signals and Systems (신호 및 시스템)",
+        "Introduction to Control Engineering (제어공학개론)",
+        "Probability and Random Processes (확률변수 및 확률과정의 기초)",
+        "Communication Fundamentals (통신의 기초)"
+      ],
+      "relationship": "Related study areas, not a verified mandatory chain or timetable."
+    },
+    "devices": {
+      "label": "Circuits and devices",
+      "courses": [
+        "Basic Circuit Theory and Laboratory (기초회로이론 및 실험)",
+        "Basic Electromagnetics and Exercises (기초전자기학 및 연습)",
+        "Basic Electronic Circuits and Laboratory (기초전자회로 및 실험)",
+        "Analog Electronic Circuits (아날로그전자회로)",
+        "Semiconductor Devices (반도체소자)"
+      ],
+      "relationship": "Exploration sequence; check each prerequisite and offering against the current guide."
+    }
+  },
+  "known_conflicts": [
+    {
+      "course": "최신제어기법 (Advanced Control Techniques)",
+      "peer_map": "Shown in year 4, second semester.",
+      "official_notice": "Spring 2026 revised guide says first-semester offering from 2026.",
+      "quote": "최신제어기법 – 2026학년도부터 1학기 개설",
+      "notice_id": "57374",
+      "resolution": "Show the conflict and check the current course schedule; do not quietly choose the peer map."
+    }
+  ],
+  "limits": [
+    "The original map is unofficial and does not establish international-student language exemptions.",
+    "No automatic eligibility or graduation certification.",
+    "No assumption that a course is taught in English.",
+    "The raw peer image and any student identity are not included in the hosted service."
+  ],
+  "source_versions": {
+    "51949": "7e8f93fd01cb1e56b69503b14c97e6fe82b941331f419f82730210e2b95405a5",
+    "56747": "0be95adacee5a6b017023fbcff9ce2a1c63c61637744e600e6d597d89de65ef5",
+    "57374": "6e891599267dc99204e9fecf862f33b54e88ab1fcf2b99d0a6c079532ed3c5a1",
+    "57441": "a353c99bc16c19ec4507d2f846518c917fe593697c9113f41295bda6ae796f90",
+    "57606": "d20d494a3209d61635a843a9e1a92a577820f56f3294b38a98fd4919824207fd",
+    "58022": "9a869763a0623a09aef522a934b452440a267ac7eb5251264125523fa00a5e5a",
+    "58045": "43d27d6579f56eeedc982b9b966f999e278f65d93efc0d97f34ed9eff5ee4af1",
+    "58072": "35f55c5fd3670397749e3ac9c66a84c5738044d5c480607907bce18d8737c5a2"
+  }
+}

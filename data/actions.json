@@ -1,0 +1,624 @@
+[
+  {
+    "id": "58196-upload",
+    "notice_id": "58196",
+    "title": "Upload the graduation-project poster PDF",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "graduation_project": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": null,
+    "end": "2026-11-09T23:59:00+09:00",
+    "date_label": "9 Nov 2026, 23:59",
+    "date_quote": "11월 9일(월) 23:59까지",
+    "precision": "minute",
+    "importance": "required_if_applicable",
+    "past_next_step": "The subsidised upload window has closed. The notice says late posters must be printed at your own expense.",
+    "evidence_quote": "마감기한인 11월 9일(월) 23:59 이후에는 자체적으로 자비로 출력",
+    "steps": [
+      "Upload one A1 portrait PDF per team using the form in the notice."
+    ],
+    "source_hash": "6b47dd5aaef786ca972ea32281c039a6bf9b2133e78641f45c55bc009be59076"
+  },
+  {
+    "id": "58196-advisor",
+    "notice_id": "58196",
+    "title": "Have your advisor review thesis and poster drafts",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "graduation_project": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": null,
+    "end": "2026-11-16",
+    "date_label": "By 16 Nov 2026",
+    "date_quote": "11월 16일(월)까지",
+    "precision": "day",
+    "importance": "required_if_applicable",
+    "source_hash": "6b47dd5aaef786ca972ea32281c039a6bf9b2133e78641f45c55bc009be59076"
+  },
+  {
+    "id": "58196-setup",
+    "notice_id": "58196",
+    "title": "Help set up the presentation panels",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "graduation_project": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-11-19T15:00:00+09:00",
+    "end": "2026-11-19T15:00:00+09:00",
+    "date_label": "19 Nov 2026, 15:00",
+    "date_quote": "11월 19일(목) 오후 3시",
+    "precision": "minute",
+    "importance": "conditional",
+    "conditions_note": "At least one person per lab; students with a class at that time are excused.",
+    "source_hash": "6b47dd5aaef786ca972ea32281c039a6bf9b2133e78641f45c55bc009be59076"
+  },
+  {
+    "id": "58196-presentation",
+    "notice_id": "58196",
+    "title": "Attend the graduation-project presentation",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "graduation_project": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-11-20T10:00:00+09:00",
+    "end": "2026-11-20T16:00:00+09:00",
+    "date_label": "20 Nov 2026, 10:00–16:00",
+    "date_quote": "11월 20일(금) 10:00 ~ 16:00",
+    "precision": "minute",
+    "importance": "required_if_applicable",
+    "steps": [
+      "Arrive before 10:00; judging is 10:00–16:00.",
+      "Attendance checks are 10:30, 12:00 and 15:30."
+    ],
+    "exceptions": [
+      "For a conflicting class, staff check your printed mySNU timetable and issue the absence form that same day."
+    ],
+    "evidence_quote": "당일에 시간표 확인후 드립니다.",
+    "source_hash": "6b47dd5aaef786ca972ea32281c039a6bf9b2133e78641f45c55bc009be59076"
+  },
+  {
+    "id": "58152-apply",
+    "notice_id": "58152",
+    "title": "Submit the undergraduate research internship application",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "research_internship_applicant": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-10-29",
+    "end": "2026-10-29T18:00:00+09:00",
+    "date_label": "29 Oct 2026, 18:00",
+    "date_quote": "10월 29일(목) 18:00까지",
+    "precision": "minute",
+    "importance": "optional_opportunity",
+    "past_next_step": "Applications closed on 29 October at 18:00. The later internship period does not reopen applications.",
+    "exceptions": [
+      "For student ID years 2024 or earlier, the department checks safety training; if the certificate cannot be printed, submission is waived."
+    ],
+    "source_hash": "819c34fbc896fbb4d2b7058017bec9143e247414c7cbb30bcf65a8762ebfbd17"
+  },
+  {
+    "id": "58152-internship",
+    "notice_id": "58152",
+    "title": "Participate in the research internship if selected",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "research_internship_selected": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-12-15",
+    "end": "2027-02-08",
+    "date_label": "15 Dec 2026–8 Feb 2027",
+    "date_quote": "2026. 12. 15.(화)~2027. 2. 8.(월)",
+    "precision": "day",
+    "importance": "conditional",
+    "source_hash": "819c34fbc896fbb4d2b7058017bec9143e247414c7cbb30bcf65a8762ebfbd17"
+  },
+  {
+    "id": "58200-pay",
+    "notice_id": "58200",
+    "title": "Check the winter-session tuition payment period",
+    "kind": "unknown_deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "winter_course_registered": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "importance": "required_if_applicable",
+    "date_label": "Payment deadline unread: schedule is inside an image/attachment.",
+    "missing": [
+      "Tuition payment and refund dates are inside unread images or PDFs."
+    ],
+    "steps": [
+      "Open the official notice and upload its English payment PDF or schedule image to this chat.",
+      "Do not use 8 December as the payment deadline."
+    ],
+    "source_hash": "79627d9425bcd933a7bb75dc43c782f718eea1d16e541a7b038ba8596e778203"
+  },
+  {
+    "id": "58200-cancellation",
+    "notice_id": "58200",
+    "title": "Check the final winter-course cancellation announcement",
+    "kind": "information",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "winter_course_registered": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": null,
+    "end": "2026-12-08",
+    "date_label": "8 Dec 2026",
+    "date_quote": "최종 폐강(수납인원 20명 미만): 2026.12.08.(화)",
+    "precision": "day",
+    "importance": "information",
+    "conditions_note": "This is the course cancellation announcement, not a student payment deadline.",
+    "source_hash": "79627d9425bcd933a7bb75dc43c782f718eea1d16e541a7b038ba8596e778203"
+  },
+  {
+    "id": "58126-closure302",
+    "notice_id": "58126",
+    "title": "Engineering classes pause; Building 302 closes",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "engineering_classes_or_building302": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-11-26T09:00:00+09:00",
+    "end": "2026-11-27T20:00:00+09:00",
+    "date_label": "26 Nov 09:00 – 27 Nov 20:00",
+    "date_quote": "2026. 11. 26.(목) 09:00 ~ 11. 27.(금) 20:00",
+    "precision": "minute",
+    "importance": "disruption",
+    "steps": [
+      "Plan around the closure starting 26 November at 09:00.",
+      "Ask instructors about make-up classes."
+    ],
+    "source_hash": "1443d98fc9b769443645f5d2332902eda0c01797d8848cd140c2da8f8e6f6d51"
+  },
+  {
+    "id": "58126-closure39",
+    "notice_id": "58126",
+    "title": "Check interviewer-class cancellations and Building 39 closure",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "building39_or_interviewer_classes": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-12-03T09:00:00+09:00",
+    "end": "2026-12-04T20:00:00+09:00",
+    "date_label": "3 Dec 09:00 – 4 Dec 20:00",
+    "date_quote": "2026. 12. 3.(목) 09:00 ~ 12. 4.(금) 20:00",
+    "precision": "minute",
+    "importance": "disruption",
+    "conditions_note": "Includes courses taught by interviewers and all courses held in Building 39.",
+    "source_hash": "1443d98fc9b769443645f5d2332902eda0c01797d8848cd140c2da8f8e6f6d51"
+  },
+  {
+    "id": "58182-survey",
+    "notice_id": "58182",
+    "title": "Complete the mid-semester course survey if you wish",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "non_thesis_course": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-10-29",
+    "end": "2026-11-12",
+    "date_label": "29 Oct – 12 Nov 2026",
+    "date_quote": "2026.10.29.(목) ~ 11.12.(목) ※ 1주일 연장",
+    "precision": "day",
+    "importance": "optional",
+    "change_note": "The notice extends 5 November to 12 November.",
+    "exceptions": [
+      "Graduate Thesis Research courses are excluded."
+    ],
+    "source_hash": "fe1609812a3a16a2594fae90e5b95a6ff6fbb2b8ef0222955b6eec19d3fc5233"
+  },
+  {
+    "id": "58191-book",
+    "notice_id": "58191",
+    "title": "Request a seat for new safety training",
+    "kind": "unknown_deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "lab_research": true,
+      "new_safety_training_completed": false
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "importance": "required_if_applicable",
+    "date_label": "Booking cutoff not stated; seats may close early.",
+    "steps": [
+      "Email affiliation, name, portal ID and contact details to kss777@snu.ac.kr.",
+      "Ask about a place before attending."
+    ],
+    "evidence_quote": "좌석이 부족 시 조기 마감",
+    "source_hash": "6ffc2b7a934391348984b5a7f521c4ac8cc0391ad5e18dfe00beed61c00cf583"
+  },
+  {
+    "id": "58191-attend",
+    "notice_id": "58191",
+    "title": "Attend the new safety-training session",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "lab_research": true,
+      "new_safety_training_completed": false
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-11-20T09:30:00+09:00",
+    "end": "2026-11-20T18:30:00+09:00",
+    "date_label": "20 Nov 2026, 09:30–18:30",
+    "date_quote": "2026. 11. 20.(금) 09:30~18:30",
+    "precision": "minute",
+    "importance": "required_if_applicable",
+    "conditions_note": "20 November is the training date, not an application deadline.",
+    "steps": [
+      "Attend Building 98, Room 101, 09:30–18:30."
+    ],
+    "source_hash": "6ffc2b7a934391348984b5a7f521c4ac8cc0391ad5e18dfe00beed61c00cf583"
+  },
+  {
+    "id": "58159-round2",
+    "notice_id": "58159",
+    "title": "Check whether the optional internship second round will run",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "hanwha_round2_confirmed": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-11-10",
+    "end": "2026-11-11",
+    "date_label": "10–11 Nov 2026, if held",
+    "date_quote": "2026.11.10.(화) ~ 2026.11.11.(수)",
+    "precision": "day",
+    "importance": "optional_opportunity",
+    "conditions_note": "The second round may not be held; eligibility also depends on unread images/files.",
+    "missing": [
+      "Detailed eligibility and job information have not been read."
+    ],
+    "source_hash": "e00ba913b8879f9e3b0aeba71c8e1358ea2cd075e91f0f64b3c452ac332db573"
+  },
+  {
+    "id": "58072-0",
+    "notice_id": "58072",
+    "title": "Submit master’s thesis-review result documents",
+    "kind": "deadline",
+    "degrees": [
+      "masters"
+    ],
+    "conditions": {
+      "fall2026_thesis_review": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": null,
+    "end": "2026-12-14T17:00:00+09:00",
+    "date_label": "14 Dec 2026, 17:00",
+    "date_quote": "2026년 12월 14일(월) 17:00까지",
+    "precision": "minute",
+    "importance": "required_if_applicable",
+    "source_hash": "35f55c5fd3670397749e3ac9c66a84c5738044d5c480607907bce18d8737c5a2"
+  },
+  {
+    "id": "58072-1",
+    "notice_id": "58072",
+    "title": "Submit PhD thesis-review result documents",
+    "kind": "deadline",
+    "degrees": [
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "fall2026_thesis_review": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": null,
+    "end": "2026-12-21T17:00:00+09:00",
+    "date_label": "21 Dec 2026, 17:00",
+    "date_quote": "2026년 12월 21일(월) 17:00까지",
+    "precision": "minute",
+    "importance": "required_if_applicable",
+    "source_hash": "35f55c5fd3670397749e3ac9c66a84c5738044d5c480607907bce18d8737c5a2"
+  },
+  {
+    "id": "58072-2",
+    "notice_id": "58072",
+    "title": "Submit final confirmation and approval documents to the office",
+    "kind": "deadline",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "fall2026_thesis_review": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2027-01-15",
+    "end": "2027-01-22T17:00:00+09:00",
+    "date_label": "15–22 Jan 2027, 17:00",
+    "date_quote": "2027년 1월 15일(금) ∼ 1월 22일(금) 17:00",
+    "precision": "minute",
+    "importance": "required_if_applicable",
+    "source_hash": "35f55c5fd3670397749e3ac9c66a84c5738044d5c480607907bce18d8737c5a2"
+  },
+  {
+    "id": "58072-3",
+    "notice_id": "58072",
+    "title": "Upload the final thesis PDF to the library",
+    "kind": "deadline",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "fall2026_thesis_review": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2027-01-15",
+    "end": "2027-02-01T23:59:00+09:00",
+    "date_label": "15 Jan – 1 Feb 2027, 23:59",
+    "date_quote": "2027년 1월 15일(금) ∼ 2월 1일(월) 23:59",
+    "precision": "minute",
+    "importance": "required_if_applicable",
+    "source_hash": "35f55c5fd3670397749e3ac9c66a84c5738044d5c480607907bce18d8737c5a2"
+  },
+  {
+    "id": "58022-both",
+    "notice_id": "58022",
+    "title": "Complete both Thesis Research confirmation submissions",
+    "kind": "deadline",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "thesis_research_430960": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-09-03",
+    "end": "2026-09-17",
+    "date_label": "3–17 Sep 2026",
+    "date_quote": "2026. 9. 3.(목) ~ 2026. 9. 17.(목)",
+    "precision": "day",
+    "importance": "required_if_applicable",
+    "past_next_step": "This is a Fall 2026 historical notice. Do not reuse its September dates for a future semester.",
+    "steps": [
+      "Submit the Google Form.",
+      "Prepare a one-page confirmation with research topic, thesis title and at least three references.",
+      "Get the signature of the professor of the registered Thesis Research course.",
+      "Submit the paper to Building 301, Room 319."
+    ],
+    "exceptions": [
+      "If the course professor is not your advisor, list both names and obtain the course professor’s signature.",
+      "Integrated students taking two sections need prior permission and a separate form from each professor."
+    ],
+    "consequence": "Missing submission leads to grade U.",
+    "evidence_quote": "미제출 시 성적은 U로 부여됩니다",
+    "source_hash": "9a869763a0623a09aef522a934b452440a267ac7eb5251264125523fa00a5e5a"
+  },
+  {
+    "id": "58012-0",
+    "notice_id": "58012",
+    "title": "Request over-quota admission to an ECE undergraduate course",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "fall2026_registration_case": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-09-01",
+    "end": "2026-09-03T18:00:00+09:00",
+    "date_label": "1–3 Sep 2026, 18:00",
+    "date_quote": "2026.09.01.(화)~09.03.(목) 18:00",
+    "precision": "minute",
+    "importance": "conditional",
+    "missing": [
+      "Consolidated image schedule and attached files are unread."
+    ],
+    "past_next_step": "Historical Fall 2026 registration dates; check the current semester notice.",
+    "source_hash": "ce1c5ac5088d5694453bf01b4405c8b01b14e7477b5cfd79be3240a55570e758"
+  },
+  {
+    "id": "58012-1",
+    "notice_id": "58012",
+    "title": "Request the stated overlapping-course exception",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "fall2026_registration_case": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": "2026-09-01",
+    "end": "2026-09-09",
+    "date_label": "1–9 Sep 2026",
+    "date_quote": "9/1(화) ~ 9/9(수)",
+    "precision": "day",
+    "importance": "conditional",
+    "missing": [
+      "Consolidated image schedule and attached files are unread."
+    ],
+    "past_next_step": "Historical Fall 2026 registration dates; check the current semester notice.",
+    "source_hash": "ce1c5ac5088d5694453bf01b4405c8b01b14e7477b5cfd79be3240a55570e758"
+  },
+  {
+    "id": "58012-2",
+    "notice_id": "58012",
+    "title": "Check the course-classification or grading-option deadline",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "conditions": {
+      "fall2026_registration_case": true
+    },
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "start": null,
+    "end": "2026-09-23",
+    "date_label": "By 23 Sep 2026",
+    "date_quote": "2026.09.23.(수)",
+    "precision": "day",
+    "importance": "conditional",
+    "missing": [
+      "Consolidated image schedule and attached files are unread."
+    ],
+    "past_next_step": "Historical Fall 2026 registration dates; check the current semester notice.",
+    "source_hash": "ce1c5ac5088d5694453bf01b4405c8b01b14e7477b5cfd79be3240a55570e758"
+  },
+  {
+    "id": "bridge-new-project-interview",
+    "notice_id": "58071",
+    "title": "Meet your project professor and submit the signed confirmation",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "spring2027_project": true
+    },
+    "start": "2026-11-03",
+    "end": "2026-11-17",
+    "date_label": "By 17 Nov 2026",
+    "date_quote": "11.3(화) - 11.17(화)",
+    "precision": "day",
+    "importance": "required_if_applicable",
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "steps": [
+      "For the first assignment round, meet your chosen professor.",
+      "Submit the signed paper interview confirmation to Kim Su-jin, Building 301, Room 308."
+    ],
+    "conditions_note": "Only if you are in the first assignment round for the Spring 2027 graduation project.",
+    "source_hash": "fab19bf3e523fa7ae0244f6f66576a8dd2ea3ba1030dad6903de41624bab6eb5"
+  },
+  {
+    "id": "bridge-new-project-second",
+    "notice_id": "58071",
+    "title": "Choose a project in the second assignment round",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "spring2027_project": true,
+      "project_round2": true
+    },
+    "start": "2026-11-19",
+    "end": "2026-11-26",
+    "date_label": "19–26 Nov 2026",
+    "date_quote": "11.19(목) - 11.26(목)",
+    "precision": "day",
+    "importance": "required_if_applicable",
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "steps": [
+      "Check your assignment status, then enter preferences in the ECE intranet."
+    ],
+    "conditions_note": "Only if you need the second round.",
+    "source_hash": "fab19bf3e523fa7ae0244f6f66576a8dd2ea3ba1030dad6903de41624bab6eb5"
+  },
+  {
+    "id": "bridge-new-thesis-sign",
+    "notice_id": "58045",
+    "title": "Finish your undergraduate thesis and get the advisor’s signature",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "conditions": {
+      "graduation_project": true
+    },
+    "start": null,
+    "end": "2026-12-21",
+    "date_label": "By 21 Dec 2026",
+    "date_quote": "2026.12. 21.(월)까지",
+    "precision": "day",
+    "importance": "required_if_applicable",
+    "review_status": "AI_source_checked_not_human_reviewed",
+    "steps": [
+      "If graduating now, submit the signed thesis. Otherwise, keep the signed thesis for the graduation semester.",
+      "A delayed-submission form or later signature requires the specific process in the notice."
+    ],
+    "conditions_note": "The exception to 28 December is conditional, not an automatic extension.",
+    "source_hash": "43d27d6579f56eeedc982b9b966f999e278f65d93efc0d97f34ed9eff5ee4af1"
+  }
+]
