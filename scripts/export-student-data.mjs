@@ -1,5 +1,48 @@
-import fs from 'node:fs';
-const read=p=>JSON.parse(fs.readFileSync(p));const briefs=read('data/briefs.json'),ids=new Set(briefs.map(b=>b.notice_id)),notices=read('data/notices.json').filter(n=>ids.has(n.id));const status=fs.existsSync('data/collection-status.json')?read('data/collection-status.json'):{};
-const guide=read('data/start-guide.json');guide.needs_recheck=Object.entries(guide.source_versions||{}).some(([id,hash])=>notices.some(n=>n.id===id&&n.source_hash!==hash));
-const data={schema_version:1,published_at:new Date().toISOString(),notices,briefs,actions:read('data/actions.json'),guide,coverage:fs.existsSync('data/english-coverage.json')?read('data/english-coverage.json'):null,status:{source_checked_at:status.checked_at||null,source_status:status.status||'snapshot',details_checked:status.checked_details||0,scan_window:status.edit_detection||'Selected notices only.',english_updated_at:briefs.map(b=>b.generated_at).sort().at(-1),human_review:'Not independently reviewed',automation:fs.existsSync('data/automation-status.json')?read('data/automation-status.json'):{collector:'not_scheduled',translator:'needs_configuration'}}};
-fs.mkdirSync('public/data',{recursive:true});fs.writeFileSync('public/data/student.json',JSON.stringify(data));console.log('Public data: '+notices.length+' notices / '+briefs.length+' English briefs / '+data.actions.length+' action records');
+import fs from "node:fs";
+const read = (p) => JSON.parse(fs.readFileSync(p));
+const briefs = read("data/briefs.json"),
+  ids = new Set(briefs.map((b) => b.notice_id)),
+  notices = read("data/notices.json").filter((n) => ids.has(n.id));
+const status = fs.existsSync("data/collection-status.json")
+  ? read("data/collection-status.json")
+  : {};
+const guide = read("data/start-guide.json");
+guide.needs_recheck = Object.entries(guide.source_versions || {}).some(
+  ([id, hash]) => notices.some((n) => n.id === id && n.source_hash !== hash),
+);
+const data = {
+  schema_version: 1,
+  published_at: new Date().toISOString(),
+  notices,
+  briefs,
+  actions: read("data/actions.json"),
+  guide,
+  coverage: fs.existsSync("data/english-coverage.json")
+    ? read("data/english-coverage.json")
+    : null,
+  status: {
+    source_checked_at: status.checked_at || null,
+    source_status: status.status || "snapshot",
+    details_checked: status.checked_details || 0,
+    scan_window: status.edit_detection || "Selected notices only.",
+    english_updated_at: briefs
+      .map((b) => b.generated_at)
+      .sort()
+      .at(-1),
+    human_review: "Not independently reviewed",
+    automation: fs.existsSync("data/automation-status.json")
+      ? read("data/automation-status.json")
+      : { collector: "not_scheduled", translator: "needs_configuration" },
+  },
+};
+fs.mkdirSync("public/data", { recursive: true });
+fs.writeFileSync("public/data/student.json", JSON.stringify(data));
+console.log(
+  "Public data: " +
+    notices.length +
+    " notices / " +
+    briefs.length +
+    " English briefs / " +
+    data.actions.length +
+    " action records",
+);
