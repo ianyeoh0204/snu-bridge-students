@@ -85,6 +85,34 @@
         }
       ],
       "completed_at": "2026-11-10T06:25:02.247Z"
+    },
+    {
+      "run_id": "42768682426",
+      "created_at": "2026-11-10T06:30:06.461Z",
+      "reserved_micros": 183568,
+      "tasks": [
+        {
+          "notice_id": "58183",
+          "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
+          "parts": [
+            {
+              "part": {
+                "key": "all",
+                "degrees": [
+                  "undergraduate",
+                  "masters",
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "c9a2307a429ea0dd312a1371dafea70ff928db714d3e3853ccc3b612e12bf48e",
+              "reserve_micros": 183568
+            }
+          ],
+          "reserved_micros": 183568
+        }
+      ],
+      "status": "reserved"
     }
   ]
 }
