@@ -13,7 +13,7 @@ const n={...revisedRecord(null,source),posting_date:'2026.11.10'};
 const raw={title:'Thesis procedure',degrees:['masters'],period:'Fall 2026',topic:'Thesis',summary:'Check the thesis steps.',steps:['Submit.'],notes:['Check the original.'],evidence_quote:'석사, 박사 대상.',actions:[{title:'Attend',kind:'event',degrees:['masters'],start:'2026-11-20T15:00:00+09:00',end:null,date_label:'20 November, 15:00; end not stated',date_quote:'2026.11.20. 15:00 시작.',evidence_quote:'석사, 박사 대상.',precision:'minute',conditions_note:'For covered master’s students.',steps:['Attend.']}]};
 test('point events preserve an unknown end instead of inventing a duration',()=>{const a=validateDraft(raw,n).actions[0];assert.equal(classify(a,Date.parse('2026-11-19T00:00Z')),'event');assert.equal(classify(a,Date.parse('2026-11-21T00:00Z')),'past');const ics=calendarFile(a);assert.match(ics,/DTSTART:20261120T060000Z/);assert.doesNotMatch(ics,/DTEND:/);});
 test('mixed precision stays explicit and uses a labelled date-only calendar interval',()=>{const v=structuredClone(raw);Object.assign(v.actions[0],{start:'2026-11-20',end:'2026-11-21T17:00:00+09:00',date_quote:'2026.11.20. 15:00 시작. 제출 2026.11.21. 17:00까지.'});const a=validateDraft(v,n).actions[0];assert.equal(a.start_precision,'day');assert.equal(a.end_precision,'minute');assert.match(calendarFile(a),/mixed precision/);});
-function state(){const policy={budget_id:'test',model:'gpt-6.1-sol',provider:'baze',input_usd_per_million:2,output_usd_per_million:10,max_output_tokens:16000,enabled:true,cap_micros:10000000,starts_at:'2026-11-10T00:00Z',expires_at:'2026-12-10T00:00Z',initial_since:'2026-09-01',priority_ids:[],notices_per_run:2};return {notices:[n],briefs:[],queue:[],policy,ledger:{budget_id:'test',cap_micros:policy.cap_micros,expires_at:policy.expires_at,runs:[]},runID:'1',keyAvailable:true,now:Date.parse('2026-11-11T00:00Z')};}
+function state(){const policy={budget_id:'test',model:'gpt-6.1-sol',provider:'baze',input_usd_per_million:2,output_usd_per_million:10,max_output_tokens:16000,enabled:true,cap_micros:10000000,starts_at:'2026-11-10T00:00Z',expires_at:'2026-12-10T00:00Z',initial_since:'2026-09-01',priority_ids:[],notices_per_run:5,max_requests_per_run:6,per_run_cap_micros:1500000};return {notices:[n],briefs:[],queue:[],policy,ledger:{budget_id:'test',cap_micros:policy.cap_micros,expires_at:policy.expires_at,runs:[]},runID:'1',keyAvailable:true,now:Date.parse('2026-11-11T00:00Z')};}
 test('missing key, expired approval and exhausted budget produce no paid plan',()=>{let s=state();s.keyAvailable=false;assert.equal(prepareGeneration(s).status,'needs_configuration');assert.equal(s.ledger.runs.length,0);s=state();s.now=Date.parse('2026-12-11T00:00Z');assert.equal(prepareGeneration(s).status,'budget_expired_or_not_started');s=state();s.policy.cap_micros=1;s.ledger.cap_micros=1;assert.equal(prepareGeneration(s).tasks.length,0);});
 test('reserve all long-notice parts before calls and prevent duplicate attempts',()=>{const s=state();const p=prepareGeneration(s);assert.equal(p.tasks[0].parts.length,2);assert.equal(s.ledger.runs[0].reserved_micros,p.reserved_micros);assert.equal(prepareGeneration(s).status,'already_reserved');s.runID='2';assert.equal(prepareGeneration(s).tasks.length,0);});
 test('failed versions wait for review; changed versions can be queued',()=>{const s=state();s.queue=[{notice_id:n.id,source_hash:n.source_hash,status:'needs_review'}];assert.equal(prepareGeneration(s).tasks.length,0);s.notices=[{...n,source_hash:'new-version'}];assert.equal(prepareGeneration(s).tasks.length,1);});
@@ -45,4 +45,39 @@ test('an event with no readable date is withheld; schedule-check information sta
  v.actions[0].kind='information';const a=validateDraft(v,n).actions[0];
  assert.equal(a.start,null);assert.equal(a.end,null);assert.equal(classify(a),'check');
  assert.throws(()=>calendarFile(a),/date|calendar/i);
+});
+
+// Batch regressions exercise the actual planner without a key or network requests.
+const shortNotice=id=>({...n,id,source_hash:'source-'+id,korean_title:'[학부] 안내'});
+test('a backlog produces five complete notices, not one, with no duplicate versions on the next run',()=>{
+ const s=state();s.notices=Array.from({length:8},(_,i)=>shortNotice(String(i+1)));
+ const first=prepareGeneration(s);assert.equal(first.tasks.length,5);assert.equal(first.requests,5);
+ assert.equal(first.eligible_pending,8);assert.ok(first.reserved_micros<=s.policy.per_run_cap_micros);
+ s.runID='second';const second=prepareGeneration(s);assert.equal(second.tasks.length,3);
+ assert.ok(second.tasks.every(t=>!first.tasks.some(old=>old.notice_id===t.notice_id)));
+ assert.ok(accountedMicros(s.ledger)<=s.policy.cap_micros);
+});
+test('changed published guidance bypasses the backfill date and is prioritized over new notices',()=>{
+ const s=state();s.policy.notices_per_run=1;
+ s.notices=[shortNotice('new'),{...shortNotice('changed'),posting_date:'2021.12.20'},{...shortNotice('old-unpublished'),posting_date:'2021.12.20'}];
+ s.briefs=[{notice_id:'changed',source_hash:'previous-version',source_changed:true}];
+ const p=prepareGeneration(s);assert.equal(p.eligible_pending,2);assert.deepEqual(p.tasks.map(t=>t.notice_id),['changed']);
+});
+test('long notices are reserved whole and bounded by the total request count',()=>{
+ const s=state();s.notices=Array.from({length:5},(_,i)=>({...n,id:String(i+1),source_hash:'long-'+i}));
+ const p=prepareGeneration(s);assert.equal(p.tasks.length,3);assert.equal(p.requests,6);
+ assert.ok(p.tasks.every(t=>t.parts.length===2));assert.ok(p.reserved_micros<=s.policy.per_run_cap_micros);
+});
+test('a batch stops at the stricter run or remaining total budget without partial notices',()=>{
+ let s=state();s.notices=Array.from({length:8},(_,i)=>shortNotice(String(i+1)));
+ const one=bazeRequest(s.notices[0],generationParts(s.notices[0])[0],s.policy).reserve_micros;
+ s.policy.per_run_cap_micros=one*2;let p=prepareGeneration(s);assert.equal(p.tasks.length,2);assert.equal(p.reserved_micros,one*2);
+ s=state();s.notices=Array.from({length:8},(_,i)=>shortNotice(String(i+1)));
+ s.policy.cap_micros=one*2;s.ledger.cap_micros=one*2;p=prepareGeneration(s);
+ assert.equal(p.tasks.length,2);assert.equal(accountedMicros(s.ledger),one*2);assert.equal(p.remaining_micros,0);
+});
+test('unsafe batch limits fail before any budget reservation',()=>{
+ for(const patch of [{notices_per_run:6},{max_requests_per_run:7},{max_requests_per_run:2},{per_run_cap_micros:1500001}]){
+  const s=state();Object.assign(s.policy,patch);assert.throws(()=>prepareGeneration(s),/RUN_LIMIT/);assert.equal(s.ledger.runs.length,0);
+ }
 });

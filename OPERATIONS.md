@@ -20,7 +20,7 @@ The public library now contains 28 drafts, covering 28 of 88 collected source no
 
 The owner approved a separate US$10 token-cost cap for 30 days beginning 10 November 2026. The policy expires at 2026-12-10 05:25:50 UTC (14:25:50 KST); no automatic renewal. This is separate from the completed US$3 trial. The activation checks used five SNU BAZE Sol requests, with US$0.084206 estimated token cost recorded from returned usage. This is not a claim about the gateway’s credit conversion or final invoice.
 
-`data/generation-policy.json` selects SNU BAZE GPT-6.1 Sol, initially one new/changed notice per run. `data/generation-ledger.json` retains conservative reservations for every planned part, including failed or interrupted calls. Input bytes and the output token limit bound each reservation. Existing current briefs cost nothing. A repeated run ID or already attempted source version cannot spend again automatically. Long notices are divided by degree, with the full source supplied to every part. All parts must validate before that notice is published.
+`data/generation-policy.json` selects SNU BAZE GPT-6.1 Sol, with up to five new/changed notices per run, at most six model requests and US$1.50 of conservative reservations per batch. The existing US$10 total cap and expiry are unchanged. Changed previously published guidance is prioritized and remains eligible even when its original posting date predates the September backfill window. `data/generation-ledger.json` retains conservative reservations for every planned part, including failed or interrupted calls. Input bytes and the output token limit bound each reservation. Existing current briefs cost nothing. A repeated run ID or already attempted source version cannot spend again automatically. Long notices are divided by degree, with the full source supplied to every part. All parts must validate before that notice is published.
 
 Confirmed returned usage releases unused reservation bounds. Failed or interrupted requests keep their bounds. The US$10 figure is a token-cost bound, not a guarantee about tax, currency conversion or gateway credit charges. Keep any provider account limit as well. Do not reset the ledger or erase a failure to make the workflow retry. Expiry, missing credentials or exhaustion stops paid generation but allows source updates and publication.
 
@@ -61,7 +61,7 @@ The initial audit covers 22 English-board posts dated 2026 and 14 selected proce
 
 ## Review, student pilot and distribution
 
-Run `npm test` and `npm run build` before publication. The release has 39 meaningful regressions for source changes, dates, budget boundaries, interrupted runs, evidence validity and update feeds. Passing them is not semantic review.
+Run `npm test` and `npm run build` before publication. The release has 44 meaningful regressions for source changes, dates, budget boundaries, interrupted runs, evidence validity and update feeds. Passing them is not semantic review.
 
 Use the private 30-notice review pack and five-student protocol before reporting accuracy or time savings. The old invitation-code study site remains paused. Keep responses and reviewer identity private. The plugin remains an optional access-limited extension; a public homepage and ChatGPT question handoff work without installing it. Do not claim a successful second-student plugin installation or weekly scheduled plugin run until tested.
 

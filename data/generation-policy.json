@@ -7,7 +7,7 @@
   "starts_at": "2026-11-10T05:25:50Z",
   "expires_at": "2026-12-10T05:25:50Z",
   "cap_micros": 10000000,
-  "notices_per_run": 1,
+  "notices_per_run": 5,
   "initial_since": "2026-09-01",
   "priority_ids": [
     "58072"
@@ -17,5 +17,7 @@
   "output_usd_per_million": 10,
   "activation_status": "BAZE_API repository secret confirmed on 2026-11-10; approved bounded cloud generation enabled",
   "input_usd_per_million": 2,
-  "max_output_tokens": 16000
+  "max_output_tokens": 16000,
+  "max_requests_per_run": 6,
+  "per_run_cap_micros": 1500000
 }
