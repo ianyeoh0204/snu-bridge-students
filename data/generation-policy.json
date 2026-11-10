@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "budget_id": "baze-gpt-2026-11-10-30days",
-  "enabled": false,
+  "enabled": true,
   "provider": "baze",
   "model": "gpt-6.1-sol",
   "starts_at": "2026-11-10T05:25:50Z",
@@ -15,7 +15,7 @@
   "authorization": "Owner approved US$10 token cost for 30 days on 10 November, then selected SNU BAZE and OpenAI GPT models. No personal Anthropic calls or automatic renewal.",
   "pricing_checked_at": "2026-11-10",
   "output_usd_per_million": 10,
-  "activation_status": "Model list and price verified; awaiting confirmed GitHub secret before activation",
+  "activation_status": "BAZE_API repository secret confirmed on 2026-11-10; approved bounded cloud generation enabled",
   "input_usd_per_million": 2,
   "max_output_tokens": 16000
 }
