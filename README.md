@@ -10,7 +10,7 @@ A public English information service for SNU ECE students: degree-filtered actio
 
 Use Node 22.13 or later. Run `npm ci`, `npm test`, then `npm run build`. The build exports the data, checks source quotations and produces a portable `public-build/` directory. Any static host can serve it. `npm run dev` starts a local preview. See [OPERATIONS.md](OPERATIONS.md) for cloud setup, budget controls, failure recovery and handover.
 
-The product has 28 English AI drafts, including the ten proposal evaluation notices and the two September examples. Three SNU BAZE Sol drafts were added during activation; two used recorded corrections/revalidation and one passed the cloud pipeline without repair. Counts grow only after successful generation. English briefs are action summaries, not complete official translations or independently reviewed guidance. No personal profile is sent to a server. Student feedback collection is separate and paused.
+The product has 31 English AI drafts, including the ten proposal evaluation notices and the two September examples. The latest real cloud batch discovered a new notice, detected replacement attachment links on an existing notice, and published four new/updated briefs within six Sol requests. The source files themselves remain unread. The private 30-case review pack now has a draft for every selected case, with no independent reviews completed. Counts grow only after successful generation. English briefs are action summaries, not complete official translations or independently reviewed guidance. No personal profile is sent to a server. Student feedback collection is separate and paused.
 
 ## Daily operation
 

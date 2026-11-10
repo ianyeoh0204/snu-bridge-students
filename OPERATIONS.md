@@ -14,7 +14,7 @@ The static website, source collector and daily cloud workflow are independently 
 
 The workflow collects bounded official HTML, refreshes the English-board evidence, runs tests, prepares a generation plan, and commits its budget reservation **before** calling a model. It then saves accepted drafts or individual review failures, exports data, checks and publishes. Both publication workflows share one concurrency group. A failed source read or build preserves the last good website; it must not be described as an empty successful scan.
 
-The public library now contains 28 drafts, covering 28 of 88 collected source notices. The collector knows additional sources; missing English versions are explicitly listed on the homepage. Do not claim complete semester or university coverage.
+The public library now contains 31 drafts, covering 31 of 89 collected source notices. The collector knows additional sources; missing English versions are explicitly listed on the homepage. Do not claim complete semester or university coverage.
 
 ## Approved generation budget
 
@@ -39,6 +39,12 @@ The optional local Codex launcher uses per-run BAZE provider settings and asks f
 The first cloud call returned notice 58160 but its two undated presentation entries failed the dated-event validator. An AI developer check reclassified them as undated information, corrected “unreadable” to “not read”, and preserved first-review stage 초심. No extra request was made. The second notice, 58183, quoted its official title correctly; a validator defect searched only the body. The shared generation/public-build validator now accepts verbatim evidence from the actual title or body, and the unchanged saved response passed revalidation. Both recovered drafts retain correction metadata; original run failures and spending remain in the ledger/history. This was AI developer review, not independent Korean-reader review.
 
 The third run published notice 58161 automatically. Its information sessions occurred on 30 October 2026 for Fall 2027 exchange, so the date engine keeps those events historical. The notice does not establish exchange eligibility or an application deadline. There are no unresolved structural-validation items after recovery; independent semantic review of all briefs remains outstanding.
+
+## Verified bounded batch on 10 November
+
+A real cloud batch completed collection, six Sol requests, validation and public deployment: https://github.com/ianyeoh0204/snu-bridge-students/actions/runs/42786776001 . The collector discovered new notice 58203 and detected replacement download links on existing notice 58160. The changed notice was prioritized and regenerated before the backlog. The file contents were not downloaded or read. Four notices were processed within the six-request bound: 58160, 58203, 58149 and 58141. All four passed automated checks, with no held generation failures. The public JSON was independently fetched and matched the completed run: 31 briefs, 89 collected sources and 40 action records. This is a manual invocation of the daily cloud workflow, not evidence that the next timer-triggered generation run has already occurred.
+
+The batch used US$0.099966 estimated token cost, bringing recorded confirmed usage to US$0.184172 across eleven requests. All briefs remain AI drafts pending independent Korean-reader review. The unchanged US$10 cap expires on 10 December; the per-run reservation bound is not an additional budget.
 
 ## Transfer to a different operator
 
