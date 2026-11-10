@@ -3,23 +3,23 @@
   "translator": "enabled_with_review_items",
   "model": "gpt-6.1-sol",
   "pending_briefs": 63,
-  "last_attempt_at": "2026-11-10T06:25:02.311Z",
+  "last_attempt_at": "2026-11-10T06:30:39.287Z",
   "generated": 0,
   "failures": [
     {
-      "notice_id": "58160",
-      "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
+      "notice_id": "58183",
+      "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
       "status": "needs_review",
-      "error": "Dated action is missing its date",
-      "at": "2026-11-10T06:25:02.246Z",
+      "error": "action evidence is absent from the actual source",
+      "at": "2026-11-10T06:30:39.284Z",
       "retry": "No automatic repeat for this source version."
     }
   ],
-  "review_queue": 1,
+  "review_queue": 2,
   "budget": {
     "cap_usd": 10,
-    "reserved_upper_bounds_usd": 0.5371,
-    "accounted_usd": 0.047176,
+    "reserved_upper_bounds_usd": 0.720668,
+    "accounted_usd": 0.068418,
     "expires_at": "2026-12-10T05:25:50Z",
     "note": "Confirmed usage releases unused bounds; failures and unknown results retain reservations. US-dollar token costs are separate from gateway credit conversion/taxes. No automatic renewal."
   },
