@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "budget_id": "baze-gpt-2026-11-10-30days",
-  "run_id": "42768682426",
-  "created_at": "2026-11-10T06:30:06.461Z",
+  "run_id": "42769277215",
+  "created_at": "2026-11-10T06:35:20.226Z",
   "tasks": [
     {
-      "notice_id": "58183",
-      "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
+      "notice_id": "58161",
+      "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
       "parts": [
         {
           "part": {
@@ -18,16 +18,16 @@
               "integrated"
             ]
           },
-          "fingerprint": "c9a2307a429ea0dd312a1371dafea70ff928db714d3e3853ccc3b612e12bf48e",
-          "reserve_micros": 183568
+          "fingerprint": "80459e0b05e3f77686842f60a442d8e4f6814ed8cc3aab0e539868773b10fe4a",
+          "reserve_micros": 179750
         }
       ],
-      "reserved_micros": 183568
+      "reserved_micros": 179750
     }
   ],
-  "pending": 63,
+  "pending": 61,
   "status": "reserved",
-  "reserved_micros": 183568,
-  "remaining_micros": 9769256,
-  "plan_hash": "10d0a1a75b3884d5c7ae62502b597c8d872111b517fa137403027a94533fe3e9"
+  "reserved_micros": 179750,
+  "remaining_micros": 9751832,
+  "plan_hash": "b0b16d84640e46dd3ff37544aa7aa5921ae2536f42e63d92874b796753cad302"
 }

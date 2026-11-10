@@ -127,6 +127,34 @@
         }
       ],
       "completed_at": "2026-11-10T06:30:39.285Z"
+    },
+    {
+      "run_id": "42769277215",
+      "created_at": "2026-11-10T06:35:20.226Z",
+      "reserved_micros": 179750,
+      "tasks": [
+        {
+          "notice_id": "58161",
+          "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
+          "parts": [
+            {
+              "part": {
+                "key": "all",
+                "degrees": [
+                  "undergraduate",
+                  "masters",
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "80459e0b05e3f77686842f60a442d8e4f6814ed8cc3aab0e539868773b10fe4a",
+              "reserve_micros": 179750
+            }
+          ],
+          "reserved_micros": 179750
+        }
+      ],
+      "status": "reserved"
     }
   ]
 }
