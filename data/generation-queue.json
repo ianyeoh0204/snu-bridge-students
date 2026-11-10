@@ -1,26 +1,5 @@
 [
   {
-    "notice_id": "58160",
-    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
-    "status": "complete",
-    "error": "Dated action is missing its date",
-    "at": "2026-11-10T06:25:02.246Z",
-    "retry": "No automatic repeat for this source version.",
-    "original_status": "needs_review",
-    "resolved_at": "2026-11-10T06:32:51.487Z",
-    "resolution": {
-      "method": "AI developer source check; not independent human review",
-      "original_run_id": "42767953978",
-      "at": "2026-11-10T06:29:25.553Z",
-      "changes": [
-        "Two undated event entries reclassified as information; no calendar dates added.",
-        "Changed unreadable to not read because attachments were not processed.",
-        "Kept doctoral first-review stage 초심 distinct from preliminary review 예비심사."
-      ],
-      "additional_model_calls": 0
-    }
-  },
-  {
     "notice_id": "58183",
     "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
     "status": "complete",
@@ -41,5 +20,29 @@
     "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
     "status": "complete",
     "at": "2026-11-10T06:35:47.163Z"
+  },
+  {
+    "notice_id": "58160",
+    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
+    "status": "complete",
+    "at": "2026-11-10T09:01:51.578Z"
+  },
+  {
+    "notice_id": "58203",
+    "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
+    "status": "complete",
+    "at": "2026-11-10T09:02:43.107Z"
+  },
+  {
+    "notice_id": "58149",
+    "source_hash": "c29e592c26bb798677206abefbb32b04f4ce88412e657099289a96248785ef92",
+    "status": "complete",
+    "at": "2026-11-10T09:03:04.158Z"
+  },
+  {
+    "notice_id": "58141",
+    "source_hash": "5323d4e452f43dfb5f1d06dfba9dd02286be7222647ca25ecf5a71914930d127",
+    "status": "complete",
+    "at": "2026-11-10T09:03:26.788Z"
   }
 ]

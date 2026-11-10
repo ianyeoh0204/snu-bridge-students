@@ -764,87 +764,6 @@
     "english_kind": "Action brief, not a complete official translation"
   },
   {
-    "notice_id": "58160",
-    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58160&md=v",
-    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
-    "source_checked_at": "2026-11-10T06:22:36.346Z",
-    "source_changed": true,
-    "generated_at": "2026-11-10T06:29:25.548Z",
-    "review_status": "AI draft — not independently reviewed",
-    "english_kind": "Action brief, not a complete official translation",
-    "title": "2026 Semester 2 Thesis Presentations: Check Updated Schedules Before Attending",
-    "summary": "Undergraduate: If you plan to attend a master's thesis presentation or doctoral first-review presentation (초심), consult the latest attached schedule and check it again on the presentation day. Dates, times and venues cannot be verified from the supplied text because both schedule PDFs were not read.\n\nMaster’s: The master's thesis public-presentation timetable is provided in an attachment that may be updated frequently. Presentation dates, times and venues cannot be verified from the supplied text. Attendees, including master's/doctoral seminar students, must check the attachment again on the examination day.\n\nPhD / Integrated MS–PhD: The doctoral first-review (초심) public-presentation schedule is provided in an attachment and may change. Attendees, including relevant seminar students, must recheck the attachment even on the examination day. Exact dates, times and venues cannot be verified from the supplied readable text.",
-    "period": "2026 academic year, semester 2",
-    "topic": "Thesis presentation schedules",
-    "degrees": [
-      "undergraduate",
-      "masters",
-      "phd",
-      "integrated"
-    ],
-    "steps": [
-      "Obtain the latest master's or doctoral first-review presentation (초심) schedule attached to the notice.",
-      "Check the attachment again on the presentation day for time or venue changes.",
-      "Obtain the latest master's schedule attachment, “2026-2학기 석사 심사 일정.pdf”.",
-      "If attending, recheck the attachment on the examination day for time or venue changes.",
-      "Open “2026-2학기 박사 초심 일정.pdf” to check the relevant presentation date, time and venue.",
-      "Recheck the attachment on the examination day because the schedule may change."
-    ],
-    "notes": [
-      "Unread attachments: 2026-2학기 박사 초심 일정.pdf; 2026-2학기 석사 심사 일정.pdf.",
-      "Schedules are updated frequently, and presentation times and venues may change.",
-      "The instruction covers attendees, including master's/doctoral seminar students. Undergraduate attendance eligibility is not separately specified; this brief applies conditionally if you will attend.",
-      "No application deadline is stated.",
-      "Questions: ECE administration office, Building 301, Room 319; Park Han-su; 02-880-7264; hansoopark@snu.ac.kr.",
-      "Both supplied attachments were not read: “2026-2학기 석사 심사 일정.pdf” and “2026-2학기 박사 초심 일정.pdf”. Their contents could not be verified.",
-      "The notice does not state an application deadline. Its posting date is not a presentation date.",
-      "Questions: ECE Administration Office, Building 301, Room 319; Park Han-su; 02-880-7264; hansoopark@snu.ac.kr.",
-      "Both attachments were not read in the supplied material: “2026-2학기 박사 초심 일정.pdf” and “2026-2학기 석사 심사 일정.pdf”. Their contents could not be verified.",
-      "For integrated-program students, applicability is conditional on the doctoral first-review presentation (초심) schedule applying to their stage.",
-      "No application deadline or exact presentation date is stated in the readable notice."
-    ],
-    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
-    "generation": {
-      "provider": "baze",
-      "model": "gpt-6.1-sol",
-      "parts": [
-        "undergraduate",
-        "masters",
-        "doctoral"
-      ],
-      "usage": [
-        {
-          "input_tokens": 1117,
-          "output_tokens": 1240,
-          "estimated_micros": 14634
-        },
-        {
-          "input_tokens": 1117,
-          "output_tokens": 1325,
-          "estimated_micros": 15484
-        },
-        {
-          "input_tokens": 1119,
-          "output_tokens": 1482,
-          "estimated_micros": 17058
-        }
-      ],
-      "method": "Full source supplied to each degree-specific part; automated checks only.",
-      "correction": {
-        "method": "AI developer source check; not independent human review",
-        "original_run_id": "42767953978",
-        "at": "2026-11-10T06:29:25.553Z",
-        "changes": [
-          "Two undated event entries reclassified as information; no calendar dates added.",
-          "Changed unreadable to not read because attachments were not processed.",
-          "Kept doctoral first-review stage 초심 distinct from preliminary review 예비심사."
-        ],
-        "additional_model_calls": 0
-      }
-    }
-  },
-  {
     "notice_id": "58183",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58183&md=v",
     "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
@@ -940,6 +859,219 @@
           "input_tokens": 1194,
           "output_tokens": 1340,
           "estimated_micros": 15788
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
+  },
+  {
+    "notice_id": "58160",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58160&md=v",
+    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
+    "source_checked_at": "2026-11-10T08:59:11.569Z",
+    "source_changed": false,
+    "generated_at": "2026-11-10T09:01:51.578Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "2026 Fall Thesis Presentation Schedules: Notice for Attendees",
+    "summary": "Undergraduate: Undergraduates planning to attend should consult the attached schedules for master's thesis presentations and doctoral first-review (초심) presentations. Schedules may change, so attendees must check the attachments again on the presentation day. Exact dates, times and venues cannot be confirmed from the supplied text.\n\nMaster’s: Public presentation schedules are provided in attachments and may change frequently. Presentation dates, times and locations are not available in the supplied readable text.\n\nPhD / Integrated MS–PhD: The doctoral public presentation schedule for first review (초심) is provided in an attachment and may change frequently. Participants and attendees, including relevant seminar students, must check the latest attachment even on the review day. Integrated-program applicability depends on whether the student is participating in or attending this doctoral-stage review.",
+    "period": "2026 fall semester (2026학년도 2학기)",
+    "topic": "Thesis presentation attendance schedules",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "steps": [
+      "If planning to attend, obtain the relevant schedule attachment from the notice.",
+      "Check the latest attachment again on the presentation day for changes to the time or venue.",
+      "Check the master's schedule attachment for presentation details.",
+      "If attending a presentation, recheck the relevant attachment on the review day because the time or location may change.",
+      "Check the attached doctoral first-review schedule for presentation dates, times and locations.",
+      "Recheck the latest attachment on the review day because times and locations may change."
+    ],
+    "notes": [
+      "Undergraduate applicability is conditional on attending; this notice does not establish undergraduate thesis-review requirements or seminar enrollment eligibility.",
+      "The listed files, “2026-2학기 박사 초심 일정.pdf” and “2026-2학기 석사 심사 일정.pdf”, were not processed. Their schedules and any file-only instructions cannot be verified here.",
+      "The doctoral presentations are first review (초심), not preliminary review (예비심사) or final review (종심). The master's review stage is not specified.",
+      "Questions: department administration office, Building 301, Room 319; Park Han-su (박한수), 02-880-7264, hansoopark@snu.ac.kr.",
+      "The listed files were not processed: “2026-2학기 석사 심사 일정.pdf” and “2026-2학기 박사 초심 일정.pdf”.",
+      "The doctoral presentation schedule concerns first review (초심). Master's students attending those presentations should consult that schedule.",
+      "No application or submission cutoff is stated.",
+      "Questions: ECE administration office, Building 301, Room 319; 박한수; 02-880-7264; hansoopark@snu.ac.kr.",
+      "The listed attachments, “2026-2학기 박사 초심 일정.pdf” and “2026-2학기 석사 심사 일정.pdf,” were not processed. The supplied text does not state individual presentation dates, times or locations.",
+      "This notice concerns doctoral first review (초심), not preliminary review (예비심사) or final review (종심).",
+      "The notice does not explicitly identify integrated-program students; applicability remains conditional.",
+      "Questions: ECE Administration Office, Building 301, Room 319; 박한수; 02-880-7264; hansoopark@snu.ac.kr."
+    ],
+    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "undergraduate",
+        "masters",
+        "doctoral"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1251,
+          "output_tokens": 1212,
+          "estimated_micros": 14622
+        },
+        {
+          "input_tokens": 1251,
+          "output_tokens": 1356,
+          "estimated_micros": 16062
+        },
+        {
+          "input_tokens": 1253,
+          "output_tokens": 1193,
+          "estimated_micros": 14436
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
+  },
+  {
+    "notice_id": "58203",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58203&md=v",
+    "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
+    "source_checked_at": "2026-11-10T08:58:59.517Z",
+    "source_changed": false,
+    "generated_at": "2026-11-10T09:02:43.107Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "2026 Fall Master’s/Doctoral Seminar: Attending Public Thesis Reviews",
+    "summary": "Students enrolled in 석박사세미나 should follow different participation and attendance-confirmation procedures for in-person and online reviews. In-person attendance requires no separate application to the administration office; online attendance requires advance email registration. Review dates, venues and links must be checked in the latest public-review schedule attachments, including on the attendance day.",
+    "period": "2026 academic year, second semester",
+    "topic": "Seminar attendance at public thesis reviews",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "steps": [
+      "Check the latest master’s/doctoral public-review schedule and choose an available attendance format.",
+      "Follow the relevant registration, attendance and confirmation procedure below.",
+      "If cancelling an online registration, notify the administration office by the day before the review."
+    ],
+    "notes": [
+      "These instructions apply conditionally to students enrolled in 석박사세미나 in the second semester of 2026; they do not establish individual eligibility.",
+      "The referenced public-review schedule attachments were not supplied. Exact review dates, venues and online links cannot be verified from this notice.",
+      "The listed attachment, [붙임1] 세미나 참석 확인서 양식.pdf, was not processed; its form contents are unavailable.",
+      "No calendar deadlines can be calculated for online registration or cancellation without the chosen review date. No cutoff is stated for submitting the attendance confirmation.",
+      "Contact: ECE administration office, Park Hansu, 02-880-7264, hansoopark@snu.ac.kr."
+    ],
+    "evidence_quote": "2026학년도 2학기 석박사세미나 수강생의 논문심사 공개발표 참여방법을 안내드립니다.",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1463,
+          "output_tokens": 2787,
+          "estimated_micros": 30796
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
+  },
+  {
+    "notice_id": "58149",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v",
+    "source_hash": "c29e592c26bb798677206abefbb32b04f4ce88412e657099289a96248785ef92",
+    "source_checked_at": "2026-11-10T08:59:12.667Z",
+    "source_changed": false,
+    "generated_at": "2026-11-10T09:03:04.158Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "2026 Academic-Year Winter Session Course Registration",
+    "summary": "Undergraduate and graduate students intending to register for the winter session should review the attached guidance and follow the registration schedule. The supplied readable text does not state registration dates or detailed requirements; the schedule and cautions appear as images that were not read, and the attachments were not processed.",
+    "period": "2026 academic year — winter session",
+    "topic": "Winter session course registration",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "steps": [
+      "Check the original notice’s schedule and cautions, and read the winter-session registration guidelines.",
+      "Review the registration-system manual, anti-reselling guidance, misconduct notice and course-overlap instructions.",
+      "Confirm the applicable requirements and cutoff, then register according to the official schedule."
+    ],
+    "notes": [
+      "Two images under “Schedule” and “Cautions” were not read.",
+      "Five listed attachments were not processed: the 2026 winter-session registration guidelines, Korean/English registration-system manual, anti-reselling card news, registration-misconduct notice and course-overlap manual.",
+      "The title addresses undergraduate and graduate students, but the readable text does not establish individual eligibility, exceptions or detailed submission stages.",
+      "The notice’s posting date, 2026-10-19, is not a registration deadline."
+    ],
+    "evidence_quote": "2026학년도 동계 계절수업 수강신청 일정을 안내드리오니, 동계 계절학기를 신청하고자 하는 학생들은 붙임 파일을 숙지하시고 일정에 맞춰 신청하시기 바랍니다.",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1300,
+          "output_tokens": 939,
+          "estimated_micros": 11990
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
+  },
+  {
+    "notice_id": "58141",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58141&md=v",
+    "source_hash": "5323d4e452f43dfb5f1d06dfba9dd02286be7222647ca25ecf5a71914930d127",
+    "source_checked_at": "2026-11-10T08:59:30.393Z",
+    "source_changed": false,
+    "generated_at": "2026-11-10T09:03:26.787Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "2026 Multi-Major Experience Essay Competition",
+    "summary": "SNU’s Major Design Support Center invites essays about the challenges, learning and growth experienced while choosing and completing multiple majors. Participation is open to qualifying undergraduate students, including those on leave, and graduates.",
+    "period": "2026 competition",
+    "topic": "Multi-major experience essay",
+    "degrees": [
+      "undergraduate"
+    ],
+    "steps": [
+      "Check whether you meet the participation conditions.",
+      "Find “2026 다전공 수기 공모전: 꼬리에 꼬리를 무는 나의 다전공 이야기” on SNU비교과, then register and submit your manuscript by November 22, 2026."
+    ],
+    "notes": [
+      "The stated audience is SNU undergraduate students in their third year or above, including students on leave, and graduates, with multi-major experience during their SNU undergraduate studies.",
+      "Covered programs are double majors (복수전공), minors (부전공), combined majors (연합전공), interdisciplinary majors (연계전공) and student-designed majors (학생설계전공).",
+      "Both participation registration and manuscript submission are required through SNU비교과.",
+      "The deadline has no stated time of day.",
+      "One image was not read; any additional requirements shown only in that image are not available in the supplied text."
+    ],
+    "evidence_quote": "Ο 참가대상: 본교 학부 과정 중 다전공 경험이 있는 3학년 이상 재학생(휴학생 포함) 및 졸업생",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1265,
+          "output_tokens": 953,
+          "estimated_micros": 12060
         }
       ],
       "method": "Full source supplied to each degree-specific part; automated checks only."

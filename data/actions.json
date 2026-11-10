@@ -622,85 +622,6 @@
     "source_hash": "43d27d6579f56eeedc982b9b966f999e278f65d93efc0d97f34ed9eff5ee4af1"
   },
   {
-    "id": "58160-undergraduate-0",
-    "notice_id": "58160",
-    "title": "Recheck the latest schedule on the presentation day",
-    "kind": "information",
-    "degrees": [
-      "undergraduate"
-    ],
-    "start": null,
-    "end": null,
-    "date_label": "On the presentation day; exact dates are in unread attachments",
-    "date_quote": "심사 당일에도",
-    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "precision": "unknown",
-    "start_precision": "unknown",
-    "end_precision": "unknown",
-    "conditions_note": "Applies if you will attend a master's thesis presentation or doctoral first-review presentation (초심). The notice includes master's/doctoral seminar students among attendees but does not separately establish undergraduate attendance eligibility.",
-    "conditions": {},
-    "steps": [
-      "Consult the latest relevant schedule attachment.",
-      "Check it again on the presentation day to confirm the time and venue."
-    ],
-    "importance": "conditional",
-    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
-    "review_status": "AI_source_checked_not_human_reviewed"
-  },
-  {
-    "id": "58160-masters-0",
-    "notice_id": "58160",
-    "title": "Check the current master's public-presentation timetable",
-    "kind": "information",
-    "degrees": [
-      "masters"
-    ],
-    "start": null,
-    "end": null,
-    "date_label": "2026 semester 2; exact presentation dates are in the unread attachment",
-    "date_quote": "2026학년도 2학기 석사/박사 논문심사 공개발표 일정을 안내드립니다.",
-    "evidence_quote": "- 공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "precision": "unknown",
-    "start_precision": "unknown",
-    "end_precision": "unknown",
-    "conditions_note": "For master's students participating in or attending the master's public presentations. Attendees, including master's/doctoral seminar students, must recheck the attachment on the examination day; times and venues may change.",
-    "conditions": {},
-    "steps": [
-      "Consult the latest “2026-2학기 석사 심사 일정.pdf” for the applicable presentation details.",
-      "Check the attachment again on the examination day before attending."
-    ],
-    "importance": "conditional",
-    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
-    "review_status": "AI_source_checked_not_human_reviewed"
-  },
-  {
-    "id": "58160-doctoral-0",
-    "notice_id": "58160",
-    "title": "Check the doctoral first-review (초심) public-presentation schedule and recheck it on the examination day",
-    "kind": "information",
-    "degrees": [
-      "phd",
-      "integrated"
-    ],
-    "start": null,
-    "end": null,
-    "date_label": "Presentation dates are in an unread attachment; exact dates are unavailable.",
-    "date_quote": "",
-    "evidence_quote": "2. 박사 공개발표(초심) 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)\n3. 참고사항\n- 공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "precision": "unknown",
-    "start_precision": "unknown",
-    "end_precision": "unknown",
-    "conditions_note": "For PhD students whose presentations are listed or who plan to attend, including relevant seminar attendees. Integrated-program applicability remains conditional on the doctoral-stage schedule applying to the student.",
-    "conditions": {},
-    "steps": [
-      "Consult “2026-2학기 박사 초심 일정.pdf” for the relevant presentation details.",
-      "Check the updated attachment again on the examination day for changes to time or venue."
-    ],
-    "importance": "conditional",
-    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
-    "review_status": "AI_source_checked_not_human_reviewed"
-  },
-  {
     "id": "58183-all-0",
     "notice_id": "58183",
     "title": "Check your emailed module assignment and resolve email issues",
@@ -808,6 +729,312 @@
     ],
     "importance": "conditional",
     "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-undergraduate-0",
+    "notice_id": "58160",
+    "title": "Check the current presentation schedules and recheck on the day",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "2026 fall semester; exact presentation dates are in the attachments, which were not processed",
+    "date_quote": "2026학년도 2학기 석사/박사 논문심사 공개발표 일정을 안내드립니다.",
+    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "Applies to undergraduates only if attending. The notice directs attendees, including students enrolled in the master's/doctoral seminar, to check the attachments even on the review day.",
+    "conditions": {},
+    "steps": [
+      "For master's presentations, consult “2026-2학기 석사 심사 일정.pdf”.",
+      "For doctoral first-review (초심) presentations, consult “2026-2학기 박사 초심 일정.pdf”.",
+      "Confirm the exact date, time and venue in the latest schedule, and check it again on the presentation day."
+    ],
+    "importance": "conditional",
+    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-masters-0",
+    "notice_id": "58160",
+    "title": "Check the master's public presentation schedule",
+    "kind": "information",
+    "degrees": [
+      "masters"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Exact presentation dates are in the unprocessed attachment",
+    "date_quote": "",
+    "evidence_quote": "1. 석사 공개발표 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For master's students presenting or attending master's thesis public presentations in the second semester of 2026.",
+    "conditions": {},
+    "steps": [
+      "Open “2026-2학기 석사 심사 일정.pdf” from the notice and check the relevant presentation's date, time and location."
+    ],
+    "importance": "conditional",
+    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-masters-1",
+    "notice_id": "58160",
+    "title": "Recheck the relevant schedule on the review day",
+    "kind": "information",
+    "degrees": [
+      "masters"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "On the review day; exact calendar date is not stated in the readable text",
+    "date_quote": "심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "Applies to master's students attending, including master's/doctoral seminar enrollees. Use the master's schedule or the doctoral first review (초심) schedule according to the presentation being attended.",
+    "conditions": {},
+    "steps": [
+      "Return to the notice and check the current relevant attachment on the review day for changes to the time or location."
+    ],
+    "importance": "conditional",
+    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-doctoral-0",
+    "notice_id": "58160",
+    "title": "Check and recheck the doctoral first-review (초심) presentation schedule",
+    "kind": "information",
+    "degrees": [
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Presentation dates are in the attached schedule, which was not processed.",
+    "date_quote": "",
+    "evidence_quote": "2. 박사 공개발표(초심) 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)\n3. 참고사항\n- 공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For PhD students participating in or attending doctoral first-review public presentations, including relevant seminar enrollees. For integrated-program students, this applies conditionally if they are participating in or attending this doctoral-stage review.",
+    "conditions": {},
+    "steps": [
+      "Consult “2026-2학기 박사 초심 일정.pdf” for the current presentation schedule.",
+      "Check the latest attachment again on the review day for changes to the time or location."
+    ],
+    "importance": "conditional",
+    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58203-all-0",
+    "notice_id": "58203",
+    "title": "Attend in person and obtain signed confirmation",
+    "kind": "information",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Review date and venue are in the referenced schedule attachments, not supplied here",
+    "date_quote": "참석할 심사의 일시·장소 및 온라인 참가 링크는 석사·박사 논문심사 공개발표 일정의 첨부파일에서 확인해 주세요.",
+    "evidence_quote": "1. 대면 참석\n학부행정실에 별도로 신청하지 않고 해당 장소에서 참석합니다.\n붙임 참석확인서를 작성하고, 현장에서 논문심사 대상 학생의 지도교수님께 서명을 받아 세미나 담당 조교에게 제출해 주세요.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For second-semester 2026 석박사세미나 enrollees choosing in-person attendance.",
+    "conditions": {},
+    "steps": [
+      "Check the latest schedule for the review date and venue, and check it again on the attendance day because schedules may change.",
+      "Attend at the stated venue without separately applying to the administration office.",
+      "Complete the attached attendance confirmation, obtain the reviewed student’s advisor’s signature on site, and submit it to the seminar teaching assistant."
+    ],
+    "importance": "conditional",
+    "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58203-all-1",
+    "notice_id": "58203",
+    "title": "Apply by email for online attendance",
+    "kind": "unknown_deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "By one week before the selected review; exact calendar cutoff unavailable",
+    "date_quote": "온라인 참여가 가능한 공개심사를 확인한 뒤, 심사일 1주일 전까지 학부행정실(hansoopark@snu.ac.kr)에 이메일로 참석을 신청해 주세요.",
+    "evidence_quote": "온라인 참여가 가능한 공개심사를 확인한 뒤, 심사일 1주일 전까지 학부행정실(hansoopark@snu.ac.kr)에 이메일로 참석을 신청해 주세요.\n신청 메일에는 본인 성명·학번과 참석할 심사의 대상 학생 성명, 과정(석사·박사), 심사 일시를 적어 주세요.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For second-semester 2026 석박사세미나 enrollees choosing a public review that permits online participation.",
+    "conditions": {},
+    "steps": [
+      "Confirm that the selected review permits online attendance.",
+      "Email hansoopark@snu.ac.kr by one week before the review.",
+      "Include your name and student ID, plus the reviewed student’s name, degree program (master’s or doctoral), and the review date and time."
+    ],
+    "importance": "conditional",
+    "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58203-all-2",
+    "notice_id": "58203",
+    "title": "Notify the office if cancelling online attendance",
+    "kind": "unknown_deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "By the day before the selected review; exact calendar cutoff unavailable",
+    "date_quote": "신청 후 참석이 어려우면 심사 전날까지 이메일로 알려 주세요.",
+    "evidence_quote": "신청 후 참석이 어려우면 심사 전날까지 이메일로 알려 주세요.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For second-semester 2026 석박사세미나 enrollees who applied for online attendance but can no longer attend.",
+    "conditions": {},
+    "steps": [
+      "Notify hansoopark@snu.ac.kr by email by the day before the review."
+    ],
+    "importance": "conditional",
+    "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58203-all-3",
+    "notice_id": "58203",
+    "title": "Join the online review using the required identification settings",
+    "kind": "information",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Review date, time and link must be checked in the latest schedule attachments",
+    "date_quote": "일정은 수시로 변경될 수 있으니 참석 당일에도 최신 첨부파일을 확인해 주시기 바랍니다.",
+    "evidence_quote": "접속은 공개 일정 첨부에 표시된 참가 링크를 이용해 주세요. 링크가 확인 중인 경우에는 최신 일정표를 확인해 주세요.\n온라인 회의 표시 이름은 학번과 성명으로 설정하고, 참석 확인을 위해 카메라를 켜 주세요.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For second-semester 2026 석박사세미나 enrollees participating online after following the advance registration procedure.",
+    "conditions": {},
+    "steps": [
+      "Check the latest schedule attachment again on the attendance day and use its participation link.",
+      "If the link is still being confirmed, consult the latest schedule.",
+      "Set your meeting display name to your student ID and name, and turn on your camera for attendance verification."
+    ],
+    "importance": "conditional",
+    "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58203-all-4",
+    "notice_id": "58203",
+    "title": "Submit the online attendance confirmation",
+    "kind": "unknown_deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "After attending the review; submission cutoff not stated",
+    "date_quote": "심사 참석 후",
+    "evidence_quote": "3. 온라인 참석확인서 제출\n심사 참석 후 붙임 참석확인서를 작성하여 학부행정실(301동 319호)에 제출해 주세요.\n학부행정실에서 심사 측이 제출한 참석자 명단과 확인서를 대조하여 참석을 확인합니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For second-semester 2026 석박사세미나 enrollees who attended a review online.",
+    "conditions": {},
+    "steps": [
+      "After attendance, complete the attached attendance confirmation and submit it to the administration office, Building 301, Room 319.",
+      "The office verifies attendance by comparing the form with the attendee list submitted by the review organizers."
+    ],
+    "importance": "conditional",
+    "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58149-all-0",
+    "notice_id": "58149",
+    "title": "Confirm the winter-session registration cutoff and register if applicable",
+    "kind": "unknown_deadline",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Registration cutoff is not stated in the supplied readable text; check the schedule image and attached guidelines.",
+    "date_quote": "",
+    "evidence_quote": "2026학년도 동계 계절수업 수강신청 일정을 안내드리오니, 동계 계절학기를 신청하고자 하는 학생들은 붙임 파일을 숙지하시고 일정에 맞춰 신청하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For undergraduate and graduate students intending to register for the 2026 academic-year winter session. Eligibility and detailed requirements must be checked in the original materials.",
+    "conditions": {},
+    "steps": [
+      "Obtain the schedule and cautions from the original notice and review all five attachments.",
+      "Verify the applicable registration dates and requirements, then complete registration within the stated period."
+    ],
+    "importance": "conditional",
+    "source_hash": "c29e592c26bb798677206abefbb32b04f4ce88412e657099289a96248785ef92",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58141-all-0",
+    "notice_id": "58141",
+    "title": "Register and submit your competition manuscript",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": "2026-11-22",
+    "date_label": "November 22, 2026; no time stated",
+    "date_quote": "Ο. 제출기한: 2026. 11. 22.(일)",
+    "evidence_quote": "Ο 참가대상: 본교 학부 과정 중 다전공 경험이 있는 3학년 이상 재학생(휴학생 포함) 및 졸업생\n※ 다전공: 복수전공, 부전공, 연합전공, 연계전공, 학생설계전공\nΟ. 제출기한: 2026. 11. 22.(일)\n나. 참가방법: SNU비교과에서 참가 신청 및 원고 제출",
+    "precision": "day",
+    "start_precision": "unknown",
+    "end_precision": "day",
+    "conditions_note": "For SNU undergraduate students in year 3 or above, including those on leave, and graduates who have multi-major experience during their SNU undergraduate studies. Participation remains conditional on meeting the notice’s requirements.",
+    "conditions": {},
+    "steps": [
+      "Locate the competition on SNU비교과.",
+      "Complete participation registration and submit your manuscript by the stated deadline."
+    ],
+    "importance": "conditional",
+    "source_hash": "5323d4e452f43dfb5f1d06dfba9dd02286be7222647ca25ecf5a71914930d127",
     "review_status": "AI_source_checked_not_human_reviewed"
   }
 ]
