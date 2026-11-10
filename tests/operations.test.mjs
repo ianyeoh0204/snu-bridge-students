@@ -37,3 +37,12 @@ test('the SNU request uses GPT Responses, strict output, no storage or tools',()
 test('a changed gateway price prevents paid planning',async()=>{await assert.rejects(verifyGateway('test-only',async()=>new Response(JSON.stringify({data:[{id:'gpt-6.1-sol',owned_by:'openai',pricing:{currency:'USD',per_tokens:1000000,input:2,output:11}}]}))),/GATEWAY_PRICING_CHANGED/);});
 test('an incomplete GPT response is withheld while retaining known usage',async()=>{const r=bazeRequest(n,generationParts(n)[0],state().policy);await assert.rejects(requestBaze(r,'test-only',async()=>new Response(JSON.stringify({status:'incomplete',output:[],usage:{input_tokens:100,output_tokens:16000}}))),e=>e.message==='INCOMPLETE_RESPONSE'&&e.usage.estimated_micros===160200);});
 test('only a confirmed returned request releases unused budget; failed requests retain it',()=>{const s=state();const p=prepareGeneration(s),run=s.ledger.runs[0],part=p.tasks[0].parts[0];run.attempts=[{notice_id:n.id,part:part.part.key,status:'returned',usage:{estimated_micros:1234}}];assert.equal(accountedMicros(s.ledger),p.reserved_micros-part.reserve_micros+1234);run.attempts[0].status='failed';assert.equal(accountedMicros(s.ledger),p.reserved_micros);});
+
+// Production regression: 58160 placed presentation dates in unprocessed PDFs.
+test('an event with no readable date is withheld; schedule-check information stays undated',()=>{
+ const v=structuredClone(raw);Object.assign(v.actions[0],{start:null,end:null,precision:'unknown',date_quote:'',date_label:'Exact presentation dates are in an unread attachment.'});
+ assert.throws(()=>validateDraft(v,n),/missing its date/);
+ v.actions[0].kind='information';const a=validateDraft(v,n).actions[0];
+ assert.equal(a.start,null);assert.equal(a.end,null);assert.equal(classify(a),'check');
+ assert.throws(()=>calendarFile(a),/date|calendar/i);
+});
