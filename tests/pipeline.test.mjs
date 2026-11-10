@@ -132,3 +132,13 @@ test("invalid calendar dates and inconsistent precision are rejected", () => {
   Object.assign(raw.actions[0], { end: "2026-11-20", precision: "unknown" });
   assert.throws(() => validateDraft(raw, n), /precision/);
 });
+
+// Production regression: Sol correctly quoted the official title of notice 58183.
+test('verbatim official-title evidence is accepted and title edits change the source version', () => {
+  const v=structuredClone(draft);v.actions[0].evidence_quote=n.korean_title;
+  assert.equal(validateDraft(v,n).actions[0].evidence_quote,n.korean_title);
+  v.actions[0].evidence_quote=n.korean_title+' — an invented exemption';
+  assert.throws(()=>validateDraft(v,n),/absent/);
+  const revised=revisedRecord(n,{...s,title:s.title+' 수정'});
+  assert.notEqual(revised.source_hash,n.source_hash);
+});

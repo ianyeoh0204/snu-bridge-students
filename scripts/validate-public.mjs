@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import { noticeText, currentBrief } from "../lib/bridge/student.mjs";
+import { noticeEvidence, currentBrief } from "../lib/bridge/student.mjs";
 const data = JSON.parse(fs.readFileSync("public/data/student.json"));
 const clean = (s) => String(s).replace(/\s+/gu, " ").trim();
 for (const b of data.briefs) {
@@ -8,7 +8,7 @@ for (const b of data.briefs) {
   if (
     currentBrief(b, n) &&
     b.evidence_quote &&
-    !clean(noticeText(n)).includes(clean(b.evidence_quote))
+    !clean(noticeEvidence(n)).includes(clean(b.evidence_quote))
   )
     throw Error("Missing brief evidence: " + b.notice_id);
   if (
@@ -23,7 +23,7 @@ for (const a of data.actions) {
   if (!n) continue;
   if (a.source_hash !== n.source_hash) continue;
   for (const q of [a.date_quote, a.evidence_quote].filter(Boolean)) {
-    if (!clean(noticeText(n)).includes(clean(q)))
+    if (!clean(noticeEvidence(n)).includes(clean(q)))
       throw Error("Missing action evidence " + a.id);
   }
   if (a.kind === "unknown_deadline" && a.end)

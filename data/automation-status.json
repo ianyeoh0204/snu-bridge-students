@@ -2,7 +2,7 @@
   "collector": "cloud_run",
   "translator": "enabled_with_review_items",
   "model": "gpt-6.1-sol",
-  "pending_briefs": 63,
+  "pending_briefs": 61,
   "last_attempt_at": "2026-11-10T06:30:39.287Z",
   "generated": 0,
   "failures": [
@@ -15,7 +15,7 @@
       "retry": "No automatic repeat for this source version."
     }
   ],
-  "review_queue": 2,
+  "review_queue": 0,
   "budget": {
     "cap_usd": 10,
     "reserved_upper_bounds_usd": 0.720668,
@@ -23,5 +23,14 @@
     "expires_at": "2026-12-10T05:25:50Z",
     "note": "Confirmed usage releases unused bounds; failures and unknown results retain reservations. US-dollar token costs are separate from gateway credit conversion/taxes. No automatic renewal."
   },
-  "note": "AI drafts. Quote and date checks are not independent semantic review. A rejected notice does not block unrelated notices."
+  "note": "AI drafts. Quote and date checks are not independent semantic review. A rejected notice does not block unrelated notices.",
+  "recovered_after_run": {
+    "at": "2026-11-10T06:32:51.489Z",
+    "notices": [
+      "58160",
+      "58183"
+    ],
+    "additional_model_calls": 0,
+    "note": "Original run failures and spending retained; recovered drafts remain AI drafts."
+  }
 }

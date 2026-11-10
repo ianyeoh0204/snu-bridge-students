@@ -620,5 +620,138 @@
     ],
     "conditions_note": "The exception to 28 December is conditional, not an automatic extension.",
     "source_hash": "43d27d6579f56eeedc982b9b966f999e278f65d93efc0d97f34ed9eff5ee4af1"
+  },
+  {
+    "id": "58160-undergraduate-0",
+    "notice_id": "58160",
+    "title": "Recheck the latest schedule on the presentation day",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "On the presentation day; exact dates are in unread attachments",
+    "date_quote": "심사 당일에도",
+    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "Applies if you will attend a master's thesis presentation or doctoral first-review presentation (초심). The notice includes master's/doctoral seminar students among attendees but does not separately establish undergraduate attendance eligibility.",
+    "conditions": {},
+    "steps": [
+      "Consult the latest relevant schedule attachment.",
+      "Check it again on the presentation day to confirm the time and venue."
+    ],
+    "importance": "conditional",
+    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-masters-0",
+    "notice_id": "58160",
+    "title": "Check the current master's public-presentation timetable",
+    "kind": "information",
+    "degrees": [
+      "masters"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "2026 semester 2; exact presentation dates are in the unread attachment",
+    "date_quote": "2026학년도 2학기 석사/박사 논문심사 공개발표 일정을 안내드립니다.",
+    "evidence_quote": "- 공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For master's students participating in or attending the master's public presentations. Attendees, including master's/doctoral seminar students, must recheck the attachment on the examination day; times and venues may change.",
+    "conditions": {},
+    "steps": [
+      "Consult the latest “2026-2학기 석사 심사 일정.pdf” for the applicable presentation details.",
+      "Check the attachment again on the examination day before attending."
+    ],
+    "importance": "conditional",
+    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-doctoral-0",
+    "notice_id": "58160",
+    "title": "Check the doctoral first-review (초심) public-presentation schedule and recheck it on the examination day",
+    "kind": "information",
+    "degrees": [
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Presentation dates are in an unread attachment; exact dates are unavailable.",
+    "date_quote": "",
+    "evidence_quote": "2. 박사 공개발표(초심) 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)\n3. 참고사항\n- 공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For PhD students whose presentations are listed or who plan to attend, including relevant seminar attendees. Integrated-program applicability remains conditional on the doctoral-stage schedule applying to the student.",
+    "conditions": {},
+    "steps": [
+      "Consult “2026-2학기 박사 초심 일정.pdf” for the relevant presentation details.",
+      "Check the updated attachment again on the examination day for changes to time or venue."
+    ],
+    "importance": "conditional",
+    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58183-all-0",
+    "notice_id": "58183",
+    "title": "Check your emailed module assignment and resolve email issues",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "No date stated for email checks or address changes",
+    "date_quote": "",
+    "evidence_quote": "제출 면담확인서에 기재한 메일주소로 공지사항 및 소속 모듈을 보내드렸으니 해당 메일에서 확인해주시고,\n메일공지를 못 받은 분들은 담당자 (김수진, ksj2602@snu.ac.kr) 에게 꼭 알려주시길 바랍니다.\n네이버 메일계정 등으로 적으신 분 중, SNU 계정으로 주소 변경하실 분은 메일로 알려주세요.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For undergraduate participants in the second-semester 2026 Graduation Project. Contact the coordinator if the notice did not arrive; request an SNU email-address change only if desired.",
+    "conditions": {},
+    "steps": [
+      "Check the email address recorded on your submitted meeting confirmation form for the notice and module assignment.",
+      "If you did not receive the notice, contact 김수진 at ksj2602@snu.ac.kr.",
+      "If you listed a Naver or other email account and want to switch to an SNU address, email the coordinator."
+    ],
+    "importance": "conditional",
+    "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58183-all-1",
+    "notice_id": "58183",
+    "title": "Attend the third interim presentation in your assigned module",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-11-05T18:30:00+09:00",
+    "end": null,
+    "date_label": "November 5, 2026 (Thursday), 18:30 KST",
+    "date_quote": "* 3회차 11월 5일 (목) 18:30 *",
+    "evidence_quote": "[학부] [2026학년도 2학기] 졸업프로젝트(전기공학설계프로젝트) 3회차 중간발표 안내",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "unknown",
+    "conditions_note": "For undergraduate participants in the second-semester 2026 Graduation Project. Attendance is checked exactly at the start. If reserve-force training, a conference, or a similar reason prevents attendance, notify the coordinator in advance; same-day notification is not accepted.",
+    "conditions": {},
+    "steps": [
+      "Use your emailed module assignment and the room list above to find the correct room.",
+      "Be present for the attendance check at 18:30; avoid unauthorized lateness or absence.",
+      "If unable to attend, notify 김수진 at ksj2602@snu.ac.kr before the presentation day."
+    ],
+    "importance": "conditional",
+    "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
+    "review_status": "AI_source_checked_not_human_reviewed"
   }
 ]

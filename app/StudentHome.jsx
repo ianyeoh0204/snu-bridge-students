@@ -595,7 +595,7 @@ function About({ data }) {
             <div>
               <dt>Daily translation</dt>
               <dd>
-                {["enabled", "enabled_with_review_items"].includes(data.status.automation?.translator)
+                {["enabled", "enabled_with_review_items", "nothing_eligible"].includes(data.status.automation?.translator)
                   ? "Active · AI drafts with visible review status"
                   : data.status.automation?.translator === "needs_configuration" ? "Not yet automatic" : "Paused or waiting; see the latest source"}
               </dd>

@@ -762,5 +762,140 @@
     "source_changed": false,
     "reading_note": "HTML read. Attached files and images have not been read; this brief may be incomplete.",
     "english_kind": "Action brief, not a complete official translation"
+  },
+  {
+    "notice_id": "58160",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58160&md=v",
+    "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
+    "source_checked_at": "2026-11-10T06:22:36.346Z",
+    "source_changed": false,
+    "generated_at": "2026-11-10T06:29:25.548Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "2026 Semester 2 Thesis Presentations: Check Updated Schedules Before Attending",
+    "summary": "Undergraduate: If you plan to attend a master's thesis presentation or doctoral first-review presentation (초심), consult the latest attached schedule and check it again on the presentation day. Dates, times and venues cannot be verified from the supplied text because both schedule PDFs were not read.\n\nMaster’s: The master's thesis public-presentation timetable is provided in an attachment that may be updated frequently. Presentation dates, times and venues cannot be verified from the supplied text. Attendees, including master's/doctoral seminar students, must check the attachment again on the examination day.\n\nPhD / Integrated MS–PhD: The doctoral first-review (초심) public-presentation schedule is provided in an attachment and may change. Attendees, including relevant seminar students, must recheck the attachment even on the examination day. Exact dates, times and venues cannot be verified from the supplied readable text.",
+    "period": "2026 academic year, semester 2",
+    "topic": "Thesis presentation schedules",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "steps": [
+      "Obtain the latest master's or doctoral first-review presentation (초심) schedule attached to the notice.",
+      "Check the attachment again on the presentation day for time or venue changes.",
+      "Obtain the latest master's schedule attachment, “2026-2학기 석사 심사 일정.pdf”.",
+      "If attending, recheck the attachment on the examination day for time or venue changes.",
+      "Open “2026-2학기 박사 초심 일정.pdf” to check the relevant presentation date, time and venue.",
+      "Recheck the attachment on the examination day because the schedule may change."
+    ],
+    "notes": [
+      "Unread attachments: 2026-2학기 박사 초심 일정.pdf; 2026-2학기 석사 심사 일정.pdf.",
+      "Schedules are updated frequently, and presentation times and venues may change.",
+      "The instruction covers attendees, including master's/doctoral seminar students. Undergraduate attendance eligibility is not separately specified; this brief applies conditionally if you will attend.",
+      "No application deadline is stated.",
+      "Questions: ECE administration office, Building 301, Room 319; Park Han-su; 02-880-7264; hansoopark@snu.ac.kr.",
+      "Both supplied attachments were not read: “2026-2학기 석사 심사 일정.pdf” and “2026-2학기 박사 초심 일정.pdf”. Their contents could not be verified.",
+      "The notice does not state an application deadline. Its posting date is not a presentation date.",
+      "Questions: ECE Administration Office, Building 301, Room 319; Park Han-su; 02-880-7264; hansoopark@snu.ac.kr.",
+      "Both attachments were not read in the supplied material: “2026-2학기 박사 초심 일정.pdf” and “2026-2학기 석사 심사 일정.pdf”. Their contents could not be verified.",
+      "For integrated-program students, applicability is conditional on the doctoral first-review presentation (초심) schedule applying to their stage.",
+      "No application deadline or exact presentation date is stated in the readable notice."
+    ],
+    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "undergraduate",
+        "masters",
+        "doctoral"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1117,
+          "output_tokens": 1240,
+          "estimated_micros": 14634
+        },
+        {
+          "input_tokens": 1117,
+          "output_tokens": 1325,
+          "estimated_micros": 15484
+        },
+        {
+          "input_tokens": 1119,
+          "output_tokens": 1482,
+          "estimated_micros": 17058
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only.",
+      "correction": {
+        "method": "AI developer source check; not independent human review",
+        "original_run_id": "42767953978",
+        "at": "2026-11-10T06:29:25.553Z",
+        "changes": [
+          "Two undated event entries reclassified as information; no calendar dates added.",
+          "Changed unreadable to not read because attachments were not processed.",
+          "Kept doctoral first-review stage 초심 distinct from preliminary review 예비심사."
+        ],
+        "additional_model_calls": 0
+      }
+    }
+  },
+  {
+    "notice_id": "58183",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58183&md=v",
+    "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
+    "source_checked_at": "2026-11-10T06:28:53.072Z",
+    "source_changed": false,
+    "generated_at": "2026-11-10T06:32:51.483Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "Fall 2026 Graduation Project: Third Interim Presentation",
+    "summary": "The third interim presentation for the Graduation Project (Electrical Engineering Design Project) includes module-specific rooms and punctual attendance checks. Check the emailed notice for your assigned module, and contact the coordinator if you did not receive it or need to report an attendance conflict.",
+    "period": "2026 academic year, second semester",
+    "topic": "Graduation Project interim presentation",
+    "degrees": [
+      "undergraduate"
+    ],
+    "steps": [
+      "Check the notice and module assignment sent to the email address on your submitted meeting confirmation form.",
+      "Attend your assigned module on November 5, 2026, at 18:30; attendance is checked exactly at the start.",
+      "If you cannot attend because of reserve-force training, a conference, or a similar reason, notify 김수진 at ksj2602@snu.ac.kr in advance—not on the presentation day."
+    ],
+    "notes": [
+      "Semiconductors 1: TA 안승현, room 202; Semiconductors 2: TA 지종호, room 818.",
+      "Electrical Energy: TA 이승준, room 103; Electronic Physics: TA 황두환, room 104.",
+      "Communications: TA 장호준, room 201; Control: TA 이정진, room 302.",
+      "Computer 1: TA 김도훈, room 102; Computer 2: TA 이동혁, room 118.",
+      "Bio: TA 전민권, room 106.",
+      "The supplied notice lists room numbers but does not identify a building.",
+      "Changing a Naver or other listed email address to an SNU address is optional; email the coordinator if you want to change it."
+    ],
+    "evidence_quote": "11월 5일 목요일 졸업프로젝트 3회차 중간발표가 진행됩니다.",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1851,
+          "output_tokens": 1754,
+          "estimated_micros": 21242
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only.",
+      "correction": {
+        "method": "Unchanged model output revalidated after official-title validation fix; not independent human review",
+        "original_run_id": "42768682426",
+        "at": "2026-11-10T06:32:51.487Z",
+        "additional_model_calls": 0
+      }
+    }
   }
 ]
