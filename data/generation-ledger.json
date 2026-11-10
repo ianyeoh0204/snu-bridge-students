@@ -3,5 +3,52 @@
   "budget_id": "baze-gpt-2026-11-10-30days",
   "cap_micros": 10000000,
   "expires_at": "2026-12-10T05:25:50Z",
-  "runs": []
+  "runs": [
+    {
+      "run_id": "42767953978",
+      "created_at": "2026-11-10T06:23:32.547Z",
+      "reserved_micros": 537100,
+      "tasks": [
+        {
+          "notice_id": "58160",
+          "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
+          "parts": [
+            {
+              "part": {
+                "key": "undergraduate",
+                "degrees": [
+                  "undergraduate"
+                ]
+              },
+              "fingerprint": "ee1ffdeae2b706448909ec2f07c59837fc2b4ca911df15bda671a7ed312b497b",
+              "reserve_micros": 179036
+            },
+            {
+              "part": {
+                "key": "masters",
+                "degrees": [
+                  "masters"
+                ]
+              },
+              "fingerprint": "57df2337093dd9f835a9597f1ec2222e61eb059414c936c64477ac0172c3041c",
+              "reserve_micros": 179024
+            },
+            {
+              "part": {
+                "key": "doctoral",
+                "degrees": [
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "fae47edb1dbf45095ba1d3ad468fd04082c6a80bd0025c7dbe9ee0868bb32287",
+              "reserve_micros": 179040
+            }
+          ],
+          "reserved_micros": 537100
+        }
+      ],
+      "status": "reserved"
+    }
+  ]
 }
