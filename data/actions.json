@@ -753,5 +753,61 @@
     "importance": "conditional",
     "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
     "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58161-all-0",
+    "notice_id": "58161",
+    "title": "Attend the morning exchange information session",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": "2026-10-30T10:00:00+09:00",
+    "end": "2026-10-30T11:30:00+09:00",
+    "date_label": "October 30, 2026, 10:00–11:30 KST",
+    "date_quote": "1. 일 시: 2026. 10. 30.(금) 오전 10:00 - 11:30 / 오후 14:00 - 15:30",
+    "evidence_quote": "4. 참석대상: 외국대학 파견에 관심 있는 학부생 및 대학원생",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "minute",
+    "conditions_note": "For undergraduate and graduate students interested in studying at an overseas university. The morning and afternoon sessions cover the same content; attendance is not a determination of exchange eligibility.",
+    "conditions": {},
+    "steps": [
+      "If choosing the morning session, attend in the first-floor seminar room of Building 152 (CJ International Center)."
+    ],
+    "importance": "conditional",
+    "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58161-all-1",
+    "notice_id": "58161",
+    "title": "Attend the afternoon exchange information session",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": "2026-10-30T14:00:00+09:00",
+    "end": "2026-10-30T15:30:00+09:00",
+    "date_label": "October 30, 2026, 14:00–15:30 KST",
+    "date_quote": "1. 일 시: 2026. 10. 30.(금) 오전 10:00 - 11:30 / 오후 14:00 - 15:30",
+    "evidence_quote": "4. 참석대상: 외국대학 파견에 관심 있는 학부생 및 대학원생",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "minute",
+    "conditions_note": "For undergraduate and graduate students interested in studying at an overseas university. The morning and afternoon sessions cover the same content; attendance is not a determination of exchange eligibility.",
+    "conditions": {},
+    "steps": [
+      "If choosing the afternoon session, attend in the first-floor seminar room of Building 152 (CJ International Center)."
+    ],
+    "importance": "conditional",
+    "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
+    "review_status": "AI_source_checked_not_human_reviewed"
   }
 ]

@@ -154,7 +154,21 @@
           "reserved_micros": 179750
         }
       ],
-      "status": "reserved"
+      "status": "complete",
+      "attempts": [
+        {
+          "notice_id": "58161",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 179750,
+          "usage": {
+            "input_tokens": 1194,
+            "output_tokens": 1340,
+            "estimated_micros": 15788
+          }
+        }
+      ],
+      "completed_at": "2026-11-10T06:35:47.165Z"
     }
   ]
 }

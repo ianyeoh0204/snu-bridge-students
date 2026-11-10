@@ -897,5 +897,52 @@
         "additional_model_calls": 0
       }
     }
+  },
+  {
+    "notice_id": "58161",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v",
+    "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
+    "source_checked_at": "2026-11-10T06:28:54.075Z",
+    "source_changed": false,
+    "generated_at": "2026-11-10T06:35:47.162Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "Fall 2027 Outbound Exchange Information Sessions",
+    "summary": "SNU will hold information sessions about outbound exchange for Fall 2027. Undergraduate and graduate students interested in studying at an overseas university are invited. Both sessions cover the same content.",
+    "period": "Fall semester 2027 exchange; information sessions on October 30, 2026",
+    "topic": "Outbound exchange information sessions",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "steps": [
+      "Choose either the morning or afternoon session.",
+      "Attend in the first-floor seminar room of Building 152 (CJ International Center).",
+      "Check the detailed notice: https://oga.snu.ac.kr/outgoing_notice-board/?mod=document&uid=3125"
+    ],
+    "notes": [
+      "The sessions take place in 2026 and concern exchange in Fall 2027.",
+      "This notice invites attendance; it does not establish exchange eligibility or state an exchange application deadline.",
+      "Questions: International Affairs staff member Lee Hyeok-ju, 02-880-2594."
+    ],
+    "evidence_quote": "2027학년도 2학기 해외파견 교환학생 모집 설명회를 개최하오니 관심있는 학생들의 참여 바랍니다.",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1194,
+          "output_tokens": 1340,
+          "estimated_micros": 15788
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
   }
 ]
