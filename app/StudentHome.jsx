@@ -166,7 +166,9 @@ function Action({ item, open, compact = false }) {
 function NoticeDetail({ b, data, back, degree, ask }) {
   const n = data.notices.find((n) => n.id === b.notice_id),
     valid = currentBrief(b, n),
-    aa = data.actions.filter((a) => a.notice_id === b.notice_id);
+    aa = data.actions.filter((a) => a.notice_id === b.notice_id),
+    datedActions = aa.filter((a) => a.start || a.end),
+    allDatesPast = datedActions.length > 0 && datedActions.every((a) => classify(a) === "past");
   return (
     <section className="detail">
       <button className="text-button" onClick={back}>
@@ -185,6 +187,13 @@ function NoticeDetail({ b, data, back, degree, ask }) {
             Source checked {dformat(n.source_checked_at)}
           </span>
         </div>
+        {allDatesPast && (
+          <div className="notice-warning">
+            <strong>These dates have passed.</strong> All dated actions below are
+            in the past. Keep this brief as historical context and check a current
+            announcement before acting.
+          </div>
+        )}
         <p className="lead">{b.summary}</p>
         {!valid && (
           <div className="notice-warning">
@@ -197,7 +206,7 @@ function NoticeDetail({ b, data, back, degree, ask }) {
       <div className="detail-layout">
         <div>
           <section className="paper">
-            <h2>What to do</h2>
+            <h2>{allDatesPast ? "Steps in this historical notice" : "What to do"}</h2>
             <ol className="steps">
               {b.steps.map((s, i) => (
                 <li key={i}>
@@ -275,12 +284,12 @@ function NoticeDetail({ b, data, back, degree, ask }) {
                       "badge " + (classify(a) === "past" ? "muted" : "")
                     }
                   >
-                    {a.kind === "event"
-                      ? "Event"
-                      : a.kind === "unknown_deadline"
-                        ? "Needs checking"
-                        : classify(a) === "past"
-                          ? "Past date"
+                    {classify(a) === "past"
+                      ? a.kind === "event" ? "Past event" : "Past date"
+                      : a.kind === "event"
+                        ? "Event"
+                        : a.kind === "unknown_deadline"
+                          ? "Needs checking"
                           : "Action"}
                   </span>
                   <strong>{a.date_label}</strong>
