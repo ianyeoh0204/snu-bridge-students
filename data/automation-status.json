@@ -1,7 +1,27 @@
 {
   "collector": "cloud_run",
-  "translator": "needs_configuration",
-  "pending_briefs": 60,
-  "last_attempt_at": "2026-11-10T04:07:52.759Z",
-  "note": "Source collection does not require a model key. Unattended English generation requires a configured provider. No model requests were made."
+  "translator": "enabled_with_review_items",
+  "model": "gpt-6.1-sol",
+  "pending_briefs": 63,
+  "last_attempt_at": "2026-11-10T06:25:02.311Z",
+  "generated": 0,
+  "failures": [
+    {
+      "notice_id": "58160",
+      "source_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
+      "status": "needs_review",
+      "error": "Dated action is missing its date",
+      "at": "2026-11-10T06:25:02.246Z",
+      "retry": "No automatic repeat for this source version."
+    }
+  ],
+  "review_queue": 1,
+  "budget": {
+    "cap_usd": 10,
+    "reserved_upper_bounds_usd": 0.5371,
+    "accounted_usd": 0.047176,
+    "expires_at": "2026-12-10T05:25:50Z",
+    "note": "Confirmed usage releases unused bounds; failures and unknown results retain reservations. US-dollar token costs are separate from gateway credit conversion/taxes. No automatic renewal."
+  },
+  "note": "AI drafts. Quote and date checks are not independent semantic review. A rejected notice does not block unrelated notices."
 }

@@ -48,7 +48,43 @@
           "reserved_micros": 537100
         }
       ],
-      "status": "reserved"
+      "status": "complete_with_review_items",
+      "attempts": [
+        {
+          "notice_id": "58160",
+          "part": "undergraduate",
+          "status": "returned",
+          "reserved_micros": 179036,
+          "usage": {
+            "input_tokens": 1117,
+            "output_tokens": 1240,
+            "estimated_micros": 14634
+          }
+        },
+        {
+          "notice_id": "58160",
+          "part": "masters",
+          "status": "returned",
+          "reserved_micros": 179024,
+          "usage": {
+            "input_tokens": 1117,
+            "output_tokens": 1325,
+            "estimated_micros": 15484
+          }
+        },
+        {
+          "notice_id": "58160",
+          "part": "doctoral",
+          "status": "returned",
+          "reserved_micros": 179040,
+          "usage": {
+            "input_tokens": 1119,
+            "output_tokens": 1482,
+            "estimated_micros": 17058
+          }
+        }
+      ],
+      "completed_at": "2026-11-10T06:25:02.247Z"
     }
   ]
 }
