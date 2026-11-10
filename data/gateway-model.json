@@ -1,0 +1,15 @@
+{
+  "provider": "baze",
+  "base_url": "https://api.baze.co/v1/gateway",
+  "model": "gpt-6.1-sol",
+  "checked_at": "2026-11-10T05:55:45.631127+00:00",
+  "pricing": {
+    "currency": "USD",
+    "per_tokens": 1000000,
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.1,
+    "cache_write": 2.5,
+    "web_search_per_1k": null
+  }
+}

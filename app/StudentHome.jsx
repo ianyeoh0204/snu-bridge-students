@@ -158,7 +158,7 @@ function Action({ item, open, compact = false }) {
         <button className="text-button" onClick={() => open(item.notice_id)}>
           Read the English brief <ChevronRight size={14} />
         </button>
-        {!closed && item.end && <Download action={item} />}
+        {!closed && (item.end || (item.kind === "event" && item.start)) && <Download action={item} />}
       </div>
     </article>
   );
@@ -285,7 +285,7 @@ function NoticeDetail({ b, data, back, degree, ask }) {
                   </span>
                   <strong>{a.date_label}</strong>
                   <p>{a.title}</p>
-                  {valid && a.end && classify(a) !== "past" && (
+                  {valid && (a.end || (a.kind === "event" && a.start)) && classify(a) !== "past" && (
                     <Download action={{ ...a, notice: n }} />
                   )}
                 </div>
@@ -563,45 +563,11 @@ function About({ data }) {
       </h2>
       <div className="about-grid">
         <div>
-          <h3>Korean and English boards are different.</h3>
-          <p>
-            We compare the procedure, semester, audience and actions inside each
-            notice. A matching number or a similar title does not establish an
-            English counterpart.
-          </p>
-          <div className="comparison">
-            <div>
-              <span>Thesis Research confirmation</span>
-              <strong>No counterpart found in checked English HTML</strong>
-            </div>
-            <div>
-              <span>Graduation-project poster</span>
-              <strong>No counterpart found in checked English HTML</strong>
-            </div>
-            <div>
-              <span>Winter tuition</span>
-              <strong>English PDF listed on the Korean page</strong>
-            </div>
-          </div>
-          <p className="small">
-            Bounded audit on 10 Nov 2026: 22 English-board posts dated 2026,
-            list pages 1–3, and three Korean procedures. Attachment contents
-            were not read. This is not a university-wide coverage score.
-          </p>
-          <div className="quick-links">
-            <Link href="https://ece.snu.ac.kr/en/community/notice">
-              Official English board
-            </Link>
-            <Link href="https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58022">
-              Thesis Research source
-            </Link>
-            <Link href="https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58196">
-              Poster source
-            </Link>
-            <Link href="https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58200">
-              Tuition source
-            </Link>
-          </div>
+          <h3>Important procedures can be hard to find in English.</h3>
+          <p>We compare the actual academic procedure, audience and semester. An English-board post about a scholarship or an English course list does not necessarily explain a thesis submission or department-specific registration rule.</p>
+          <p className="small">Our dated audit reads {data.coverage?.english_count || 22} English-board posts and compares {data.coverage?.cases?.length || 14} selected procedures. It records English-labelled attachments separately and keeps unknown file contents visible.</p>
+          <a className="primary-button" href="./evidence/">See the evidence and source comparisons <ArrowUpRight size={16} /></a>
+          <p className="small">A selected ECE sample, not a university-wide coverage percentage. Content judgments await independent review.</p>
         </div>
         <div className="paper">
           <h3>What this version covers</h3>
@@ -629,9 +595,9 @@ function About({ data }) {
             <div>
               <dt>Daily translation</dt>
               <dd>
-                {data.status.automation?.translator === "enabled"
-                  ? "Configured; see update status"
-                  : "Awaiting model-provider configuration"}
+                {["enabled", "enabled_with_review_items"].includes(data.status.automation?.translator)
+                  ? "Active · AI drafts with visible review status"
+                  : data.status.automation?.translator === "needs_configuration" ? "Not yet automatic" : "Paused or waiting; see the latest source"}
               </dd>
             </div>
           </dl>
@@ -1096,6 +1062,19 @@ export default function StudentHome() {
                 </section>
               </aside>
             </section>
+            {data.pending_sources?.length > 0 && (
+              <details className="paper pending-notices">
+                <summary>More collected notices are awaiting English briefs</summary>
+                <p>This pilot does not yet explain every collected notice. The newest waiting items are listed below in their original Korean. Use the official page while an English brief is being prepared; these items have not been filtered for your degree.</p>
+                <ul>
+                  {data.pending_sources.slice(0, 6).map(n => <li key={n.id}>
+                    <Link href={n.source_url}>{n.korean_title}</Link>
+                    <p className="small">Posted {n.posting_date} · {n.reason}</p>
+                  </li>)}
+                </ul>
+                <p className="small">{data.pending_sources.length} collected source versions have no current English brief. This includes older notices; it is not a count of your outstanding tasks.</p>
+              </details>
+            )}
             <Guides guide={data.guide} degree={degree} open={open} ask={ask} />
             <section id="notices" className="notices-section">
               <div className="section-heading">
@@ -1173,6 +1152,7 @@ export default function StudentHome() {
           AI explanations may contain errors. The current official notice
           controls.
         </p>
+        <a href="./updates/">Optional update feed</a>
         <Link href={official}>Official ECE board</Link>
       </footer>
       {chat && (

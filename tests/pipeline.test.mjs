@@ -112,3 +112,23 @@ test("unsupported precise time and fabricated unknown-date deadline are rejected
   bad.actions[0].kind = "unknown_deadline";
   assert.throws(() => validateDraft(bad, n), /fabricated/);
 });
+
+
+test("standing rules keep unknown dates without inventing a deadline", () => {
+  const raw = structuredClone(draft);
+  Object.assign(raw.actions[0], { kind: "information", start: null, end: null, precision: "unknown", date_quote: "" });
+  assert.equal(validateDraft(raw, n).actions[0].end, null);
+  raw.actions[0].kind = "deadline";
+  assert.throws(() => validateDraft(raw, n), /missing its date/);
+});
+test("invalid calendar dates and inconsistent precision are rejected", () => {
+  const raw = structuredClone(draft);
+  raw.actions[0].end = "2026-02-30T17:00:00+09:00";
+  assert.throws(() => validateDraft(raw, n), /calendar/);
+  raw.actions[0].end = "2026-11-20T24:00:00+09:00";
+  assert.throws(() => validateDraft(raw, n), /clock/);
+  Object.assign(raw.actions[0], { kind: "information", end: null, precision: "day" });
+  assert.throws(() => validateDraft(raw, n), /precision/);
+  Object.assign(raw.actions[0], { end: "2026-11-20", precision: "unknown" });
+  assert.throws(() => validateDraft(raw, n), /precision/);
+});

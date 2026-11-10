@@ -1,25 +1,31 @@
 # SNU Bridge — ECE student essentials
 
-An independent English information service for SNU ECE students: a useful homepage before a chat, conditional actions by degree, a searchable English brief library, source-linked degree guidance and course-prerequisite examples. Optional ChatGPT handoff copies the notice URL, degree and evidence requirements into a reusable question. Plugin access is not required to read the site.
+A public English information service for SNU ECE students: degree-filtered actions, a searchable English notice library, source-linked newcomer guidance and an optional ChatGPT question handoff. Students can read it without an account, plugin or API key.
 
-## Run and hand over
+- Student homepage: https://ianyeoh0204.github.io/snu-bridge-students/
+- Evidence behind the English information gap: https://ianyeoh0204.github.io/snu-bridge-students/evidence/
+- Optional update feeds: https://ianyeoh0204.github.io/snu-bridge-students/updates/
 
-Node 22.13 or later. Run `npm ci`, `node scripts/export-student-data.mjs`, `npm test`, then `npm run dev`. `npm run build` creates the portable static site in `public-build/`. Serve it on any static host. No database, account or model API key is required to read the published briefs.
+## Run, verify and transfer
 
-Source collection: `npm run collect -- --pages 8 --limit 30`. Specific notices: repeat `--url FULL_OFFICIAL_URL`, or use `--url-file FILE.json` with a JSON array of full URLs. `--since YYYY-MM-DD` filters listing candidates; it is not proof of a complete backfill. Detail refreshes are bounded and oldest checked candidates rotate first. Only fetched pages are checked for edits. Source IDs are per-board configuration; a URL hash is used when no stable ID is available. IDs never determine translation equivalence.
+Use Node 22.13 or later. Run `npm ci`, `npm test`, then `npm run build`. The build exports the data, checks source quotations and produces a portable `public-build/` directory. Any static host can serve it. `npm run dev` starts a local preview. See [OPERATIONS.md](OPERATIONS.md) for cloud setup, budget controls, failure recovery and handover.
 
-The daily workflow is configured for 07:17 Asia/Seoul, subject to GitHub scheduling delays. It fetches official HTML, detects changes, queues missing English drafts, validates, builds, saves data and publishes. A failed collection/generation/build prevents deployment and preserves the last live site. Images and attachments are listed but not downloaded; ECE's `/webdata` exclusion is respected. An edited source invalidates its old English brief and removes stale action dates from the current board until regenerated.
+The initial product has 25 English AI drafts, including the ten proposal evaluation notices and the two September examples. Counts grow only after successful generation. English briefs are action summaries, not complete official translations or independently reviewed guidance. No personal profile is sent to a server. Student feedback collection is separate and paused.
 
-## Unattended English generation
+## Daily operation
 
-No paid model call is made without all three settings. Configure repository variables `BRIDGE_LLM_ENDPOINT` (the complete HTTPS chat-completions endpoint) and `BRIDGE_LLM_MODEL`, and repository secret `BRIDGE_LLM_API_KEY` only after choosing and approving the provider. This adapter expects an OpenAI-compatible JSON response protocol. An SNU gateway must be checked for protocol, permitted external use, limits and post-finals access; compatibility is not assumed. The default workflow limits generation to four notices per run and each request has bounded input/output. These limits do not guarantee a monetary cap; configure the provider's budget as well.
+The cloud schedule requests an update at 07:17 Asia/Seoul; GitHub can delay schedules. A real scheduled collection/build/publication run succeeded on 10 November 2026. Generation is a separate stage: at this release it still needs a configured, verified provider key. A working schedule alone is not proof of automatic English generation.
 
-Without the provider settings, collection and publication can still run, and the website honestly shows that English generation awaits configuration. Do not claim daily English translation is operational until a real provider-backed run has been tested. Current briefs are original AI-written action summaries, not full official translations or independently reviewed content. Quote checks do not prove correct interpretation.
+The collector reads at most eight listing pages and thirty detail pages per run, rotating older checks. Only successfully read detail pages are checked for edits. A changed source invalidates the saved English brief and removes its old action dates from the current board. Missing and changed briefs enter the generation queue; current source versions are reused without paid calls. One rejected model result is kept for review while unrelated notices continue. Collection/build failure keeps the last live publication.
 
-## Coverage and limits
+Specific fetch: `npm run collect -- --url FULL_OFFICIAL_URL` (repeatable), or `--url-file FILE.json` with an array of full URLs. `--since YYYY-MM-DD` filters candidates; it does not prove complete historical coverage. Record identity is configured per board, falling back to a URL hash. IDs are never used to decide translation equivalence.
 
-ECE academics only. The initial release has 25 original English briefs, including ten proposal evaluation notices plus the two flagship September examples. Archived dates are explicitly historical. Degree filters do not certify eligibility. Missing attachment-only dates remain unknown. Calendar exports are one-time copies, not updating reminders. The peer course map is unofficial; mandatory prerequisites are sourced separately, including AND/OR logic and cohort conditions.
+## Evidence and limits
 
-The English-board comparison is a bounded content audit, not an ID match or a subtraction of board totals. It read 22 English-board HTML posts dated 2026 and compared three procedures on 10 November 2026; attachments were not read. No university-wide coverage percentage, human review or student study result is claimed.
+The dated audit reads 22 English-board HTML posts from 2026 and compares 14 purposefully selected academic procedures. It compares content, audience, period and actions. English attachments and bilingual posts remain visible as counterevidence. No random-sample coverage percentage or translation-delay statistic is claimed. Source-version changes withhold the earlier absence judgments until they are checked again.
 
-This repository includes only the independently authored web/pipeline code and public notice evidence. It excludes application documents, student study responses, invitation codes, credentials and the supplied raw peer image. University notices remain the authoritative source; this is an independent student project, not an official university service.
+Scope is ECE academic HTML. Images, PDFs, HWP and other attachments are inventoried but not automatically read; ECE’s `/webdata` restriction is respected. Unknown dates remain unknown. A course-flow diagram is unofficial; mandatory prerequisite examples are separately linked to official sources and cohort conditions. This is not a complete graduation audit.
+
+Calendar exports are one-time copies. Optional Atom feeds follow English additions and source changes, with degree-specific subscriptions in the student’s own reader. Feeds are not personal deadline reminders or guaranteed email delivery. The site does not subscribe anyone automatically.
+
+This repository contains independently authored product code and public notice evidence. It excludes application documents, private student responses, invitation codes, credentials and the raw peer-supplied image. SNU Bridge is an independent student project; the current official notice controls.

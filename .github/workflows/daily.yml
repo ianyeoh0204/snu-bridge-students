@@ -1,7 +1,7 @@
 name: Daily ECE notice update
 on:
   schedule:
-    - cron: '17 22 * * *' # 07:17 Asia/Seoul; hosting schedules can be delayed.
+    - cron: '17 22 * * *' # 07:17 Asia/Seoul; schedules can be delayed.
   workflow_dispatch:
 permissions:
   contents: write
@@ -13,12 +13,14 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -26,25 +28,49 @@ jobs:
       - run: npm ci
       - name: Collect public academic notices with bounded reads
         run: node scripts/collect.mjs --pages 8 --limit 30
-      - name: Generate only new or changed English drafts when configured
-        env:
-          BRIDGE_LLM_ENDPOINT: ${{ vars.BRIDGE_LLM_ENDPOINT }}
-          BRIDGE_LLM_MODEL: ${{ vars.BRIDGE_LLM_MODEL }}
-          BRIDGE_LLM_API_KEY: ${{ secrets.BRIDGE_LLM_API_KEY }}
-          BRIDGE_MAX_BRIEFS_PER_RUN: '4'
-        run: node scripts/generate.mjs
-      - run: node scripts/export-student-data.mjs
+      - name: Refresh English-board evidence without guessing new matches
+        run: node scripts/audit-english.mjs
       - run: npm test
-      - run: npm run build
-      - name: Save the verified publication data
+      - name: Reserve the approved budget before paid work
+        id: reserve
+        env:
+          BAZE_API: ${{ secrets.BAZE_API }}
         run: |
+          node scripts/prepare-generation.mjs
           git config user.name 'SNU Bridge updates'
           git config user.email 'snu-bridge-updates@users.noreply.github.com'
           git add data
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh official ECE source snapshots and English draft status'
-            git push
+            git commit -m 'Save source versions and reserve bounded SNU GPT update budget'
+            git push origin HEAD:main
           fi
+      - name: Generate English drafts; isolate notices that need review
+        id: generate
+        env:
+          BAZE_API: ${{ secrets.BAZE_API }}
+        run: node scripts/generate.mjs
+      - name: Retain spending and review records even after generation failure
+        if: always() && steps.reserve.outcome == 'success'
+        run: |
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save English drafts, retained reservations and review queue'
+            git push origin HEAD:main
+          fi
+      - name: Retain generation diagnostics
+        if: always() && steps.reserve.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: english-update-${{ github.run_id }}
+          path: |
+            data/generation-ledger.json
+            data/generation-queue.json
+            data/automation-status.json
+            generation-runs/
+          retention-days: 14
+      - run: node scripts/export-student-data.mjs
+      - run: npm test
+      - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

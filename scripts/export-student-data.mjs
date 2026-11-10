@@ -1,8 +1,11 @@
+import { buildUpdates } from './export-updates.mjs';
+import { buildEvidence } from './render-evidence.mjs';
 import fs from "node:fs";
 const read = (p) => JSON.parse(fs.readFileSync(p));
+const allNotices = read("data/notices.json");
 const briefs = read("data/briefs.json"),
   ids = new Set(briefs.map((b) => b.notice_id)),
-  notices = read("data/notices.json").filter((n) => ids.has(n.id));
+  notices = allNotices.filter((n) => ids.has(n.id));
 const status = fs.existsSync("data/collection-status.json")
   ? read("data/collection-status.json")
   : {};
@@ -15,6 +18,12 @@ const data = {
   published_at: new Date().toISOString(),
   notices,
   briefs,
+  pending_sources: allNotices
+    .filter(n => !briefs.some(b => b.notice_id === n.id && b.source_hash === n.source_hash && !b.source_changed))
+    .sort((a,b) => String(b.posting_date).localeCompare(String(a.posting_date)))
+    .map(n => ({id:n.id, korean_title:n.korean_title, posting_date:n.posting_date,
+      source_url:n.source_url, source_checked_at:n.source_checked_at,
+      reason:ids.has(n.id)?"Official source changed; English recheck pending":"English brief not yet available"})),
   actions: read("data/actions.json"),
   guide,
   coverage: fs.existsSync("data/english-coverage.json")
@@ -46,3 +55,7 @@ console.log(
     data.actions.length +
     " action records",
 );
+
+buildEvidence();
+
+buildUpdates(data);

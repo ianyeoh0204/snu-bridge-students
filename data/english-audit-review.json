@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-10T05:24:40.729Z",
+  "corpus_hash": "77c014b918b6f82f5fa58c12347fb8b2bad06893524a91611027a7a68d30e98a",
+  "reviewer": "AI-assisted source comparison; no independent human sign-off",
+  "selection_note": "Purposeful sample: the 12 submitted evaluation examples plus two current procedures. Not a random sample and not a university-wide coverage rate.",
+  "cases": [
+    {
+      "key": "procedure-56747",
+      "notice_id": "56747",
+      "title": "Graduate credits, completion and graduation FAQ",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=56747&md=v",
+      "posted": "2026-02-26",
+      "selection": "Submitted evaluation example",
+      "source_hash": "0be95adacee5a6b017023fbcff9ce2a1c63c61637744e600e6d597d89de65ef5",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "Graduate credits, coursework completion and department-specific graduation checks are different from the fellowship, visa and English-course-list topics on the checked English board.",
+      "student_impact": "A student still needs the department’s completion checklist and credit exceptions.",
+      "quote": "전기정보 대학원 수료 가능할까요?",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57151",
+      "notice_id": "57151",
+      "title": "February 2026 expected completion and graduation list",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v",
+      "posted": "2026-01-05",
+      "selection": "Submitted evaluation example",
+      "source_hash": "0ea592a38293197c3ac4f1f0003a8bc5570400e7822459a8cf73ddeb63d7a0d9",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The February completion/graduation checking and deferral procedure is not the same procedure as a welcome event or a Certificate of Admission request.",
+      "student_impact": "Students must check their completion status and report exceptions; a general international-student notice does not supply those steps.",
+      "quote": "수료하는 학기라고 생각되는 경우 반드시 명단에 자신의 이름이 있는지 확인해야 합니다.",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57374",
+      "notice_id": "57374",
+      "title": "Spring 2026 undergraduate course rules",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57374&md=v",
+      "posted": "2026-01-14",
+      "selection": "Submitted evaluation example",
+      "source_hash": "6e891599267dc99204e9fecf862f33b54e88ab1fcf2b99d0a6c079532ed3c5a1",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The English Spring course-list post identifies English-taught classes. Its HTML does not reproduce the ECE prerequisite changes, cohort rules or revised offering semesters.",
+      "student_impact": "An English course list does not explain which prerequisite combinations or cohort-specific requirements apply.",
+      "quote": "선이수 교과목 지정 (2020학번부터 적용)",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57376",
+      "notice_id": "57376",
+      "title": "Spring 2026 course registration and ECE over-quota procedure",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v",
+      "posted": "2026-01-14",
+      "selection": "Submitted evaluation example",
+      "source_hash": "5aa2e435e24de0102f9be8ce63db2855ffb98fd4f5d7b66743ba8ff09eb43556",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The Spring English course-list and tuition posts do not give this course-registration sequence or the adjusted ECE undergraduate over-quota window.",
+      "student_impact": "Students can miss a department-specific registration step even if they find an English course list.",
+      "quote": "전기·정보공학부에서 개설한 대학원 교과목의 정원 외 신청 기간은 본교 일정과 동일함",
+      "english_labelled_files": [
+        "(붙임1-1) 2026학년도 1학기 수강신청 안내(Guideline for 2026 Spring Semester Course Registration).pdf",
+        "(붙임1-2) 서울대학교 수강신청 매뉴얼(SNU Course Registration Manual).pdf",
+        "(붙임1-3) 강의매매방지 수강신청제도 개선 카드뉴스(New CRS Program for Preventing Reselling).pdf",
+        "(붙임3) 중복수강신청 매뉴얼(Course Overlap Request Manual).pdf"
+      ],
+      "attachment_finding": "English-labelled filename(s); contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57441",
+      "notice_id": "57441",
+      "title": "Spring 2026 thesis qualifying examination",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v",
+      "posted": "2026-02-10",
+      "selection": "Submitted evaluation example",
+      "source_hash": "a353c99bc16c19ec4507d2f846518c917fe593697c9113f41295bda6ae796f90",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "No checked English HTML describes this Spring qualifying examination, its audience or its Google Form, portal and office submission stages.",
+      "student_impact": "A student needs the examination application steps, not only the examination date.",
+      "quote": "접수방법: 구글폼 작성 > 온라인(포털시스템) 접수 > 행정실 방문하여 서류 제출",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57448",
+      "notice_id": "57448",
+      "title": "Spring 2026 graduate research-student registration",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57448&md=v",
+      "posted": "2026-02-11",
+      "selection": "Submitted evaluation example",
+      "source_hash": "df8e2a72ac0ec10435d173451fca1fd7e8fd523e835e5e06a50814a5d95a394d",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The visiting-researcher fee guide and Fall Certificate of Admission notice concern different statuses and procedures. Neither reproduces Spring graduate research-student registration.",
+      "student_impact": "Visiting researcher fees, immigration paperwork and registration after coursework completion must not be conflated.",
+      "quote": "재학생은 해당사항 없음!!",
+      "english_labelled_files": [
+        "2026 Spring Registration of Graduate Research Student (1).hwp"
+      ],
+      "attachment_finding": "English-labelled filename(s); contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57606",
+      "notice_id": "57606",
+      "title": "Graduate degree publication requirements",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57606&md=v",
+      "posted": "2026-03-13",
+      "selection": "Submitted evaluation example",
+      "source_hash": "d20d494a3209d61635a843a9e1a92a577820f56f3294b38a98fd4919824207fd",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "Fellowship eligibility is not the department’s degree-award publication rule. No checked English HTML explains this rule revision and effective semester.",
+      "student_impact": "Students need the correct publication requirement for their degree and review semester.",
+      "quote": "2026학년도 2학기 심사대상자부터",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57626",
+      "notice_id": "57626",
+      "title": "Spring 2026 thesis-review schedule",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v",
+      "posted": "2026-03-18",
+      "selection": "Submitted evaluation example",
+      "source_hash": "4b30e0295c540ac09f3d8e647f35d461d56bc9344e3d835b332f94eebfa342fc",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "No checked English HTML gives the Spring thesis-review stages and submissions. Scholarship interviews are a different procedure.",
+      "student_impact": "Separate applications, reviews and final submissions require separate action dates.",
+      "quote": "논문심사 신청 자격",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57627",
+      "notice_id": "57627",
+      "title": "Spring 2026 doctoral preliminary review",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v",
+      "posted": "2026-03-18",
+      "selection": "Submitted evaluation example",
+      "source_hash": "e7f466a2b5e22b0b9a5a5134d11bc205b3f5d78379822447d7f9031484e09720",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "No checked English HTML provides the doctoral preliminary-review procedure for the stated February 2027 graduation cohort.",
+      "student_impact": "A student must plan the preliminary review in the required earlier semester.",
+      "quote": "박사 예비심사는 초심/ 종심 이전 학기까지 완료해야 함",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-57700",
+      "notice_id": "57700",
+      "title": "Summer 2026 course registration",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v",
+      "posted": "2026-04-22",
+      "selection": "Submitted evaluation example",
+      "source_hash": "c8ba4e6ff6c94a614bddbcdbec6661cc151acfa583a489d19958ce1c39753cfd",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The English Spring/Fall course lists and Spring tuition notice are not the Summer course-registration and withdrawal procedure.",
+      "student_impact": "The academic session matters; similar course or tuition vocabulary does not establish equivalence.",
+      "quote": "2026학년도 하계 계절수업 수강신청 일정을 안내드리니",
+      "english_labelled_files": [
+        "(붙임1-1) 2026학년도 하계 계절수업 수강신청 안내(Guideline for 2026 Summer Session Course Registration).pdf",
+        "(붙임1-2) 서울대학교 수강신청 시스템 이용자 매뉴얼(국영문)(2024-1).pdf",
+        "(붙임2) 강의매매방지 수강신청제도 개선 카드뉴스(New CRS Program for Preventing Reselling).pdf"
+      ],
+      "attachment_finding": "English-labelled filename(s); contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-58022",
+      "notice_id": "58022",
+      "title": "Fall 2026 Thesis Research confirmation",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58022&md=v",
+      "posted": "2026-09-01",
+      "selection": "Submitted evaluation example",
+      "source_hash": "9a869763a0623a09aef522a934b452440a267ac7eb5251264125523fa00a5e5a",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The Fall Certificate of Admission notice also mentions research students and signed documents, but concerns immigration paperwork, not Thesis Research 430.960 confirmation.",
+      "student_impact": "Students enrolled in Thesis Research must complete both submissions and check the course-professor exception.",
+      "quote": "제출방법: 아래 1번. 2번. 모두 하셔야 신청 완료됩니다.",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-58012",
+      "notice_id": "58012",
+      "title": "Fall 2026 course changes and withdrawal",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v",
+      "posted": "2026-08-31",
+      "selection": "Submitted evaluation example",
+      "source_hash": "ce1c5ac5088d5694453bf01b4405c8b01b14e7477b5cfd79be3240a55570e758",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The Fall English course list does not reproduce the ECE course-change/withdrawal procedure and its department-specific over-quota period.",
+      "student_impact": "The student needs the relevant procedure and dates, including the department exception.",
+      "quote": "학사 교과목 정원 외 신청 기간: 2026.09.01.(화)~09.03.(목) 18:00",
+      "english_labelled_files": [
+        "(붙임1-1) 2026학년도 2학기 수강신청 변경 및 취소 안내(2026 Fall Semester Course Change & Withdrawal).pdf",
+        "(붙임2-1)(학생용) 정원 외 신청 매뉴얼(Quota Exceeding Course Registration Request Manual For Students).pdf",
+        "(붙임2-2)(학생용) 정규학기 수강취소 매뉴얼(Course Drop Manual For Students).pdf",
+        "(붙임4) 2026학년도 2학기 타 학과(부) 전공 교과목 성적평가방법 선택제 안내문(Guidelines for Changing Grading Option of Underg.pdf",
+        "(붙임5) 중복수강신청 매뉴얼(Guideline of Course Overlap Request).pdf"
+      ],
+      "attachment_finding": "English-labelled filename(s); contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-58196",
+      "notice_id": "58196",
+      "title": "Fall 2026 graduation-project poster and presentation",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v",
+      "posted": "2026-11-02",
+      "selection": "Current student procedure",
+      "source_hash": "6b47dd5aaef786ca972ea32281c039a6bf9b2133e78641f45c55bc009be59076",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "No checked English HTML gives the ECE graduation-project poster upload, printing condition, panel setup and presentation procedure.",
+      "student_impact": "The poster-upload deadline and later presentation are separate; attending later does not recover the printing deadline.",
+      "quote": "11월 9일(월) 23:59 이후에는 자체적으로 자비로 출력해오셔야 합니다.",
+      "english_labelled_files": [],
+      "attachment_finding": "No explicitly English-labelled file identified; file contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    },
+    {
+      "key": "procedure-58200",
+      "notice_id": "58200",
+      "title": "Winter 2026 tuition payment and refunds",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v",
+      "posted": "2026-11-05",
+      "selection": "Current student procedure",
+      "source_hash": "79627d9425bcd933a7bb75dc43c782f718eea1d16e541a7b038ba8596e778203",
+      "status": "no_procedure_match_in_checked_html",
+      "reason": "The English tuition post is for Spring 2026 enrolled-student tuition, not Winter 2026 session payment/refunds. The Korean Winter notice does list an English PDF.",
+      "student_impact": "English material exists, but students must find it through the Korean page; its contents remain unread in this audit.",
+      "quote": "붙임 2026학년도 동계 계절수업 수강료 납부 안내문(국문/영문)",
+      "english_labelled_files": [
+        "[Eng] Winter 2026 Session Payment & Refunds Information.pdf"
+      ],
+      "attachment_finding": "English-labelled filename(s); contents unread",
+      "translation_delay_days": null,
+      "delay_note": "No matched English procedure was found in this snapshot. Publication delay cannot be measured from this result."
+    }
+  ],
+  "language": [
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=58215&md=v",
+      "source_hash": "c1251d0373e839a858cb40677aea33dd69d2d4715d92c1af1d67c92c59a61817",
+      "classification": "korean_instructions",
+      "quote": "2. KB국민은행과 (사)밥일꿈이 주최하는「Asia K-Banker School」프로그램을 아래와 같이 안내드립니다.",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=58118&md=v",
+      "source_hash": "3fc79ccbfa24b61c83dd5e3ddd53b6b12e2b84f5b14860289b57358511ac2082",
+      "classification": "english_text_present",
+      "quote": "SNU Global EDGE Fellowship Program for Fall 2026",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=58105&md=v",
+      "source_hash": "69bb79d87e63d7e6d17537a829de6e2be57fae97a0f0161bfd4841a519cdf25d",
+      "classification": "english_text_present",
+      "quote": "◦ Eligibility: International Undergraduate Students currently enrolled in the College of",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=58090&md=v",
+      "source_hash": "03964a5b42a769bfa463b0f17b39da33b872fd402379643b73a02895b7131c18",
+      "classification": "english_text_present",
+      "quote": "A. Recruitment and Selection of Participants",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=58088&md=v",
+      "source_hash": "62d576a0322d5d98bfbbb70b9bef76c729498591d80c5092d5edb8702518cad4",
+      "classification": "english_text_present",
+      "quote": "SNU Global EDGE Fellowship Program for Fall 2026",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=58049&md=v",
+      "source_hash": "ca77dac790983e636c29d6e99aaea7e160c8de5156be85ef5993251960340af2",
+      "classification": "english_text_present",
+      "quote": "<SNU Plus Mentoring Program>",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57964&md=v",
+      "source_hash": "1326c1982d4cf673b62267d7936f82a217141e4333d1684fab9f6cff660c24e0",
+      "classification": "english_text_present",
+      "quote": "Attached: Fall 2026 Course list",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57903&md=v",
+      "source_hash": "89c69142d657a3813fbe020465ad038efa3c9659ab710a35ed2a6c5f8d444ad4",
+      "classification": "english_text_present",
+      "quote": "To support the career development of international researchers,",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57852&md=v",
+      "source_hash": "da5b136998baa534a7df0a002d3528d6fa95c6d3bfc147c9c9ccc514bd77dba0",
+      "classification": "english_text_present",
+      "quote": "- The Ofice of Global Afairs (OGA) charges an administrative service fee to Visiting Student Researchers to suport visa-related administrative asistance,",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57834&md=v",
+      "source_hash": "fbc99586cfebb3930de43fbc4c5ae08653f1b7645ba9e9cac95cae76dd1d4ba2",
+      "classification": "korean_instructions",
+      "quote": "1. 관련: 서울대학교 RISE 사업단-2368(2026. 6. 18.)",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57799&md=v",
+      "source_hash": "a37d22389af550d454e99daca3c00a05607d77b1611f8392c07f13ca60770a7d",
+      "classification": "english_text_present",
+      "quote": "The application system for the Certificate of Admission for the upcoming 2026 Fall semester is now open.",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57789&md=v",
+      "source_hash": "0c8ebab486e8e5616aaebce04edea8ff8f5df2430c88a71e9a0bc11b0521fe48",
+      "classification": "english_text_present",
+      "quote": "This seminar is designed for students who aspire to become global leaders by proactively solving real-world engineering challenges.",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57737&md=v",
+      "source_hash": "74360d3d34284a698dcc19b18c5eb6f56cadc63c9924421dcc3e2acfe62d44b4",
+      "classification": "english_text_present",
+      "quote": "SNU Global EDGE Fellowship Program for Spring 2026",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57707&md=v",
+      "source_hash": "cf56078fdc45c0fc8076d28088ce303d26221c25ceabfdd0597a3c2231e46f30",
+      "classification": "english_text_present",
+      "quote": "Request for Nomination of Outstanding Candidates for the “K-STAR Visa Track”, Spring Semester 2026, Seoul National University",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57677&md=v",
+      "source_hash": "3c4a85231a032aac1e6be1a1dbedf9d3c4e5a268855f9e95ace519e93dee7b36",
+      "classification": "english_text_present",
+      "quote": "The Korea Institute of Human Resources Development in Science and Technology (KIRD) is recruiting leaders (group facilitators) for the 2026",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57656&md=v",
+      "source_hash": "837f555fc3427203279823f8f2b6b27b7d23f336db097746d082ce237c3aa3d4",
+      "classification": "english_text_present",
+      "quote": "※ Available in seven languages: Korean, English, Chinese, Vietnamese, Mongolian, Uzbek, and Nepali",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57638&md=v",
+      "source_hash": "2e5a497313b97147725da5fa06d824003c312f7c425def76e0f7b4420e12de06",
+      "classification": "english_text_present",
+      "quote": "A. Recruitment and Selection of Participants",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57597&md=v",
+      "source_hash": "1444bc49c931c87fad953a33974fe89183bddcdd16255b763ef900d85f5d0e5e",
+      "classification": "english_text_present",
+      "quote": "<SNU Plus Mentoring Program>",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57559&md=v",
+      "source_hash": "6d173daabc0bbc06d0d1091ab90df9ea4936e4e5441b57e0c4483d1bdd2fd0d5",
+      "classification": "korean_instructions",
+      "quote": "국립국제교육원에서 GKS 장학생의 온·오프라인 네트워크 활성화를 위해 동문회 지원 활동을 성실히 수행할 GKS 버디를 모집합니다.",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57534&md=v",
+      "source_hash": "c255d2b8f720c9555388422e6d53ced71dced5178d955c9a2f1bf8be2a8b39a3",
+      "classification": "image_only_unread",
+      "quote": "",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57430&md=v",
+      "source_hash": "b27b097ed17b192d45c94650ce404c33828a3e358f01c45c2035c55ab65c61c8",
+      "classification": "english_text_present",
+      "quote": "Tuition Payment Periods",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57424&md=v",
+      "source_hash": "4783d1975d103d5467324252aed3ea5847dd2884432de15ab946a689a436db00",
+      "classification": "english_text_present",
+      "quote": "Attached: Spring 2026 Course list",
+      "note": "Language of readable HTML only. This is not a claim that all required information or attachments are translated."
+    }
+  ],
+  "positive_examples": [
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=58118&md=v",
+      "title": "[deadline extended] SNU Global EDGE Fellowship Program for Fall 2026",
+      "posted": "2026-10-03",
+      "description": "An English fellowship notice explicitly communicates an extended deadline."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57430&md=v",
+      "title": "Tuition Payment Guide for Enrolled Students, Spring Semester 2026",
+      "posted": "2026-02-09",
+      "description": "English Spring tuition guidance exists, with an English-labelled PDF."
+    },
+    {
+      "source_url": "https://ece.snu.ac.kr/en/community/notice?bbsidx=57964&md=v",
+      "title": "Fall 2026 ECE Courses Offered in English",
+      "posted": "2026-08-12",
+      "description": "An English introduction links to a Fall English-course list."
+    }
+  ]
+}

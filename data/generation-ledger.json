@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "budget_id": "baze-gpt-2026-11-10-30days",
+  "cap_micros": 10000000,
+  "expires_at": "2026-12-10T05:25:50Z",
+  "runs": []
+}
