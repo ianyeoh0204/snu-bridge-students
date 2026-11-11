@@ -1161,6 +1161,7 @@ export default function StudentHome() {
           AI explanations may contain errors. The current official notice
           controls.
         </p>
+        <a href="./project/">About SNU Bridge</a>
         <a href="./updates/">Optional update feed</a>
         <Link href={official}>Official ECE board</Link>
       </footer>

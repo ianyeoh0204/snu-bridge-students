@@ -1,3 +1,4 @@
+import { buildProject } from './render-project.mjs';
 import { buildUpdates } from './export-updates.mjs';
 import { buildEvidence } from './render-evidence.mjs';
 import fs from "node:fs";
@@ -57,5 +58,6 @@ console.log(
 );
 
 buildEvidence();
+buildProject();
 
 buildUpdates(data);

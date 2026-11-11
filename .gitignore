@@ -13,3 +13,6 @@ public/evidence/index.html
 public/evidence/audit.json
 public/evidence/comparisons.csv
 public/updates/
+
+# Presentation HTML is built from current public source/evidence data.
+public/project/index.html

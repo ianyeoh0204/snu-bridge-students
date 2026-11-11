@@ -1713,3 +1713,17 @@ details p {
     animation: none !important;
   }
 }
+
+/* Small, optional motion for the student service. Content never waits for scrolling. */
+@media (prefers-reduced-motion: no-preference) {
+  .action-card, .notice-tile, .detail, .chat-dialog {
+    animation: bridge-content-in 180ms ease-out both;
+  }
+  .action-card, .notice-tile, .degree-tabs button, .track-tabs button {
+    transition: border-color 160ms ease, background-color 160ms ease;
+  }
+  @keyframes bridge-content-in {
+    from { opacity: .65; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
