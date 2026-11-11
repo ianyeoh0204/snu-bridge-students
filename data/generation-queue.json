@@ -44,5 +44,39 @@
     "source_hash": "5323d4e452f43dfb5f1d06dfba9dd02286be7222647ca25ecf5a71914930d127",
     "status": "complete",
     "at": "2026-11-10T09:03:26.788Z"
+  },
+  {
+    "notice_id": "58128",
+    "source_hash": "3f06d897412718bca29c7a23d3cc68478272210d40e9adfe8e3ab0f917775d13",
+    "status": "needs_review",
+    "error": "action evidence is absent from the actual source",
+    "at": "2026-11-11T01:57:46.529Z",
+    "retry": "No automatic repeat for this source version."
+  },
+  {
+    "notice_id": "58127",
+    "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
+    "status": "complete",
+    "at": "2026-11-11T01:58:17.396Z"
+  },
+  {
+    "notice_id": "58122",
+    "source_hash": "623d8587a46816cb32ba3480590cb9a2609b7f1414eab393cdc57837798f88bf",
+    "status": "complete",
+    "at": "2026-11-11T01:58:58.836Z"
+  },
+  {
+    "notice_id": "58123",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "status": "complete",
+    "at": "2026-11-11T01:59:42.851Z"
+  },
+  {
+    "notice_id": "57944",
+    "source_hash": "90346f5976a9ebf43ef6ee112530df6e4da0e0d7ca20ff50f2c14d69fa256cec",
+    "status": "needs_review",
+    "error": "Empty action audience or steps",
+    "at": "2026-11-11T02:01:16.779Z",
+    "retry": "No automatic repeat for this source version."
   }
 ]

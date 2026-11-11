@@ -1076,5 +1076,143 @@
       ],
       "method": "Full source supplied to each degree-specific part; automated checks only."
     }
+  },
+  {
+    "notice_id": "58127",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v",
+    "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
+    "source_checked_at": "2026-11-11T01:56:06.202Z",
+    "source_changed": false,
+    "generated_at": "2026-11-11T01:58:17.395Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "Traffic Restrictions for the SNU 80th Anniversary KBS Open Concert",
+    "summary": "Campus parking and vehicle access will be restricted in designated areas for the SNU 80th Anniversary KBS Open Concert. Restrictions differ by location and time; scheduled route buses will operate normally during the stated general-vehicle closure.",
+    "period": "October 8–14, 2026",
+    "topic": "Campus parking and vehicle access restrictions",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "steps": [
+      "Check the restrictions below before driving or parking in the affected areas.",
+      "Consult the attached map for exact restriction boundaries and plan alternative parking or access."
+    ],
+    "notes": [
+      "All times are Korea Standard Time (KST).",
+      "The attachment “(붙임) 교통 통제 상세 안내도.pdf” was listed but was not processed. Exact restriction boundaries should be checked in that file.",
+      "These are traffic-control dates, not a stated concert schedule."
+    ],
+    "evidence_quote": "「개교 80주년 KBS 열린음악회」행사의 안전한 진행을 위하여, 아래와 같이 학내 교통을\n통제하오니 참고하여 주시기 바랍니다.",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1276,
+          "output_tokens": 1958,
+          "estimated_micros": 22132
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
+  },
+  {
+    "notice_id": "58122",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58122&md=v",
+    "source_hash": "623d8587a46816cb32ba3480590cb9a2609b7f1414eab393cdc57837798f88bf",
+    "source_checked_at": "2026-11-11T01:56:07.983Z",
+    "source_changed": false,
+    "generated_at": "2026-11-11T01:58:58.836Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "Exam-Period Library Shuttle Expansion and Late-Night Route Changes",
+    "summary": "Additional evening library shuttle capacity and a revised late-night timetable and route apply during two exam-period service windows. Weekends and public holidays are excluded.",
+    "period": "2026: October 12–30 and November 30–December 14; excluding weekends and public holidays",
+    "topic": "Exam-period shuttle service changes",
+    "degrees": [
+      "undergraduate"
+    ],
+    "steps": [
+      "For the evening library shuttle, note that Administration Building → Seoul National University Station increases from 2 to 3 buses; Administration Building → Daehak-dong remains at 2 buses.",
+      "Use the unchanged library shuttle departure times: 21:10, 21:40, 22:10, 22:40 and 23:10.",
+      "For the late-night shuttle from Building 302, use departures at 23:40, followed after midnight by 00:15, 00:50, 01:25 and 02:00. One bus operates at 35-minute intervals, replacing the previous 30-minute intervals.",
+      "On the revised late-night route, note the added Outdoor Amphitheater (노천강당) stop between the Graduate School of International Studies and the dormitories."
+    ],
+    "notes": [
+      "The notice is labeled undergraduate; its body does not state a degree-based boarding restriction.",
+      "Both service windows exclude weekends and public holidays. The notice does not explain how this exclusion applies to departures after midnight."
+    ],
+    "evidence_quote": "○ 운영기간 (주말 및 공휴일 제외)\n- 1차: 2026. 10. 12.(월) ~ 10. 30.(금)\n- 2차: 2026. 11. 30.(월) ~ 12. 14.(월)",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1447,
+          "output_tokens": 1983,
+          "estimated_micros": 22724
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
+  },
+  {
+    "notice_id": "58123",
+    "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "source_checked_at": "2026-11-11T01:56:06.875Z",
+    "source_changed": false,
+    "generated_at": "2026-11-11T01:59:42.851Z",
+    "review_status": "AI draft — not independently reviewed",
+    "english_kind": "Action brief, not a complete official translation",
+    "title": "Planned Hanwha Aerospace Winter 2026 Undergraduate Practicum: Speaking Test Score Required",
+    "summary": "The Department of Aerospace Engineering plans to offer a recruitment-linked practicum at Hanwha Aerospace. Applicants must meet the listed major, year and speaking-test requirements and submit through both the department and Hanwha recruitment system. The program and schedule remain tentative and may change.",
+    "period": "2026 winter session; practicum December 28, 2026–January 28, 2027",
+    "topic": "Recruitment-linked winter industry practicum",
+    "degrees": [
+      "undergraduate"
+    ],
+    "steps": [
+      "Check the major, year-level and speaking-test requirements before applying.",
+      "Submit the application to Aerospace Engineering administration and the required documents to Hanwha’s recruitment system during October 15–19, 2026.",
+      "Follow the conditional interview, selection, tuition-payment and screening stages below.",
+      "For application instructions, contact Kim Wan-young: perfect@snu.ac.kr / 02-880-9357."
+    ],
+    "notes": [
+      "This is a planned program, not a confirmed offering; details may change. Meeting the listed conditions does not establish eligibility or guarantee selection or employment.",
+      "Applicants must be in Aerospace Engineering, Electrical Engineering, Mechanical Engineering, Computer Engineering or Industrial Engineering AND be in their third year or above AND hold a valid TOEIC Speaking OR OPIc score. Students expecting to graduate in February or August 2027 receive priority.",
+      "The speaking-test score must be valid as of the document deadline, tentatively October 19, 2026. No minimum score is stated.",
+      "Planned R&D quotas are 2–3 students per listed category: Aviation Division—materials in Pangyo; LS Division—mechanical/aerospace and electrical/electronics in Changwon; PGM Division—mechanical/aerospace, electrical/electronics and software/computing in Daejeon.",
+      "The practicum is described as “현장실습 3 / 150시간 이상”: at least 150 hours are required. The notice does not explicitly state a credit value.",
+      "No time-of-day cutoff is stated. The November interview and selection dates do not extend or reopen the October application period."
+    ],
+    "evidence_quote": "3. 학생요건\n- 전공: 항공우주공학, 전기공학, 기계공학, 컴퓨터공학, 산업공학\n- 학년 3학년 이상( 2027년2월 및 8월 졸업예정자 우선)\n- 공인어학성적 보유 필수(TOEIC Speaking 또는 OPIc에 한함) *서류접수마감일(10/19(월)예정) 기준 유효성적에 한하여 인정",
+    "reading_note": "HTML read. Images and attachments have not been read; material in them may change the answer.",
+    "generation": {
+      "provider": "baze",
+      "model": "gpt-6.1-sol",
+      "parts": [
+        "all"
+      ],
+      "usage": [
+        {
+          "input_tokens": 1620,
+          "output_tokens": 3063,
+          "estimated_micros": 33870
+        }
+      ],
+      "method": "Full source supplied to each degree-specific part; automated checks only."
+    }
   }
 ]

@@ -1036,5 +1036,323 @@
     "importance": "conditional",
     "source_hash": "5323d4e452f43dfb5f1d06dfba9dd02286be7222647ca25ecf5a71914930d127",
     "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58127-all-0",
+    "notice_id": "58127",
+    "title": "Avoid parking and passage at the main athletic field side-road parking area",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": "2026-10-08T21:00:00+09:00",
+    "end": "2026-10-14T23:59:00+09:00",
+    "date_label": "October 8, 2026, 21:00–October 14, 2026, 23:59 KST",
+    "date_quote": "10. 8.(목) 21:00 ~ 10. 14.(수) 23:59",
+    "evidence_quote": "1 | 대운동장 사잇길 주차장 | 10. 8.(목) 21:00 ~ 10. 14.(수) 23:59 | - 주차 및 통행 불가",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "minute",
+    "conditions_note": "Applies if you plan to park in or pass through 대운동장 사잇길 주차장 during this period.",
+    "conditions": {},
+    "steps": [
+      "Do not park in or pass through this parking area during the restriction."
+    ],
+    "importance": "conditional",
+    "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58127-all-1",
+    "notice_id": "58127",
+    "title": "Use alternative parking instead of the Main Gate riverside temporary lot",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": "2026-10-08T21:00:00+09:00",
+    "end": "2026-10-14T23:59:00+09:00",
+    "date_label": "October 8, 2026, 21:00–October 14, 2026, 23:59 KST",
+    "date_quote": "10. 8.(목) 21:00 ~ 10. 14.(수) 23:59",
+    "evidence_quote": "2 | 정문 천변 임시주차장 | 10. 8.(목) 21:00 ~ 10. 14.(수) 23:59 | - 주차 불가",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "minute",
+    "conditions_note": "Applies if you plan to park at the Main Gate riverside temporary parking lot (정문 천변 임시주차장).",
+    "conditions": {},
+    "steps": [
+      "Do not park in this lot during the restriction."
+    ],
+    "importance": "conditional",
+    "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58127-all-2",
+    "notice_id": "58127",
+    "title": "Do not park between Main Gate B payment booth and the Business Administration intersection",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": "2026-10-11T21:00:00+09:00",
+    "end": "2026-10-13T23:59:00+09:00",
+    "date_label": "October 11, 2026, 21:00–October 13, 2026, 23:59 KST",
+    "date_quote": "10. 11.(일) 21:00 ~ 10. 13.(화) 23:59",
+    "evidence_quote": "3 | 정문 B정산소 ~ 경영대앞삼거리(G9 인근) | 10. 11.(일) 21:00 ~ 10. 13.(화) 23:59 | - 주차 불가",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "minute",
+    "conditions_note": "Applies if you plan to park along the section from 정문 B정산소 to 경영대앞삼거리, near G9.",
+    "conditions": {},
+    "steps": [
+      "Use parking outside this restricted section during the stated period."
+    ],
+    "importance": "conditional",
+    "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58127-all-3",
+    "notice_id": "58127",
+    "title": "Avoid driving through the Main Gate B–Business Administration section during the vehicle closure",
+    "kind": "event",
+    "degrees": [
+      "undergraduate",
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": "2026-10-13T21:30:00+09:00",
+    "end": "2026-10-13T22:30:00+09:00",
+    "date_label": "October 13, 2026, 21:30–22:30 KST",
+    "date_quote": "10. 13.(화) 21:30 ~ 22:30",
+    "evidence_quote": "3 | 정문 B정산소 ~ 경영대앞삼거리(G9 인근) | 10. 11.(일) 21:00 ~ 10. 13.(화) 23:59 | - 주차 불가\n10. 13.(화) 21:30 ~ 22:30 | - 일반차량 통행 불가 - 노선버스 정상 운행",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "minute",
+    "conditions_note": "Applies to general vehicles traveling between 정문 B정산소 and 경영대앞삼거리 near G9. Scheduled route buses are excepted and will operate normally.",
+    "conditions": {},
+    "steps": [
+      "Use an alternative driving route during the closure.",
+      "If traveling by scheduled route bus, note that normal operation is stated."
+    ],
+    "importance": "conditional",
+    "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58122-all-0",
+    "notice_id": "58122",
+    "title": "Use the revised shuttle services during the first window",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-10-12",
+    "end": "2026-10-30",
+    "date_label": "October 12–30, 2026; excluding weekends and public holidays",
+    "date_quote": "- 1차: 2026. 10. 12.(월) ~ 10. 30.(금)",
+    "evidence_quote": "시험기간 중 야간 도서관 노선 셔틀버스에 대한 증차 및 심야셔틀의 노선을 변경하여 아래와 같이 운영하오니 참고하여 주시기 바랍니다.\n○ 운영기간 (주말 및 공휴일 제외)\n- 1차: 2026. 10. 12.(월) ~ 10. 30.(금)",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "day",
+    "conditions_note": "If using these shuttles during the first window, follow the revised service arrangements. Weekends and public holidays are excluded; no degree-based boarding restriction is stated.",
+    "conditions": {},
+    "steps": [
+      "Check your route and use the revised service details above on operating days."
+    ],
+    "importance": "conditional",
+    "source_hash": "623d8587a46816cb32ba3480590cb9a2609b7f1414eab393cdc57837798f88bf",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58122-all-1",
+    "notice_id": "58122",
+    "title": "Use the revised shuttle services during the second window",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-11-30",
+    "end": "2026-12-14",
+    "date_label": "November 30–December 14, 2026; excluding weekends and public holidays",
+    "date_quote": "- 2차: 2026. 11. 30.(월) ~ 12. 14.(월)",
+    "evidence_quote": "○ 운영기간 (주말 및 공휴일 제외)\n- 1차: 2026. 10. 12.(월) ~ 10. 30.(금)\n- 2차: 2026. 11. 30.(월) ~ 12. 14.(월)",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "day",
+    "conditions_note": "If using these shuttles during the second window, follow the revised service arrangements. Weekends and public holidays are excluded; no degree-based boarding restriction is stated.",
+    "conditions": {},
+    "steps": [
+      "Check your route and use the revised service details above on operating days."
+    ],
+    "importance": "conditional",
+    "source_hash": "623d8587a46816cb32ba3480590cb9a2609b7f1414eab393cdc57837798f88bf",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58123-all-0",
+    "notice_id": "58123",
+    "title": "Submit both required applications",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-10-15",
+    "end": "2026-10-19",
+    "date_label": "October 15–19, 2026; planned application window",
+    "date_quote": "- 수강신청: 2026.10.15.(목)~10.19.(월)",
+    "evidence_quote": "- 수강신청: 2026.10.15.(목)~10.19.(월)\n* 항공우주공학과 행정실로 신청서 제출 및 한화 채용시스템에도 반드시 동시에 서류를 접수해야 함.",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "day",
+    "conditions_note": "For prospective undergraduate applicants in one of the five listed majors, in third year or above, with a TOEIC Speaking OR OPIc score valid on the tentative October 19 document deadline. February or August 2027 prospective graduates receive priority. Both submission channels are mandatory.",
+    "conditions": {},
+    "steps": [
+      "Submit the application form to the Department of Aerospace Engineering administration.",
+      "Also submit the required documents through Hanwha’s recruitment system concurrently.",
+      "Ensure the accepted speaking-test score remains valid on the document deadline."
+    ],
+    "importance": "conditional",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58123-all-1",
+    "notice_id": "58123",
+    "title": "Attend the interview if invited",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-11-04",
+    "end": "2026-11-06",
+    "date_label": "One day during November 4–6, 2026; tentative",
+    "date_quote": "- 실무면접: 2026.11.4.(수)~11.6.(금) 중 하루 * 한화에어로스페이스 서울 근무지에서 진행 예정.",
+    "evidence_quote": "- 실무면접: 2026.11.4.(수)~11.6.(금) 중 하루 * 한화에어로스페이스 서울 근무지에서 진행 예정.",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "day",
+    "conditions_note": "For applicants proceeding to interview. The range is a scheduling window for a one-day interview, not a three-day attendance requirement. The planned venue is Hanwha Aerospace’s Seoul workplace.",
+    "conditions": {},
+    "steps": [
+      "Confirm your assigned interview date and venue.",
+      "Attend on the assigned day within the stated window."
+    ],
+    "importance": "conditional",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58123-all-2",
+    "notice_id": "58123",
+    "title": "Check final selection",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-11-20",
+    "end": null,
+    "date_label": "November 20, 2026; tentative final selection",
+    "date_quote": "- 최종선발: 2026. 11. 20.(금) 예정",
+    "evidence_quote": "- 최종선발: 2026. 11. 20.(금) 예정 * 11/23(월)까지 수강료를 반드시 납부해야 함.",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "unknown",
+    "conditions_note": "For applicants in the selection process. November 20 is a tentative selection date, not an additional application deadline.",
+    "conditions": {},
+    "steps": [
+      "Check your selection outcome and any subsequent instructions."
+    ],
+    "importance": "conditional",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58123-all-3",
+    "notice_id": "58123",
+    "title": "Pay tuition if selected",
+    "kind": "deadline",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": "2026-11-23",
+    "date_label": "By November 23, 2026; no cutoff time stated",
+    "date_quote": "11/23(월)까지 수강료를 반드시 납부해야 함.",
+    "evidence_quote": "- 최종선발: 2026. 11. 20.(금) 예정 * 11/23(월)까지 수강료를 반드시 납부해야 함.",
+    "precision": "day",
+    "start_precision": "unknown",
+    "end_precision": "day",
+    "conditions_note": "For students selected for the planned practicum. Tuition payment is mandatory by the stated date.",
+    "conditions": {},
+    "steps": [
+      "Follow the payment instructions and pay tuition by November 23."
+    ],
+    "importance": "conditional",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58123-all-4",
+    "notice_id": "58123",
+    "title": "Follow background-check and employment medical-examination instructions",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "December 2026; exact dates not stated",
+    "date_quote": "- 신원조회 결과 확인 및 채용검진 진행: 12월 중",
+    "evidence_quote": "- 신원조회 결과 확인 및 채용검진 진행: 12월 중\n* 당사는 방산기업으로서, 법령에 의거하여 신원조회 절차가 전형 내에 포함되어 있음.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For participants proceeding through these screening stages. The notice states that a legally based background-check procedure forms part of selection because Hanwha Aerospace is a defense company.",
+    "conditions": {},
+    "steps": [
+      "Check the detailed December schedule for background-check result confirmation and the employment medical examination.",
+      "Follow the instructions for the screening stages applicable to you."
+    ],
+    "importance": "conditional",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58123-all-5",
+    "notice_id": "58123",
+    "title": "Complete the practicum if selected and cleared",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-12-28",
+    "end": "2027-01-28",
+    "date_label": "December 28, 2026–January 28, 2027; planned",
+    "date_quote": "2. 실습기간: 2026. 12. 28. ~2027.1.28. (현장실습 3 / 150시간 이상)",
+    "evidence_quote": "1. 실습기관명: 한화에어로스페이스(채용연계형)\n2. 실습기간: 2026. 12. 28. ~2027.1.28. (현장실습 3 / 150시간 이상)",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "day",
+    "conditions_note": "For students ultimately authorized to participate in the planned recruitment-linked Hanwha Aerospace practicum. At least 150 practicum hours are required; participation does not guarantee employment.",
+    "conditions": {},
+    "steps": [
+      "Confirm the finalized placement and work schedule.",
+      "Complete at least 150 practicum hours during the planned period."
+    ],
+    "importance": "conditional",
+    "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+    "review_status": "AI_source_checked_not_human_reviewed"
   }
 ]
