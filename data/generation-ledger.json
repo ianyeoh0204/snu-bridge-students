@@ -617,7 +617,65 @@
           "reserved_micros": 185690
         }
       ],
-      "status": "reserved"
+      "status": "complete",
+      "attempts": [
+        {
+          "notice_id": "58098",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 184698,
+          "usage": {
+            "input_tokens": 2022,
+            "output_tokens": 1909,
+            "estimated_micros": 23134
+          }
+        },
+        {
+          "notice_id": "58076",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 185028,
+          "usage": {
+            "input_tokens": 1972,
+            "output_tokens": 3704,
+            "estimated_micros": 40984
+          }
+        },
+        {
+          "notice_id": "58067",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 184112,
+          "usage": {
+            "input_tokens": 1816,
+            "output_tokens": 4346,
+            "estimated_micros": 47092
+          }
+        },
+        {
+          "notice_id": "58075",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 179908,
+          "usage": {
+            "input_tokens": 1184,
+            "output_tokens": 1106,
+            "estimated_micros": 13428
+          }
+        },
+        {
+          "notice_id": "58055",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 185690,
+          "usage": {
+            "input_tokens": 2073,
+            "output_tokens": 2507,
+            "estimated_micros": 29216
+          }
+        }
+      ],
+      "completed_at": "2026-11-12T03:05:16.501Z"
     }
   ]
 }

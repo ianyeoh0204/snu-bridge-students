@@ -1,33 +1,16 @@
 {
   "collector": "cloud_run",
-  "translator": "enabled_with_review_items",
+  "translator": "enabled",
   "model": "gpt-6.1-sol",
-  "pending_briefs": 55,
-  "last_attempt_at": "2026-11-11T02:01:16.782Z",
-  "generated": 3,
-  "failures": [
-    {
-      "notice_id": "58128",
-      "source_hash": "3f06d897412718bca29c7a23d3cc68478272210d40e9adfe8e3ab0f917775d13",
-      "status": "needs_review",
-      "error": "action evidence is absent from the actual source",
-      "at": "2026-11-11T01:57:46.529Z",
-      "retry": "No automatic repeat for this source version."
-    },
-    {
-      "notice_id": "57944",
-      "source_hash": "90346f5976a9ebf43ef6ee112530df6e4da0e0d7ca20ff50f2c14d69fa256cec",
-      "status": "needs_review",
-      "error": "Empty action audience or steps",
-      "at": "2026-11-11T02:01:16.779Z",
-      "retry": "No automatic repeat for this source version."
-    }
-  ],
+  "pending_briefs": 50,
+  "last_attempt_at": "2026-11-12T03:05:16.502Z",
+  "generated": 5,
+  "failures": [],
   "review_queue": 2,
   "budget": {
     "cap_usd": 10,
-    "reserved_upper_bounds_usd": 2.894786,
-    "accounted_usd": 0.351822,
+    "reserved_upper_bounds_usd": 3.814222,
+    "accounted_usd": 0.505676,
     "expires_at": "2026-12-10T05:25:50Z",
     "note": "Confirmed usage releases unused bounds; failures and unknown results retain reservations. US-dollar token costs are separate from gateway credit conversion/taxes. No automatic renewal."
   },

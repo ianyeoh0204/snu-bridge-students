@@ -1354,5 +1354,493 @@
     "importance": "conditional",
     "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
     "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58098-all-0",
+    "notice_id": "58098",
+    "title": "Check your module email and report delivery or address issues",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "No date stated for checking email or reporting address issues",
+    "date_quote": "",
+    "evidence_quote": "제출하신 면담확인서에 기재된 각 메일주소로 공지사항 및 소속 모듈을 보내드렸으니 확인해주시고,\n혹여나 메일을 받지못한 분들은 학생분들은 담당자 (김수진, ksj2602@snu.ac.kr) 에게 꼭 알려주시길 바랍니다.\n면담확인서에 기재한 메일주소 기준으로 보내드리고 있으니, 네이버메일 등으로 적으신 분 중 SNU계정으로 메일주소 변경할 분은 메일로 알려주세요.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For project participants whose submitted interview confirmation form contains the email address used for notices. Report nonreceipt; request an address change only if you wish to switch to your SNU account.",
+    "conditions": {},
+    "steps": [
+      "Check the email account entered on your interview confirmation form for notices and your assigned module.",
+      "If no email arrived, contact Kim Sujin at ksj2602@snu.ac.kr.",
+      "If you listed a non-SNU address and want to switch to your SNU account, notify the coordinator by email."
+    ],
+    "importance": "conditional",
+    "source_hash": "92e3e6b9891244b4e14472645588b608e9b776b466390bc5bcb538441df3d684",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58098-all-1",
+    "notice_id": "58098",
+    "title": "Attend the second interim presentation in your assigned module room",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-10-08T18:30:00+09:00",
+    "end": null,
+    "date_label": "October 8, 2026 (Thursday), 18:30 KST",
+    "date_quote": "* 2회차 10월 8일 (목) 18:30",
+    "evidence_quote": "10월 8일 목요일 졸업프로젝트 2회차 중간발표가 진행됩니다.",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "unknown",
+    "conditions_note": "For 2026 Fall Semester undergraduate Graduation Project participants, according to their emailed module assignment. Attendance is checked exactly at the start. Students unable to attend because of reserve-force duty, a conference, or similar reasons must notify the coordinator; the notice does not promise an automatic exemption.",
+    "conditions": {},
+    "steps": [
+      "Be in your assigned room by 18:30 for attendance checking; avoid unauthorized lateness or absence.",
+      "Semiconductor 1 (반도체1): Room 202; Semiconductor 2 (반도체2): Room 818; Electrical Energy (전기에너지): Room 103.",
+      "Electronic Physics (전자물리): Room 104; Communications (통신): Room 201; Control (제어): Room 302.",
+      "Computer 1 (컴퓨터1): Room 102; Computer 2 (컴퓨터2): Room 118; Bio (바이오): Room 106.",
+      "If attendance is difficult because of reserve-force duty, a conference, or another reason, notify Kim Sujin at ksj2602@snu.ac.kr."
+    ],
+    "importance": "conditional",
+    "source_hash": "92e3e6b9891244b4e14472645588b608e9b776b466390bc5bcb538441df3d684",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58098-all-2",
+    "notice_id": "58098",
+    "title": "Use the revised date for the fourth-session final poster presentation",
+    "kind": "event",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": "2026-11-20",
+    "end": null,
+    "date_label": "November 20, 2026 (Friday); changed from November 19",
+    "date_quote": "11.19(목) -> 11.20 (금)",
+    "evidence_quote": "더불어 졸업프로젝트 4회차 최종 포스터 발표회 일정이 11.19(목) -> 11.20 (금) 으로 바뀌었으니 관련 일정 함께 확인부탁드립니다. (메일확인)",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "unknown",
+    "conditions_note": "For undergraduate Graduation Project participants concerned with the fourth-session final poster presentation. November 20 replaces November 19; no start time or duration is stated here.",
+    "conditions": {},
+    "steps": [
+      "Replace November 19 with November 20 in your calendar.",
+      "Check the email notice for the final poster presentation details."
+    ],
+    "importance": "conditional",
+    "source_hash": "92e3e6b9891244b4e14472645588b608e9b776b466390bc5bcb538441df3d684",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58076-all-0",
+    "notice_id": "58076",
+    "title": "Check prerequisites and complete preliminary review in the required semester",
+    "kind": "information",
+    "degrees": [
+      "phd"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "By the end of the 2026 second semester; no exact review date stated",
+    "date_quote": "예) 2027년 1학기에 초심, 종심을 보고 2027년 8월 박사 학위수여 예정자의 경우,\n2026년 2학기까지는 예비심사를 완료해야 함.",
+    "evidence_quote": "★박사 예비심사 자격: 박사 논문제출자격시험에 합격한 자\n★박사 예비심사는 초심/ 종심 이전 학기까지 완료해야 함\n예) 2027년 1학기에 초심, 종심을 보고 2027년 8월 박사 학위수여 예정자의 경우,\n2026년 2학기까지는 예비심사를 완료해야 함.\n1. 대상: 2027년 8월 박사학위수여예정자(2027년 8월 졸업)",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For expected August 2027 doctoral graduates. Preliminary review requires passing the doctoral thesis-submission qualification examination and must be completed by the semester before first review (초심) and final review (종심).",
+    "conditions": {},
+    "steps": [
+      "Confirm that you have passed the doctoral thesis-submission qualification examination.",
+      "For first review (초심) and final review (종심) in the first semester of 2027, complete preliminary review (예비심사) by the second semester of 2026.",
+      "Check the review arrangements separately; this notice does not state an exact preliminary-review session date."
+    ],
+    "importance": "conditional",
+    "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58076-all-1",
+    "notice_id": "58076",
+    "title": "Submit the committee appointment report",
+    "kind": "deadline",
+    "degrees": [
+      "phd"
+    ],
+    "start": "2026-10-12",
+    "end": "2026-10-26",
+    "date_label": "October 12–26, 2026",
+    "date_quote": "가. [붙임 01] 위원위촉보고서: 2026. 10. 12.(월) ~ 10. 26.(월)",
+    "evidence_quote": "1. 대상: 2027년 8월 박사학위수여예정자(2027년 8월 졸업)\n2. 제출서류\n가. [붙임 01] 위원위촉보고서: 2026. 10. 12.(월) ~ 10. 26.(월)",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "day",
+    "conditions_note": "For expected August 2027 doctoral graduates proceeding with preliminary review after passing the doctoral thesis-submission qualification examination.",
+    "conditions": {},
+    "steps": [
+      "Prepare Attachment 01, the committee appointment report (위원위촉보고서), using the notice's committee rules.",
+      "Submit it to the ECE Administration Office, Building 301, Room 319, attention: Hansoo Park, within the stated window."
+    ],
+    "importance": "conditional",
+    "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58076-all-2",
+    "notice_id": "58076",
+    "title": "Apply the preliminary-review committee rules",
+    "kind": "information",
+    "degrees": [
+      "phd"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Committee rules for preliminary review; next-semester final-review changes also noted",
+    "date_quote": "* 참고: 다음 학기에는(논문심사 종심 진행) 2명의 심사위원이 추가되어, 심사위원은 5명이고 지도교수가 부위원장이 됩니다.",
+    "evidence_quote": "가. 위원위촉보고서 작성 시, 서울대학교 소속 교수는 모두 내부위원으로 간주합니다.\n나. 예심에서의 위원장은 지도교수입니다.\n* 참고: 다음 학기에는(논문심사 종심 진행) 2명의 심사위원이 추가되어, 심사위원은 5명이고 지도교수가 부위원장이 됩니다.\n★ 심사위원 자격 ∙ 본교의 전임교원, 기금교원, HK교원, 비전임교원 ∙ 박사학위를 소지한 교외의 전문가로서 아래 각 항목의 하나에 해당하는 자 ㈀ 타교 교원 : 조교수 이상 ㈁ 연구기관 연구원 : 박사학위 취득 후 2년 이상 연구 분야에 근무한 자 ※ 외부위원이 위촉되어도 무관 ※ 서울대 명예교수도 심사위원으로 위촉 가능",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For committee preparation under this doctoral preliminary-review notice. The next-semester five-member arrangement concerns final review (종심), not preliminary review (예비심사).",
+    "conditions": {},
+    "steps": [
+      "Classify all SNU-affiliated professors as internal members; the academic advisor chairs preliminary review.",
+      "Check reviewer qualifications: SNU full-time, fund-supported, HK or non-full-time faculty; SNU emeritus professors may also be appointed.",
+      "An external expert must hold a doctorate AND be either an assistant professor or higher at another university OR a research-institute researcher with at least two years of research-field work after the doctorate. External members are permitted, not required.",
+      "For final review (종심) in the following semester, two reviewers are added, making five members, and the advisor becomes vice-chair."
+    ],
+    "importance": "conditional",
+    "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58076-all-3",
+    "notice_id": "58076",
+    "title": "Submit the supervision and publication documents in the required order",
+    "kind": "deadline",
+    "degrees": [
+      "phd"
+    ],
+    "start": "2026-12-14",
+    "end": "2027-01-22",
+    "date_label": "December 14, 2026–January 22, 2027",
+    "date_quote": "나. [붙임 02] 논문지도결과보고서, 국제학술지게재확인서: 2026. 12. 14.(월) ~ 2027. 1. 22.(금)",
+    "evidence_quote": "1. 대상: 2027년 8월 박사학위수여예정자(2027년 8월 졸업)\n2. 제출서류\n가. [붙임 01] 위원위촉보고서: 2026. 10. 12.(월) ~ 10. 26.(월)\n나. [붙임 02] 논문지도결과보고서, 국제학술지게재확인서: 2026. 12. 14.(월) ~ 2027. 1. 22.(금)\n★ 국제학술지 실적이 있는 경우, ③번 서류도 함께 제출. 실적이 없으면 ①~②번 서류만 제출\n※ 1~3번 서류: 아래 순서대로 제출해주세요.\n① 논문지도 결과보고서\n② 국제학술지 게재 확인서\n③ (해당자에 한함) 논문 첫 페이지 사본 ※ 형광펜 표시 필수: 본인 이름 / 지도교수 이름 / 논문지(또는 학술대회) 이름",
+    "precision": "day",
+    "start_precision": "day",
+    "end_precision": "day",
+    "conditions_note": "For expected August 2027 doctoral graduates proceeding with preliminary review. Both published and not-yet-published students must submit documents ① and ②; document ③ is required only when there is an international-journal publication record.",
+    "conditions": {},
+    "steps": [
+      "Submit in this order: ① thesis-supervision results report, ② international-journal publication verification, ③ paper first-page copy if applicable.",
+      "If you have no publication record, submit only ① and ②. Complete the '논문이 게재되지 않은 경우' section at the bottom of ② with the advisor's signature or seal.",
+      "If you have a publication record, enter and submit only one record. On the required first-page copy, highlight your name, your advisor's name, and the journal or conference name.",
+      "Submit the documents to the ECE Administration Office, Building 301, Room 319, attention: Hansoo Park, within the stated window."
+    ],
+    "importance": "conditional",
+    "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58067-all-0",
+    "notice_id": "58067",
+    "title": "Submit a withdrawal or continuation form in your second semester",
+    "kind": "deadline",
+    "degrees": [
+      "integrated"
+    ],
+    "start": "2026-09-15",
+    "end": "2026-12-11T17:00:00+09:00",
+    "date_label": "September 15–December 11, 2026, ending at 17:00 KST",
+    "date_quote": "2026년 9월 15일 ~ 2026년 12월 11일 17:00시까지",
+    "evidence_quote": "1. 제출대상\n- 석박통합과정 학생 중 2026-2학기가 2학기째인 학생(2026년 3월 입학생 등)\n2. 제출기한\n- 2026년 9월 15일 ~ 2026년 12월 11일 17:00시까지",
+    "precision": "minute",
+    "start_precision": "day",
+    "end_precision": "minute",
+    "conditions_note": "For integrated MS–PhD students whose second semester is Fall 2026, including March 2026 entrants. Choose withdrawal if pursuing only a master's degree, or continuation if remaining in the integrated program. The separate earlier deadline applies where relevant.",
+    "conditions": {},
+    "steps": [
+      "For withdrawal: in mySNU, follow 학생서비스 > 학적변동 > 신청 > 전공/과정취소신청 > 석박사통합포기, then print the application.",
+      "On the withdrawal application, check '미수료' for this semester's completion status; add your mandatory signature and obtain your advisor's signature or seal.",
+      "For continuation: download and print the attached 지속원, add your mandatory signature, and obtain your advisor's signature or seal.",
+      "Submit the completed paper form to the responsible ECE administration staff member in Building 301, Room 319."
+    ],
+    "importance": "conditional",
+    "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58067-all-1",
+    "notice_id": "58067",
+    "title": "Submit withdrawal if you previously filed continuation but now want only a master's degree",
+    "kind": "deadline",
+    "degrees": [
+      "integrated"
+    ],
+    "start": "2026-09-15",
+    "end": "2026-12-11T17:00:00+09:00",
+    "date_label": "September 15–December 11, 2026, ending at 17:00 KST; check the earlier exception",
+    "date_quote": "2026년 9월 15일 ~ 2026년 12월 11일 17:00시까지",
+    "evidence_quote": "이미 지속원을 제출한 학생이(이전 학번 학생) 석사학위만 받고 싶다면, 위의 일정에 맞추어 포기원을 제출하시기 바랍니다.",
+    "precision": "minute",
+    "start_precision": "day",
+    "end_precision": "minute",
+    "conditions_note": "For earlier-cohort students who already submitted a continuation form but now wish to receive only a master's degree. Students covered by the February 2027 completion exception must use its earlier deadline.",
+    "conditions": {},
+    "steps": [
+      "Apply through mySNU: 학생서비스 > 학적변동 > 신청 > 전공/과정취소신청 > 석박사통합포기.",
+      "Print the application, check '미수료' for this semester's completion status, sign it, and obtain your advisor's signature or seal.",
+      "Submit it to the ECE administration office, Building 301, Room 319."
+    ],
+    "importance": "conditional",
+    "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58067-all-2",
+    "notice_id": "58067",
+    "title": "Meet the early withdrawal deadline for February 2027 master's course completion",
+    "kind": "deadline",
+    "degrees": [
+      "integrated"
+    ],
+    "start": null,
+    "end": "2026-09-23",
+    "date_label": "By the morning of September 23, 2026; exact time not stated",
+    "date_quote": "석박통합 4학기 이상 학생 중 2027년 2월에 석사 수료를 희망하는 경우, 2026년 9월 23일 오전까지 반드시 포기원 제출 바랍니다.",
+    "evidence_quote": "석박통합 4학기 이상 학생 중 2027년 2월에 석사 수료를 희망하는 경우, 2026년 9월 23일 오전까지 반드시 포기원 제출 바랍니다.",
+    "precision": "day",
+    "start_precision": "unknown",
+    "end_precision": "day",
+    "conditions_note": "For integrated MS–PhD students with four or more semesters who seek master's course completion (수료) in February 2027. The deadline is in the morning, not the end of the day.",
+    "conditions": {},
+    "steps": [
+      "Generate and print the withdrawal application through the mySNU route stated above.",
+      "Check '미수료,' sign the form, and obtain your advisor's signature or seal.",
+      "Deliver it to Building 301, Room 319 by the stated morning deadline; confirm the precise morning cutoff with the office."
+    ],
+    "importance": "conditional",
+    "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58067-all-3",
+    "notice_id": "58067",
+    "title": "Check withdrawal timing and the irreversible program-status change",
+    "kind": "information",
+    "degrees": [
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Standing timing rule; no single calendar deadline stated",
+    "date_quote": "수료 희망학기의 직전학기까지",
+    "evidence_quote": "- 석사 수료를 희망하는 경우, 학적처리 문제가 발생하지 않도록 수료 희망학기의 직전학기까지 포기원을 제출하시기 바랍니다.\n- 이미 지속원을 제출한 학생이(이전 학번 학생) 석사학위만 받고 싶다면, 위의 일정에 맞추어 포기원을 제출하시기 바랍니다.\n- 포기원을 제출하면 학적이 석사로 변경되므로, 추후 석박통합과정으로의 변경은 불가!! → 관련 공지 Click!!",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For students considering withdrawal, particularly those seeking master's course completion. The notice generally requires submission by the preceding semester and states that withdrawal changes status to master's with no later return to the integrated program.",
+    "conditions": {},
+    "steps": [
+      "Plan withdrawal by the semester before your intended master's course-completion semester.",
+      "Confirm how that rule applies alongside the special February 2027 completion instruction.",
+      "Understand the irreversible status change before submitting."
+    ],
+    "importance": "conditional",
+    "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58067-all-4",
+    "notice_id": "58067",
+    "title": "Prepare for the third-semester doctoral qualifying examination if continuing",
+    "kind": "information",
+    "degrees": [
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Third semester; exact examination dates not supplied",
+    "date_quote": "3학기 째 초에",
+    "evidence_quote": "- 2015학번 이후 석박통합과정 학생은 3학기째에 논문제출자격시험 응시가 필수이므로, 2학기 째에 반드시 포기원/지속원을 제출해야 합니다.(2026년 3월 입학생 등)\n- 석사 수료를 희망하는 경우, 학적처리 문제가 발생하지 않도록 수료 희망학기의 직전학기까지 포기원을 제출하시기 바랍니다.\n- 이미 지속원을 제출한 학생이(이전 학번 학생) 석사학위만 받고 싶다면, 위의 일정에 맞추어 포기원을 제출하시기 바랍니다.\n- 포기원을 제출하면 학적이 석사로 변경되므로, 추후 석박통합과정으로의 변경은 불가!! → 관련 공지 Click!!\n(참고) 논문제출자격시험 관련 - 지속원을 내면 3학기 째 초에 박사 논문제출자격시험 응시 자격요건을 갖추어 박사 논문제출자격시험을 치러야 합니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For the 2015-entry cohort and later, the notice requires the qualifying examination in the third semester and form submission in the second. Students submitting continuation must meet doctoral qualifying-examination eligibility requirements at the beginning of their third semester and take the examination.",
+    "conditions": {},
+    "steps": [
+      "Check the doctoral qualifying-examination eligibility requirements before the beginning of your third semester.",
+      "Obtain the examination schedule separately; this notice does not provide exact dates."
+    ],
+    "importance": "conditional",
+    "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58067-all-5",
+    "notice_id": "58067",
+    "title": "If the doctoral qualifying examination is failed, clarify withdrawal and petition options",
+    "kind": "information",
+    "degrees": [
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Any retake petition must be submitted in the semester of failure; no calendar cutoff supplied",
+    "date_quote": "해당학기에 학사위원회에 제출하여",
+    "evidence_quote": "만약 박사 논문제출자격시험에 불합격하게 되면, 그 후에 포기원을 내어 석사과정으로 졸업하게 됩니다.다만 박사 논문제출자격시험은 한 번의 기회만 부여됨이 원칙이며, 만약 불합격한 후 지도교수의 서명을 받아 청원서를 내면 학사위원회에서 그 다음 학기에 한 번의 기회를 더 줄지 논의하여 추가 기회부여 여부를 결정합니다. 불합격 시, 지도교수가 학생의 우수성을 입증하는 청원서를 해당학기에 학사위원회에 제출하여 심의를 통과하는 것을 전제로, 최대 2회의 다음 학기 재응시가 가능하나, 심의에서 한번이라도 거절된 경우에는 재응시가 불가합니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For integrated students who fail the doctoral qualifying examination. The ordinary rule is one attempt. The notice describes withdrawal to finish in the master's program, alongside conditional retake petitions. Its statements about one additional opportunity versus a maximum of two retakes conflict and need clarification.",
+    "conditions": {},
+    "steps": [
+      "Consult your advisor and the administration office about withdrawal or a possible retake petition after failure.",
+      "For a retake request, obtain the advisor's signature and have the advisor submit a petition demonstrating your excellence to the Academic Affairs Committee in the semester of failure.",
+      "Do not assume approval: committee review is required, and any rejection bars further retakes.",
+      "Confirm the permitted number of attempts before relying on either retake statement."
+    ],
+    "importance": "conditional",
+    "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58075-all-0",
+    "notice_id": "58075",
+    "title": "Check credit classification before choosing a cross-listed course",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Standing rule; no effective date stated",
+    "date_quote": "",
+    "evidence_quote": "※ 본인의 전공이 아닌 Cross-listing된 타 전공 교과목 수강 시 ‘일반선택’으로 학점인정 처리됨에 유의\n○ (학점인정) 학생이 Cross-listing 교과목을 수강한 경우, 본인이 수강신청한 각 전공 교과목을 이수한 것으로 성적표기",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For undergraduates taking cross-listed courses: the transcript records completion of the course under the major for which the student registered. A cross-listed course registered under a major other than the student's own is recognized as a general elective.",
+    "conditions": {},
+    "steps": [
+      "Check which major's course you are registering for; do not assume that another major's cross-listed version will count toward your own major."
+    ],
+    "importance": "conditional",
+    "source_hash": "f2ea9d33dc7d0f9edf232c57d0d44275d09ffbf7c9889117d21ea434433cc1cf",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58075-all-1",
+    "notice_id": "58075",
+    "title": "Use the original course number when retaking",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Standing rule; no effective date stated",
+    "date_quote": "",
+    "evidence_quote": "○ (재수강) 학생이 Cross-listing 교과목을 재수강하고자 하는 경우, 기존에 이수하였던 교과목번호로 개설되는 강좌를 신청\n※ Cross-listing 교과목인 A, B 교과목 중 A 교과목을 이수한 후 재수강하고자 하는 경우, 기존에 이수한 교과목인 A 교과목을 신청해야만 재이수 가능",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For undergraduates seeking to retake a previously completed cross-listed course: registration under the original course number is required. If A and B are cross-listed and you completed A, you must register for A—not B—for the enrollment to count as a retake.",
+    "conditions": {},
+    "steps": [
+      "Find the course number you previously completed and register for a class offered under that same number."
+    ],
+    "importance": "conditional",
+    "source_hash": "f2ea9d33dc7d0f9edf232c57d0d44275d09ffbf7c9889117d21ea434433cc1cf",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58055-all-0",
+    "notice_id": "58055",
+    "title": "Complete online registration and submit signed paper documents",
+    "kind": "deadline",
+    "degrees": [
+      "masters",
+      "phd"
+    ],
+    "start": null,
+    "end": "2026-09-21T17:00:00+09:00",
+    "date_label": "September 21, 2026, at 17:00 KST",
+    "date_quote": "제출기한: ~ 2026. 9. 21.(월) 오후 5시까지",
+    "evidence_quote": "학사-석사, 석사-박사 과정 간 이수한 학점을 통산 인정받고자 하는 대학원생 ※ 원활한 학사운영을 위해 입학 첫 학기에 신청 바랍니다. 이미 승인받은 학생은 재신청 불가!! ※ 서울대 학사과정 및 석사과정 때 이수한 학점만 신청 대상입니다(타 대학교는 해당 없음).",
+    "precision": "minute",
+    "start_precision": "unknown",
+    "end_precision": "minute",
+    "conditions_note": "For graduate students seeking bachelor's-to-master's or master's-to-doctoral recognition of SNU-earned credits, subject to all course and transition-specific restrictions. Previously approved students cannot reapply.",
+    "conditions": {},
+    "steps": [
+      "In MySNU, follow 학생서비스 > 수업/성적 > 학점인정신청 > 과정간 통산인정 > 신청하기, then print the application.",
+      "Sign the application yourself and obtain your advisor's signature or seal.",
+      "If you are not a Fall 2026 entrant, write your admission year and semester in pencil below your signature field.",
+      "Mark the requested courses on your transcript.",
+      "After applying online, submit the printed, signed application and marked transcript to the responsible staff member at the ECE Administration Office, Building 301, Room 319, by the deadline."
+    ],
+    "importance": "conditional",
+    "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58055-all-1",
+    "notice_id": "58055",
+    "title": "Check bachelor's-to-master's credit restrictions",
+    "kind": "information",
+    "degrees": [
+      "masters"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Rules for Fall 2026 applications",
+    "date_quote": "",
+    "evidence_quote": "가. 학사-석사간 통산인정 1) 통산인정 범위: 최대 6학점까지 가능. 2) 서울대 학사과정에서 취득한 대학원과목 중 교과구분상 ‘대학원‘으로 표시된 것만 통산인정 신청 가능함. 3) '일선', ‘전선’, ‘전필’ 등으로 표시된 경우 학부졸업학점으로 인정받기 위해 교과구분을 정정한 경우로 교과학점 통산인정이 불가능함.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For master's students seeking recognition of graduate courses taken during an SNU bachelor's program; the common course restrictions also apply.",
+    "conditions": {},
+    "steps": [
+      "Request no more than 6 credits.",
+      "Select only courses whose course classification is ‘대학원’ (graduate).",
+      "Do not request courses classified as ‘일선’, ‘전선’, ‘전필’, or similar undergraduate categories: the notice treats these as reclassified for undergraduate graduation credit and excludes them."
+    ],
+    "importance": "conditional",
+    "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58055-all-2",
+    "notice_id": "58055",
+    "title": "Check master's-to-doctoral excess-credit calculations",
+    "kind": "information",
+    "degrees": [
+      "phd"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Rules for Fall 2026 applications",
+    "date_quote": "",
+    "evidence_quote": "나. 석사-박사간 통산인정 1) 통산인정 범위: 최대 12학점까지 가능. 2) 서울대 전기정보공학부(전컴 포함) 석사과정에서 박사과정으로 진학한 학생의 석사과정 교과학점 중 24학점을 초과하여 이수한 경우만 통산인정이 가능함.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For students who progressed from an SNU ECE master's program, including 전컴, to a doctoral program, and completed more than 24 master's credits. Common course restrictions and calculation exclusions also apply.",
+    "conditions": {},
+    "steps": [
+      "Calculate only the master's credits exceeding 24 credits; recognition is capped at 12 credits.",
+      "Only 6 thesis-research credits may count in the calculation. Subtract any thesis-research credits above 6 from the excess-credit total.",
+      "If your department does not count common-competency courses toward master's completion credits, exclude those credits when calculating the excess. Confirm whether this applies with ECE administration."
+    ],
+    "importance": "conditional",
+    "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
+    "review_status": "AI_source_checked_not_human_reviewed"
   }
 ]
