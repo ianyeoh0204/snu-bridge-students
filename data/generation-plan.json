@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "budget_id": "baze-gpt-2026-11-10-30days",
-  "run_id": "42942412073",
-  "created_at": "2026-11-11T01:57:23.514Z",
+  "run_id": "43145074535",
+  "created_at": "2026-11-12T03:00:43.652Z",
   "tasks": [
     {
-      "notice_id": "58128",
-      "source_hash": "3f06d897412718bca29c7a23d3cc68478272210d40e9adfe8e3ab0f917775d13",
+      "notice_id": "58098",
+      "source_hash": "92e3e6b9891244b4e14472645588b608e9b776b466390bc5bcb538441df3d684",
       "parts": [
         {
           "part": {
@@ -18,15 +18,15 @@
               "integrated"
             ]
           },
-          "fingerprint": "7f8387ab9958696be162871b1bc3d3af799d3d1166d6d98914fc763b1518a40d",
-          "reserve_micros": 179486
+          "fingerprint": "7311f8016434de20761f8da9e218908d35e9f7b2aaeba9e67d5b1ebe98b3710c",
+          "reserve_micros": 184698
         }
       ],
-      "reserved_micros": 179486
+      "reserved_micros": 184698
     },
     {
-      "notice_id": "58127",
-      "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
+      "notice_id": "58076",
+      "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
       "parts": [
         {
           "part": {
@@ -38,15 +38,15 @@
               "integrated"
             ]
           },
-          "fingerprint": "7c7544b6601f5c68326c90b3faf337c27e73f6be82b78faa9cb92a4a4d2db661",
-          "reserve_micros": 179982
+          "fingerprint": "9c0557fe081bb0faa048c261fa3a22c631c1e806c8b0938a0e2b9e5e6a1feef5",
+          "reserve_micros": 185028
         }
       ],
-      "reserved_micros": 179982
+      "reserved_micros": 185028
     },
     {
-      "notice_id": "58122",
-      "source_hash": "623d8587a46816cb32ba3480590cb9a2609b7f1414eab393cdc57837798f88bf",
+      "notice_id": "58067",
+      "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
       "parts": [
         {
           "part": {
@@ -58,15 +58,15 @@
               "integrated"
             ]
           },
-          "fingerprint": "f40dced81975f87f955e7c608fe7803b92545e86f925ce8c77c3948d4c82a409",
-          "reserve_micros": 180814
+          "fingerprint": "2bf6a7745b4b8a32ec66e12fde91fd8c5f8b8b4d495e6fb46c92a970c16c02d0",
+          "reserve_micros": 184112
         }
       ],
-      "reserved_micros": 180814
+      "reserved_micros": 184112
     },
     {
-      "notice_id": "58123",
-      "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
+      "notice_id": "58075",
+      "source_hash": "f2ea9d33dc7d0f9edf232c57d0d44275d09ffbf7c9889117d21ea434433cc1cf",
       "parts": [
         {
           "part": {
@@ -78,15 +78,15 @@
               "integrated"
             ]
           },
-          "fingerprint": "ad5750db7017e23fc8bb8da012685a4f1a675672bf674045d7b4188d1b2355e9",
-          "reserve_micros": 182186
+          "fingerprint": "6ca4594b34b99f87bda0a2459986b82f761a6b6068d2753a3571f5cf6bc20377",
+          "reserve_micros": 179908
         }
       ],
-      "reserved_micros": 182186
+      "reserved_micros": 179908
     },
     {
-      "notice_id": "57944",
-      "source_hash": "90346f5976a9ebf43ef6ee112530df6e4da0e0d7ca20ff50f2c14d69fa256cec",
+      "notice_id": "58055",
+      "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
       "parts": [
         {
           "part": {
@@ -98,18 +98,18 @@
               "integrated"
             ]
           },
-          "fingerprint": "55f3f4a8669ebe8d27f2b64b95273074891a60216996625795347470f595f39e",
-          "reserve_micros": 187496
+          "fingerprint": "ff6aa85b8e5ed88a314b20f0a82422b92f3564a79b985c0c2b2aa1f7cbd16a60",
+          "reserve_micros": 185690
         }
       ],
-      "reserved_micros": 187496
+      "reserved_micros": 185690
     }
   ],
-  "pending": 58,
-  "eligible_pending": 19,
+  "pending": 55,
+  "eligible_pending": 14,
   "requests": 5,
   "status": "reserved",
-  "reserved_micros": 909964,
-  "remaining_micros": 8905864,
-  "plan_hash": "e41f62a990c51106fb2b028d8212083d9817a8fde95e55fabd2e8907e555fc8e"
+  "reserved_micros": 919436,
+  "remaining_micros": 8728742,
+  "plan_hash": "6074a5740a795e770881e7ba88d0a45077bcabef4fcc19cadda4c81f677712e7"
 }

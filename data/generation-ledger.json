@@ -510,6 +510,114 @@
         }
       ],
       "completed_at": "2026-11-11T02:01:16.781Z"
+    },
+    {
+      "run_id": "43145074535",
+      "created_at": "2026-11-12T03:00:43.652Z",
+      "reserved_micros": 919436,
+      "tasks": [
+        {
+          "notice_id": "58098",
+          "source_hash": "92e3e6b9891244b4e14472645588b608e9b776b466390bc5bcb538441df3d684",
+          "parts": [
+            {
+              "part": {
+                "key": "all",
+                "degrees": [
+                  "undergraduate",
+                  "masters",
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "7311f8016434de20761f8da9e218908d35e9f7b2aaeba9e67d5b1ebe98b3710c",
+              "reserve_micros": 184698
+            }
+          ],
+          "reserved_micros": 184698
+        },
+        {
+          "notice_id": "58076",
+          "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
+          "parts": [
+            {
+              "part": {
+                "key": "all",
+                "degrees": [
+                  "undergraduate",
+                  "masters",
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "9c0557fe081bb0faa048c261fa3a22c631c1e806c8b0938a0e2b9e5e6a1feef5",
+              "reserve_micros": 185028
+            }
+          ],
+          "reserved_micros": 185028
+        },
+        {
+          "notice_id": "58067",
+          "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+          "parts": [
+            {
+              "part": {
+                "key": "all",
+                "degrees": [
+                  "undergraduate",
+                  "masters",
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "2bf6a7745b4b8a32ec66e12fde91fd8c5f8b8b4d495e6fb46c92a970c16c02d0",
+              "reserve_micros": 184112
+            }
+          ],
+          "reserved_micros": 184112
+        },
+        {
+          "notice_id": "58075",
+          "source_hash": "f2ea9d33dc7d0f9edf232c57d0d44275d09ffbf7c9889117d21ea434433cc1cf",
+          "parts": [
+            {
+              "part": {
+                "key": "all",
+                "degrees": [
+                  "undergraduate",
+                  "masters",
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "6ca4594b34b99f87bda0a2459986b82f761a6b6068d2753a3571f5cf6bc20377",
+              "reserve_micros": 179908
+            }
+          ],
+          "reserved_micros": 179908
+        },
+        {
+          "notice_id": "58055",
+          "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
+          "parts": [
+            {
+              "part": {
+                "key": "all",
+                "degrees": [
+                  "undergraduate",
+                  "masters",
+                  "phd",
+                  "integrated"
+                ]
+              },
+              "fingerprint": "ff6aa85b8e5ed88a314b20f0a82422b92f3564a79b985c0c2b2aa1f7cbd16a60",
+              "reserve_micros": 185690
+            }
+          ],
+          "reserved_micros": 185690
+        }
+      ],
+      "status": "reserved"
     }
   ]
 }
