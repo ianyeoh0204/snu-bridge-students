@@ -5,7 +5,7 @@
     "posting_date": "2021.12.20",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=51949&md=v",
     "source_hash": "7e8f93fd01cb1e56b69503b14c97e6fe82b941331f419f82730210e2b95405a5",
-    "source_checked_at": "2026-11-10T08:59:10.450Z",
+    "source_checked_at": "2026-11-13T02:38:19.712Z",
     "original": [
       {
         "t": "p",
@@ -4964,8 +4964,8 @@
     "korean_title": "[학부&대학원] ★(수시변경) 2026학년도 2학기 석사/박사 논문심사 공개발표 일정 안내",
     "posting_date": "2026.11.02",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58160&md=v",
-    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
-    "source_checked_at": "2026-11-10T08:59:11.569Z",
+    "source_hash": "da4a3dfb5f0b599493b3b370d4d8a524ebf30d72f9f36d5aa82ca3de5e21edca",
+    "source_checked_at": "2026-11-13T02:38:20.826Z",
     "original": [
       {
         "t": "p",
@@ -5007,12 +5007,12 @@
     "attachments": [
       {
         "name": "2026-2학기 박사 초심 일정.pdf",
-        "source_url": "https://ece.snu.ac.kr/community/academics?md=down&bbsidx=58160&fileidx=16752",
+        "source_url": "https://ece.snu.ac.kr/community/academics?md=down&bbsidx=58160&fileidx=16765",
         "read": false
       },
       {
         "name": "2026-2학기 석사 심사 일정.pdf",
-        "source_url": "https://ece.snu.ac.kr/community/academics?md=down&bbsidx=58160&fileidx=16753",
+        "source_url": "https://ece.snu.ac.kr/community/academics?md=down&bbsidx=58160&fileidx=16764",
         "read": false
       }
     ],
@@ -5028,6 +5028,11 @@
         "at": "2026-11-10T08:59:11.569Z",
         "previous_hash": "45c968d82d810a3234fe0cf90024cd0f5a75124232f5a586f65c886555988e78",
         "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb"
+      },
+      {
+        "at": "2026-11-13T02:38:20.826Z",
+        "previous_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
+        "source_hash": "da4a3dfb5f0b599493b3b370d4d8a524ebf30d72f9f36d5aa82ca3de5e21edca"
       }
     ]
   },
@@ -5037,7 +5042,7 @@
     "posting_date": "2026.10.19",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v",
     "source_hash": "c29e592c26bb798677206abefbb32b04f4ce88412e657099289a96248785ef92",
-    "source_checked_at": "2026-11-10T08:59:12.667Z",
+    "source_checked_at": "2026-11-13T02:38:21.861Z",
     "original": [
       {
         "t": "p",
@@ -5131,7 +5136,7 @@
     "posting_date": "2026.09.16",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58076&md=v",
     "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
-    "source_checked_at": "2026-11-10T08:59:13.741Z",
+    "source_checked_at": "2026-11-13T02:38:22.972Z",
     "original": [
       {
         "t": "p",
@@ -5326,7 +5331,7 @@
     "posting_date": "2026.09.15",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58067&md=v",
     "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
-    "source_checked_at": "2026-11-10T08:59:14.852Z",
+    "source_checked_at": "2026-11-13T02:38:24.086Z",
     "original": [
       {
         "t": "p",
@@ -5436,7 +5441,7 @@
     "posting_date": "2026.08.19",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57986&md=v",
     "source_hash": "7a1a5d7d38a8b2bda2816759ef1752eeeff1a666d361063032bd09b8956152f6",
-    "source_checked_at": "2026-11-10T08:59:15.970Z",
+    "source_checked_at": "2026-11-13T02:38:25.234Z",
     "original": [
       {
         "t": "p",
@@ -5501,7 +5506,7 @@
     "posting_date": "2026.08.29",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57963&md=v",
     "source_hash": "5e07c68020601ca68eefa12a9124151138463fbd1c9c7a99e4a68f13e539e650",
-    "source_checked_at": "2026-11-10T08:59:17.075Z",
+    "source_checked_at": "2026-11-13T02:38:27.170Z",
     "original": [
       {
         "t": "p",
@@ -5652,7 +5657,7 @@
     "posting_date": "2026.08.06",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57951&md=v",
     "source_hash": "3f9de59e8e8a9a3ee5ef2ecbbbda2eea6841e983c5d62a155d65955f1a092969",
-    "source_checked_at": "2026-11-10T08:59:18.138Z",
+    "source_checked_at": "2026-11-13T02:38:27.740Z",
     "original": [
       {
         "t": "p",
@@ -5714,7 +5719,7 @@
     "posting_date": "2026.09.22",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v",
     "source_hash": "90346f5976a9ebf43ef6ee112530df6e4da0e0d7ca20ff50f2c14d69fa256cec",
-    "source_checked_at": "2026-11-10T08:59:19.237Z",
+    "source_checked_at": "2026-11-13T02:38:28.638Z",
     "original": [
       {
         "t": "p",
@@ -5952,7 +5957,7 @@
     "posting_date": "2026.07.01",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57854&md=v",
     "source_hash": "241950c19573cecd7407c9261ea915e40cc4e3b373670e6d7f37b0c523ca3866",
-    "source_checked_at": "2026-11-10T08:59:20.585Z",
+    "source_checked_at": "2026-11-13T02:38:29.808Z",
     "original": [
       {
         "t": "p",
@@ -6013,7 +6018,7 @@
     "posting_date": "2026.04.03",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57662&md=v",
     "source_hash": "cf60029db700981fe104d4a211c1c43c44fa298fe7bbe8dbece8f7c00aa51065",
-    "source_checked_at": "2026-11-10T08:59:21.633Z",
+    "source_checked_at": "2026-11-13T02:38:30.973Z",
     "original": [
       {
         "t": "p",
@@ -6822,7 +6827,7 @@
     "posting_date": "2026.02.05",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57425&md=v",
     "source_hash": "55142da42cf28c48a994616043c9a2b88301daaafd12055cc5b376de5a10fdf1",
-    "source_checked_at": "2026-11-10T08:59:22.598Z",
+    "source_checked_at": "2026-11-13T02:38:31.968Z",
     "original": [
       {
         "t": "p",
@@ -6855,7 +6860,7 @@
     "posting_date": "2024.11.07",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55998&md=v",
     "source_hash": "4005919a34276d8ad55e7073ced9186fa29cfed79e0f4158893d63d8ca35d848",
-    "source_checked_at": "2026-11-10T08:59:23.633Z",
+    "source_checked_at": "2026-11-13T02:38:33.020Z",
     "original": [
       {
         "t": "p",
@@ -6986,7 +6991,7 @@
     "posting_date": "2024.09.25",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55871&md=v",
     "source_hash": "7f1105941dfc4663e33fe52744422b173ce2f3c674f57829abdf2f87942ab689",
-    "source_checked_at": "2026-11-10T08:59:24.730Z",
+    "source_checked_at": "2026-11-13T02:38:34.151Z",
     "original": [
       {
         "t": "p",
@@ -7053,7 +7058,7 @@
     "posting_date": "2024.04.15",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55507&md=v",
     "source_hash": "53972872f1de9b87d223bef39affccf31694e9f24d1eaa2343b1af42b88defc9",
-    "source_checked_at": "2026-11-10T08:59:25.869Z",
+    "source_checked_at": "2026-11-13T02:38:35.261Z",
     "original": [
       {
         "t": "p",
@@ -7096,7 +7101,7 @@
     "posting_date": "2020.01.21",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=48621&md=v",
     "source_hash": "46e1f608a477af852b5082e30f8cfed89e2ec18a9a74cc39b5f47d71f32be252",
-    "source_checked_at": "2026-11-10T08:59:26.936Z",
+    "source_checked_at": "2026-11-13T02:38:36.549Z",
     "original": [
       {
         "t": "p",
@@ -7216,7 +7221,7 @@
     "posting_date": "2026.10.29",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58183&md=v",
     "source_hash": "418bf102163e381de67ee0d55a4c8908e4125a5abc98c10a93c2c7df84cd288c",
-    "source_checked_at": "2026-11-10T08:59:28.097Z",
+    "source_checked_at": "2026-11-13T02:38:37.477Z",
     "original": [
       {
         "t": "p",
@@ -7390,7 +7395,7 @@
     "posting_date": "2026.10.23",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v",
     "source_hash": "be81462445f8b17e37e8842dc93a8e731f4a4be71b676907779e0b4721007446",
-    "source_checked_at": "2026-11-10T08:59:29.136Z",
+    "source_checked_at": "2026-11-13T02:38:38.534Z",
     "original": [
       {
         "t": "p",
@@ -7458,7 +7463,7 @@
     "posting_date": "2026.10.14",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58141&md=v",
     "source_hash": "5323d4e452f43dfb5f1d06dfba9dd02286be7222647ca25ecf5a71914930d127",
-    "source_checked_at": "2026-11-10T08:59:30.393Z",
+    "source_checked_at": "2026-11-13T02:38:39.618Z",
     "original": [
       {
         "t": "p",
@@ -7531,7 +7536,7 @@
     "posting_date": "2026.10.12",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58128&md=v",
     "source_hash": "3f06d897412718bca29c7a23d3cc68478272210d40e9adfe8e3ab0f917775d13",
-    "source_checked_at": "2026-11-10T08:59:31.344Z",
+    "source_checked_at": "2026-11-13T02:38:40.866Z",
     "original": [
       {
         "t": "p",
@@ -7574,7 +7579,7 @@
     "posting_date": "2026.10.08",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v",
     "source_hash": "ad4bf7aa427fa6638905117760d327b24727e383f77a0a9ce4e3af5f7782c5d5",
-    "source_checked_at": "2026-11-11T01:56:06.202Z",
+    "source_checked_at": "2026-11-13T02:38:41.826Z",
     "original": [
       {
         "t": "p",
@@ -7648,7 +7653,7 @@
     "posting_date": "2026.10.06",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v",
     "source_hash": "2112424c6ee26bcd3717a8a029cf207ef3d17e29e4eea1e1710e99bb22735481",
-    "source_checked_at": "2026-11-11T01:56:06.875Z",
+    "source_checked_at": "2026-11-13T02:38:42.949Z",
     "original": [
       {
         "t": "p",
@@ -7784,7 +7789,7 @@
     "posting_date": "2026.10.06",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58122&md=v",
     "source_hash": "623d8587a46816cb32ba3480590cb9a2609b7f1414eab393cdc57837798f88bf",
-    "source_checked_at": "2026-11-11T01:56:07.983Z",
+    "source_checked_at": "2026-11-13T02:38:44.028Z",
     "original": [
       {
         "t": "p",
@@ -7877,7 +7882,7 @@
     "posting_date": "2026.09.22",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58098&md=v",
     "source_hash": "92e3e6b9891244b4e14472645588b608e9b776b466390bc5bcb538441df3d684",
-    "source_checked_at": "2026-11-11T01:56:09.093Z",
+    "source_checked_at": "2026-11-13T02:38:45.124Z",
     "original": [
       {
         "t": "p",
@@ -8071,7 +8076,7 @@
     "posting_date": "2026.09.14",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58075&md=v",
     "source_hash": "f2ea9d33dc7d0f9edf232c57d0d44275d09ffbf7c9889117d21ea434433cc1cf",
-    "source_checked_at": "2026-11-11T01:56:10.079Z",
+    "source_checked_at": "2026-11-13T02:38:46.273Z",
     "original": [
       {
         "t": "p",
@@ -8110,7 +8115,7 @@
     "posting_date": "2026.09.12",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58057&md=v",
     "source_hash": "a2e7b9e9f7a4bf47e4206dcbbd26cbee2547542111f1bec883f7025f7ec41e7f",
-    "source_checked_at": "2026-11-11T01:56:11.008Z",
+    "source_checked_at": "2026-11-13T02:38:47.335Z",
     "original": [
       {
         "t": "p",
@@ -8235,7 +8240,7 @@
     "posting_date": "2026.09.12",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58056&md=v",
     "source_hash": "a835e43ab47a515f326905f47235a6830d78fa4812932ffaa0547f0935735260",
-    "source_checked_at": "2026-11-11T01:56:12.103Z",
+    "source_checked_at": "2026-11-13T02:38:48.455Z",
     "original": [
       {
         "t": "p",
@@ -8364,7 +8369,7 @@
     "posting_date": "2026.09.12",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58055&md=v",
     "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
-    "source_checked_at": "2026-11-11T01:56:13.170Z",
+    "source_checked_at": "2026-11-13T02:38:49.558Z",
     "original": [
       {
         "t": "p",
@@ -8449,7 +8454,7 @@
     "posting_date": "2026.09.08",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58046&md=v",
     "source_hash": "42e347cc568f6f4f0965fc84c53f4294729eed7b2c8ab771a1971471da9875b4",
-    "source_checked_at": "2026-11-11T01:56:14.309Z",
+    "source_checked_at": "2026-11-13T02:38:50.634Z",
     "original": [
       {
         "t": "p",
@@ -8484,7 +8489,7 @@
     "posting_date": "2026.09.07",
     "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v",
     "source_hash": "cfced687a3afa70cb8be9e9ea18e4f96ec51b81dee89b0a3ad198af5a1ee3c5a",
-    "source_checked_at": "2026-11-11T01:56:15.376Z",
+    "source_checked_at": "2026-11-13T02:38:51.731Z",
     "original": [
       {
         "t": "p",

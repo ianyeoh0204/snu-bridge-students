@@ -1,7 +1,7 @@
 {
   "model": "gpt-6.1-sol",
   "provider": "baze",
-  "checked_at": "2026-11-12T03:00:43.647Z",
+  "checked_at": "2026-11-13T02:39:37.680Z",
   "pricing": {
     "currency": "USD",
     "per_tokens": 1000000,

@@ -1,0 +1,49 @@
+{
+  "started_scope": {
+    "listing_pages": 8,
+    "since": null,
+    "requested_urls": 0,
+    "detail_limit": 30
+  },
+  "checked_at": "2026-11-13T02:38:51.731Z",
+  "scanned_pages": 8,
+  "checked_details": 30,
+  "added": [],
+  "updated": [
+    "58160"
+  ],
+  "unchanged": [
+    "51949",
+    "58149",
+    "58076",
+    "58067",
+    "57986",
+    "57963",
+    "57951",
+    "57944",
+    "57854",
+    "57662",
+    "57425",
+    "55998",
+    "55871",
+    "55507",
+    "48621",
+    "58183",
+    "58161",
+    "58141",
+    "58128",
+    "58127",
+    "58123",
+    "58122",
+    "58098",
+    "58075",
+    "58057",
+    "58056",
+    "58055",
+    "58046",
+    "58044"
+  ],
+  "failures": [],
+  "status": "succeeded",
+  "edit_detection": "Only successfully fetched detail pages are checked for edits. Older/unfetched pages are not covered by this run."
+}

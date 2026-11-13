@@ -1,32 +1,50 @@
 {
   "schema_version": 1,
   "budget_id": "baze-gpt-2026-11-10-30days",
-  "run_id": "43145074535",
-  "created_at": "2026-11-12T03:00:43.652Z",
+  "run_id": "43353512712",
+  "created_at": "2026-11-13T02:39:37.684Z",
   "tasks": [
     {
-      "notice_id": "58098",
-      "source_hash": "92e3e6b9891244b4e14472645588b608e9b776b466390bc5bcb538441df3d684",
+      "notice_id": "58160",
+      "source_hash": "da4a3dfb5f0b599493b3b370d4d8a524ebf30d72f9f36d5aa82ca3de5e21edca",
       "parts": [
         {
           "part": {
-            "key": "all",
+            "key": "undergraduate",
             "degrees": [
-              "undergraduate",
-              "masters",
+              "undergraduate"
+            ]
+          },
+          "fingerprint": "b25d030f80f09235664aa057cfa849c3567b4ea0127b12ce79d236104dbe00fd",
+          "reserve_micros": 180414
+        },
+        {
+          "part": {
+            "key": "masters",
+            "degrees": [
+              "masters"
+            ]
+          },
+          "fingerprint": "16f3832881c1168f8d1a854a7a7c974f5cad303fffcc1986abbbe3ad31ca8586",
+          "reserve_micros": 180402
+        },
+        {
+          "part": {
+            "key": "doctoral",
+            "degrees": [
               "phd",
               "integrated"
             ]
           },
-          "fingerprint": "7311f8016434de20761f8da9e218908d35e9f7b2aaeba9e67d5b1ebe98b3710c",
-          "reserve_micros": 184698
+          "fingerprint": "ed3b0b1b909f2f3cfae3425aa498953053bb14f254c9421b8c9f797257651ed5",
+          "reserve_micros": 180418
         }
       ],
-      "reserved_micros": 184698
+      "reserved_micros": 541234
     },
     {
-      "notice_id": "58076",
-      "source_hash": "2484461009c76f8cda25408248616d07eb37e53e3467b8af3570f280dbc2725f",
+      "notice_id": "58056",
+      "source_hash": "a835e43ab47a515f326905f47235a6830d78fa4812932ffaa0547f0935735260",
       "parts": [
         {
           "part": {
@@ -38,15 +56,15 @@
               "integrated"
             ]
           },
-          "fingerprint": "9c0557fe081bb0faa048c261fa3a22c631c1e806c8b0938a0e2b9e5e6a1feef5",
-          "reserve_micros": 185028
+          "fingerprint": "d9d0d79491681e314680cf4797dc8c586cfd12130e1c051d15510c2d55987b7a",
+          "reserve_micros": 185168
         }
       ],
-      "reserved_micros": 185028
+      "reserved_micros": 185168
     },
     {
-      "notice_id": "58067",
-      "source_hash": "a4f1dcc85be722157d23a51cc3d1049004cb56250a29fa7f75e42dad3d2766ce",
+      "notice_id": "58057",
+      "source_hash": "a2e7b9e9f7a4bf47e4206dcbbd26cbee2547542111f1bec883f7025f7ec41e7f",
       "parts": [
         {
           "part": {
@@ -58,15 +76,15 @@
               "integrated"
             ]
           },
-          "fingerprint": "2bf6a7745b4b8a32ec66e12fde91fd8c5f8b8b4d495e6fb46c92a970c16c02d0",
-          "reserve_micros": 184112
+          "fingerprint": "67bd9fbdbb7e09792194d78cb0224e634b375f6013fdf0cb69a6b9be54242371",
+          "reserve_micros": 183330
         }
       ],
-      "reserved_micros": 184112
+      "reserved_micros": 183330
     },
     {
-      "notice_id": "58075",
-      "source_hash": "f2ea9d33dc7d0f9edf232c57d0d44275d09ffbf7c9889117d21ea434433cc1cf",
+      "notice_id": "58043",
+      "source_hash": "fe3f67b1f2590b5e1a9845fc8f72442a4a98e70f047f49e8e21e854fe0b57023",
       "parts": [
         {
           "part": {
@@ -78,38 +96,18 @@
               "integrated"
             ]
           },
-          "fingerprint": "6ca4594b34b99f87bda0a2459986b82f761a6b6068d2753a3571f5cf6bc20377",
-          "reserve_micros": 179908
+          "fingerprint": "34370dcf3689a5590cfc2aab99b249173b2a272a7ca2f7e9665362ad9961f920",
+          "reserve_micros": 180930
         }
       ],
-      "reserved_micros": 179908
-    },
-    {
-      "notice_id": "58055",
-      "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
-      "parts": [
-        {
-          "part": {
-            "key": "all",
-            "degrees": [
-              "undergraduate",
-              "masters",
-              "phd",
-              "integrated"
-            ]
-          },
-          "fingerprint": "ff6aa85b8e5ed88a314b20f0a82422b92f3564a79b985c0c2b2aa1f7cbd16a60",
-          "reserve_micros": 185690
-        }
-      ],
-      "reserved_micros": 185690
+      "reserved_micros": 180930
     }
   ],
-  "pending": 55,
-  "eligible_pending": 14,
-  "requests": 5,
+  "pending": 51,
+  "eligible_pending": 10,
+  "requests": 6,
   "status": "reserved",
-  "reserved_micros": 919436,
-  "remaining_micros": 8728742,
-  "plan_hash": "6074a5740a795e770881e7ba88d0a45077bcabef4fcc19cadda4c81f677712e7"
+  "reserved_micros": 1090662,
+  "remaining_micros": 8403662,
+  "plan_hash": "306079f6fe114a3dffd29a14bee2ff60cc593c6da86e793bb7e4186f7505002d"
 }
