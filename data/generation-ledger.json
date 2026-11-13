@@ -781,7 +781,76 @@
           "reserved_micros": 180930
         }
       ],
-      "status": "reserved"
+      "status": "complete",
+      "attempts": [
+        {
+          "notice_id": "58160",
+          "part": "undergraduate",
+          "status": "returned",
+          "reserved_micros": 180414,
+          "usage": {
+            "input_tokens": 1251,
+            "output_tokens": 1154,
+            "estimated_micros": 14042
+          }
+        },
+        {
+          "notice_id": "58160",
+          "part": "masters",
+          "status": "returned",
+          "reserved_micros": 180402,
+          "usage": {
+            "input_tokens": 1251,
+            "output_tokens": 1379,
+            "estimated_micros": 16292
+          }
+        },
+        {
+          "notice_id": "58160",
+          "part": "doctoral",
+          "status": "returned",
+          "reserved_micros": 180418,
+          "usage": {
+            "input_tokens": 1253,
+            "output_tokens": 1247,
+            "estimated_micros": 14976
+          }
+        },
+        {
+          "notice_id": "58056",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 185168,
+          "usage": {
+            "input_tokens": 2074,
+            "output_tokens": 2652,
+            "estimated_micros": 30668
+          }
+        },
+        {
+          "notice_id": "58057",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 183330,
+          "usage": {
+            "input_tokens": 1765,
+            "output_tokens": 2742,
+            "estimated_micros": 30950
+          }
+        },
+        {
+          "notice_id": "58043",
+          "part": "all",
+          "status": "returned",
+          "reserved_micros": 180930,
+          "usage": {
+            "input_tokens": 1376,
+            "output_tokens": 1913,
+            "estimated_micros": 21882
+          }
+        }
+      ],
+      "completed_at": "2026-11-13T02:43:08.665Z"
     }
   ]
 }

@@ -732,110 +732,6 @@
     "review_status": "AI_source_checked_not_human_reviewed"
   },
   {
-    "id": "58160-undergraduate-0",
-    "notice_id": "58160",
-    "title": "Check the current presentation schedules and recheck on the day",
-    "kind": "information",
-    "degrees": [
-      "undergraduate"
-    ],
-    "start": null,
-    "end": null,
-    "date_label": "2026 fall semester; exact presentation dates are in the attachments, which were not processed",
-    "date_quote": "2026학년도 2학기 석사/박사 논문심사 공개발표 일정을 안내드립니다.",
-    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "precision": "unknown",
-    "start_precision": "unknown",
-    "end_precision": "unknown",
-    "conditions_note": "Applies to undergraduates only if attending. The notice directs attendees, including students enrolled in the master's/doctoral seminar, to check the attachments even on the review day.",
-    "conditions": {},
-    "steps": [
-      "For master's presentations, consult “2026-2학기 석사 심사 일정.pdf”.",
-      "For doctoral first-review (초심) presentations, consult “2026-2학기 박사 초심 일정.pdf”.",
-      "Confirm the exact date, time and venue in the latest schedule, and check it again on the presentation day."
-    ],
-    "importance": "conditional",
-    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
-    "review_status": "AI_source_checked_not_human_reviewed"
-  },
-  {
-    "id": "58160-masters-0",
-    "notice_id": "58160",
-    "title": "Check the master's public presentation schedule",
-    "kind": "information",
-    "degrees": [
-      "masters"
-    ],
-    "start": null,
-    "end": null,
-    "date_label": "Exact presentation dates are in the unprocessed attachment",
-    "date_quote": "",
-    "evidence_quote": "1. 석사 공개발표 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)",
-    "precision": "unknown",
-    "start_precision": "unknown",
-    "end_precision": "unknown",
-    "conditions_note": "For master's students presenting or attending master's thesis public presentations in the second semester of 2026.",
-    "conditions": {},
-    "steps": [
-      "Open “2026-2학기 석사 심사 일정.pdf” from the notice and check the relevant presentation's date, time and location."
-    ],
-    "importance": "conditional",
-    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
-    "review_status": "AI_source_checked_not_human_reviewed"
-  },
-  {
-    "id": "58160-masters-1",
-    "notice_id": "58160",
-    "title": "Recheck the relevant schedule on the review day",
-    "kind": "information",
-    "degrees": [
-      "masters"
-    ],
-    "start": null,
-    "end": null,
-    "date_label": "On the review day; exact calendar date is not stated in the readable text",
-    "date_quote": "심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "precision": "unknown",
-    "start_precision": "unknown",
-    "end_precision": "unknown",
-    "conditions_note": "Applies to master's students attending, including master's/doctoral seminar enrollees. Use the master's schedule or the doctoral first review (초심) schedule according to the presentation being attended.",
-    "conditions": {},
-    "steps": [
-      "Return to the notice and check the current relevant attachment on the review day for changes to the time or location."
-    ],
-    "importance": "conditional",
-    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
-    "review_status": "AI_source_checked_not_human_reviewed"
-  },
-  {
-    "id": "58160-doctoral-0",
-    "notice_id": "58160",
-    "title": "Check and recheck the doctoral first-review (초심) presentation schedule",
-    "kind": "information",
-    "degrees": [
-      "phd",
-      "integrated"
-    ],
-    "start": null,
-    "end": null,
-    "date_label": "Presentation dates are in the attached schedule, which was not processed.",
-    "date_quote": "",
-    "evidence_quote": "2. 박사 공개발표(초심) 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)\n3. 참고사항\n- 공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
-    "precision": "unknown",
-    "start_precision": "unknown",
-    "end_precision": "unknown",
-    "conditions_note": "For PhD students participating in or attending doctoral first-review public presentations, including relevant seminar enrollees. For integrated-program students, this applies conditionally if they are participating in or attending this doctoral-stage review.",
-    "conditions": {},
-    "steps": [
-      "Consult “2026-2학기 박사 초심 일정.pdf” for the current presentation schedule.",
-      "Check the latest attachment again on the review day for changes to the time or location."
-    ],
-    "importance": "conditional",
-    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
-    "review_status": "AI_source_checked_not_human_reviewed"
-  },
-  {
     "id": "58203-all-0",
     "notice_id": "58203",
     "title": "Attend in person and obtain signed confirmation",
@@ -1841,6 +1737,324 @@
     ],
     "importance": "conditional",
     "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-undergraduate-0",
+    "notice_id": "58160",
+    "title": "Check and reconfirm the schedule if attending a thesis presentation",
+    "kind": "information",
+    "degrees": [
+      "undergraduate"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Fall 2026; exact presentation dates are in the attached schedules",
+    "date_quote": "2026학년도 2학기 석사/박사 논문심사 공개발표 일정을 안내드립니다.",
+    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For undergraduates who plan to attend, including master's/doctoral seminar students if applicable. This is attendee guidance, not a determination of eligibility or a requirement that all undergraduates attend.",
+    "conditions": {},
+    "steps": [
+      "Consult “2026-2학기 석사 심사 일정.pdf” for master's presentations or “2026-2학기 박사 초심 일정.pdf” for doctoral first-review (초심) presentations.",
+      "Check the relevant attachment again on the presentation day because the schedule, time or location may change."
+    ],
+    "importance": "conditional",
+    "source_hash": "da4a3dfb5f0b599493b3b370d4d8a524ebf30d72f9f36d5aa82ca3de5e21edca",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-masters-0",
+    "notice_id": "58160",
+    "title": "Check the relevant presentation schedule and recheck on the review day",
+    "kind": "information",
+    "degrees": [
+      "masters"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Semester 2, 2026; exact presentation dates are in the unprocessed attachments",
+    "date_quote": "",
+    "evidence_quote": "공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For master's students presenting or attending public presentations. The review-day recheck applies to attendees, including master's/doctoral seminar students. Consult the doctoral first-review (초심) schedule only if attending those presentations.",
+    "conditions": {},
+    "steps": [
+      "Open “2026-2학기 석사 심사 일정.pdf” to confirm the relevant presentation date, time and location.",
+      "If attending a doctoral first-review (초심) presentation, check “2026-2학기 박사 초심 일정.pdf” instead.",
+      "Check the latest relevant attachment again on the review day."
+    ],
+    "importance": "conditional",
+    "source_hash": "da4a3dfb5f0b599493b3b370d4d8a524ebf30d72f9f36d5aa82ca3de5e21edca",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58160-doctoral-0",
+    "notice_id": "58160",
+    "title": "Check the latest doctoral first-review (초심) presentation schedule",
+    "kind": "information",
+    "degrees": [
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Schedule is in an unprocessed attachment; check it again on the review day",
+    "date_quote": "2. 박사 공개발표(초심) 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)",
+    "evidence_quote": "2. 박사 공개발표(초심) 일정\n- 붙임파일 참고(내용은 수시로 변경될 수 있음.)\n3. 참고사항\n- 공개발표 일정(붙임파일)은 수시로 업데이트됩니다. 시간, 장소 등이 변동될 수 있으니 석박사세미나 수강생 등 참석자는 심사 당일에도 붙임파일을 반드시 확인하시기 바랍니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "If presenting at or attending a doctoral first-review (초심) public presentation, including as a master's/doctoral seminar student, check the attachment. Integrated-program students are included conditionally where this doctoral-stage review applies.",
+    "conditions": {},
+    "steps": [
+      "Consult the latest “2026-2학기 박사 초심 일정.pdf” for the relevant presentation.",
+      "Recheck the attachment on the review day because times and locations may change."
+    ],
+    "importance": "conditional",
+    "source_hash": "da4a3dfb5f0b599493b3b370d4d8a524ebf30d72f9f36d5aa82ca3de5e21edca",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58056-all-0",
+    "notice_id": "58056",
+    "title": "Submit the complete credit-recognition application",
+    "kind": "deadline",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": "2026-09-21T17:00:00+09:00",
+    "date_label": "By September 21, 2026, 17:00 KST",
+    "date_quote": "~ 2026. 9. 21.(월) 오후 5시까지",
+    "evidence_quote": "본교 입학 이전에 타교 대학원에서 취득한 학점을 인정받고자 하는 대학원생. ※ 원활한 학사운영을 위해 입학 첫 학기에 신청 바랍니다. ※ 자세한 사항은 첨부파일(붙임01) 참고.\n2. 신청서류 제출\n가. 기간: ~ 2026. 9. 21.(월) 오후 5시까지 나. 신청서류를 학부행정실(301동 319호) 담당자에게 제출 다. 신청서류: 1) ~ 4) 서류 모두 제출",
+    "precision": "minute",
+    "start_precision": "unknown",
+    "end_precision": "minute",
+    "conditions_note": "For graduate students requesting recognition of credits earned at another university's graduate school before entering SNU. All four document categories are required; recognition remains subject to review.",
+    "conditions": {},
+    "steps": [
+      "Complete attachments 02 and 03. Attachment 02 requires your signature and your advisor's signature or seal. Leave the department/division head field on attachment 03 blank.",
+      "Prepare the previous university's transcript. For a foreign university, provide an English transcript AND evidence showing class hours, such as a timetable or an instructional-hours calculation.",
+      "Provide evidence of the same major: syllabi and major/course outlines, submitting only the key portions.",
+      "Provide proof of affiliation with the previous university, such as a program-completion certificate or enrollment-status certificate.",
+      "Submit all four document categories to the responsible staff member at the ECE office, Building 301, Room 319, by the deadline."
+    ],
+    "importance": "conditional",
+    "source_hash": "a835e43ab47a515f326905f47235a6830d78fa4812932ffaa0547f0935735260",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58056-all-1",
+    "notice_id": "58056",
+    "title": "Check course conditions and program-specific credit limits",
+    "kind": "information",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Conditions for the Fall 2026 application; no separate date stated",
+    "date_quote": "",
+    "evidence_quote": "가. 본교 석사·박사과정 입학 이전에 타교 동일과정 동일·유사 전공의 석사·박사과정에서 취득한 교과학점은 성적이 B0이상이며 10년 이내에 이수한 동일·유사 교과목에 한하여 석사과정 6학점, 박사과정 9학점, 석사·박사통합과정 15학점까지 이수학점으로 인정할 수 있음. ※ 학사과정 교과목: 신청 불가 나. 다만, 입학 전 타교 석사·박사통합과정에서 학점을 취득하고 본교 석사과정으로 입학할 경우 6학점까지 인정할 수 있음.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For applicants seeking recognition of pre-entry graduate coursework. Courses must satisfy the stated same-program and same/similar-major conditions, have a grade of B0 or higher, have been completed within 10 years, and correspond to identical or similar courses. Undergraduate courses cannot be submitted. The table/prose mismatch noted above requires confirmation.",
+    "conditions": {},
+    "steps": [
+      "Check every proposed course against all course, grade, recency, major, and program conditions; consult attachment 01 for detailed criteria.",
+      "For prior master's study, the table lists up to 6 credits toward an SNU master's program or up to 6 toward an SNU integrated program.",
+      "For prior doctoral study, the table lists up to 9 credits toward an SNU doctoral program or up to 9 toward an SNU integrated program.",
+      "For prior integrated master's–doctoral study, the table lists up to 6 credits toward an SNU master's program or up to 15 toward an SNU integrated program. The integrated-to-master's route is an explicit exception.",
+      "Confirm the applicable pathway with the office; these are maximum recognition limits, not guaranteed awards."
+    ],
+    "importance": "conditional",
+    "source_hash": "a835e43ab47a515f326905f47235a6830d78fa4812932ffaa0547f0935735260",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58056-all-2",
+    "notice_id": "58056",
+    "title": "Follow the approval process and observe post-recognition restrictions",
+    "kind": "information",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Review process and post-approval rules; no dates stated",
+    "date_quote": "",
+    "evidence_quote": "다. 취득학점 인정 절차 1) 지도교수 추천 → 학부 학사위원회 → 단과대학 학사위원회 → 총장 승인. 2) 학점 인정을 승인받은 교과목은 본교의 동일‧유사한 교과목을 이수한 것으로 학적부에 등재하되, 성적은 평점 평균 산출 시에는 산입하지 않음. 라. ‘타교 대학원 수학학점 인정’ 받은 경우, 본교에서 동일‧유사 교과목을 다시 수강하지 못함.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For applicants undergoing review and, if recognition is approved, students whose prior graduate credits are recognized.",
+    "conditions": {},
+    "steps": [
+      "Obtain your advisor's recommendation. The stated review sequence is the ECE academic affairs committee, the college academic affairs committee, and presidential approval.",
+      "If approved, the courses are recorded as completion of identical or similar SNU courses, but their grades are excluded from GPA calculations.",
+      "If credits are recognized, do not take identical or similar courses again at SNU."
+    ],
+    "importance": "conditional",
+    "source_hash": "a835e43ab47a515f326905f47235a6830d78fa4812932ffaa0547f0935735260",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58057-all-0",
+    "notice_id": "58057",
+    "title": "Check eligible coursework and credit limits",
+    "kind": "information",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "Rules for the Fall 2026 application",
+    "date_quote": "",
+    "evidence_quote": "가. 본교 석사·박사과정 입학 이전에 동일(서울대) 대학원 동일·유사 전공의 석사·박사과정에서 취득한 교과학점에 한하여 이수학점 인정 신청 가능. ※ 학사과정 교과목: 신청 불가 나. 인정가능 학점 입학 전 과정 현재 과정 인정 학점 석사과정 석사과정 12학점 이내 석사⋅박사 통합과정 12학점 이내 박사과정 박사과정 18학점 이내 석사⋅박사 통합과정 18학점 이내 석사⋅박사 통합과정 석사과정 12학점 이내 박사과정* 18학점 이내 석사⋅박사 통합과정 18학점 이내 * 단, 박사 과정으로 입학 전에 본교의 동일·유사한 학과(부) 또는 전공의 석사·박사통합과정을 수료한 경우에 한함.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For graduate students seeking recognition of pre-entry SNU graduate coursework in the same or a similar major. Undergraduate courses cannot be requested. Only the listed prior/current program combinations are covered.",
+    "conditions": {},
+    "steps": [
+      "Prior master's → current master's or integrated program: up to 12 credits.",
+      "Prior doctoral → current doctoral or integrated program: up to 18 credits.",
+      "Prior integrated → current master's: up to 12 credits; current integrated: up to 18 credits.",
+      "Prior integrated → current doctoral: up to 18 credits only if the student completed (수료) SNU's integrated program in the same or a similar department or major before entering the doctoral program."
+    ],
+    "importance": "conditional",
+    "source_hash": "a2e7b9e9f7a4bf47e4206dcbbd26cbee2547542111f1bec883f7025f7ec41e7f",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58057-all-1",
+    "notice_id": "58057",
+    "title": "Submit the paper application and marked transcript",
+    "kind": "deadline",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": "2026-09-21T17:00:00+09:00",
+    "date_label": "By September 21, 2026, at 17:00 KST",
+    "date_quote": "~ 2026. 9. 21.(월) 오후 5시까지",
+    "evidence_quote": "2. 신청서류 제출\n가. 기간: ~ 2026. 9. 21.(월) 오후 5시까지 나. 신청서류를 학부행정실(301동 319호) 담당자에게 제출 다. 신청서류: 첨부파일(붙임01) ※ 신청서와 개인 성적표(신청교과목 표시)를 함께 제출하시기 바랍니다.",
+    "precision": "minute",
+    "start_precision": "unknown",
+    "end_precision": "minute",
+    "conditions_note": "For master's, doctoral and integrated students applying under the stated prior-SNU-credit rules. This deadline is for the paper submission.",
+    "conditions": {},
+    "steps": [
+      "Obtain the application form from attachment 붙임01.",
+      "Submit the completed paper application together with your personal transcript, marking the courses requested for recognition.",
+      "Deliver the documents to the responsible staff member in the ECE administration office, Building 301, Room 319."
+    ],
+    "importance": "conditional",
+    "source_hash": "a2e7b9e9f7a4bf47e4206dcbbd26cbee2547542111f1bec883f7025f7ec41e7f",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58057-all-2",
+    "notice_id": "58057",
+    "title": "Complete the later system application when instructed",
+    "kind": "unknown_deadline",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "System application cutoff not stated; separate instructions will follow headquarters processing",
+    "date_quote": "",
+    "evidence_quote": "※ 출신 학번·학과정보 연동이 필요하므로 서면 신청서를 먼저 제출하고, 본부 처리 후 별도 안내에 따라 시스템 신청을 진행합니다.",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For applicants who have submitted the paper documents. Headquarters must first process the linkage of the previous student number and department information.",
+    "conditions": {},
+    "steps": [
+      "Submit the paper application first.",
+      "After headquarters processing, follow the separate instructions to submit the system application and confirm its deadline."
+    ],
+    "importance": "conditional",
+    "source_hash": "a2e7b9e9f7a4bf47e4206dcbbd26cbee2547542111f1bec883f7025f7ec41e7f",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58043-all-0",
+    "notice_id": "58043",
+    "title": "Attend the major written exam and follow candidate rules",
+    "kind": "event",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": "2026-09-11T10:00:00+09:00",
+    "end": "2026-09-11T12:00:00+09:00",
+    "date_label": "September 11, 2026, 10:00–12:00 KST; be seated by 09:50",
+    "date_quote": "1. 일정: 2026. 9. 11.(금) 10:00 ~ 12:00(120분)\n※ 입실완료 시간: 09:50.(시험이 시작되는 10:00 이후 입실 불가!!).",
+    "evidence_quote": "2. 장소\n- 석사: 301동 302호\n- 박사: 301동 103호\n- 석박통합: 301동 202호, 204호\n※ 참고: [붙임] 고사장 안내",
+    "precision": "minute",
+    "start_precision": "minute",
+    "end_precision": "minute",
+    "conditions_note": "For master's, doctoral and integrated master's–doctoral candidates taking the Fall 2026 thesis-qualification major written exam. Use the room assigned to your degree category and check the attached room guide.",
+    "conditions": {},
+    "steps": [
+      "Be seated by 09:50. Entry is not permitted from the 10:00 exam start.",
+      "Master's candidates: Building 301, Room 302. Doctoral candidates: Building 301, Room 103. Integrated-program candidates: Building 301, Rooms 202 and 204; check the room guide for your allocation.",
+      "Bring identification; a student ID is accepted. Bring a black pen.",
+      "Do not use pencils or correction tape.",
+      "Calculators are permitted, but sharing is prohibited.",
+      "Do not leave during the first hour after the exam starts, even if you have finished.",
+      "Follow the attached candidate instructions and answer-sheet example."
+    ],
+    "importance": "conditional",
+    "source_hash": "fe3f67b1f2590b5e1a9845fc8f72442a4a98e70f047f49e8e21e854fe0b57023",
+    "review_status": "AI_source_checked_not_human_reviewed"
+  },
+  {
+    "id": "58043-all-1",
+    "notice_id": "58043",
+    "title": "Check your qualification-exam result in MySNU",
+    "kind": "information",
+    "degrees": [
+      "masters",
+      "phd",
+      "integrated"
+    ],
+    "start": null,
+    "end": null,
+    "date_label": "After late October 2026; exact release date not stated",
+    "date_quote": "10월 말 이후",
+    "evidence_quote": "5. 결과발표\n- 10월 말 이후, 마이스누에서 확인 가능('Mysnu > 학사정보 > 졸업 > 졸업시험 신청 > 종합시험 판정결과 조회'에서 확인)",
+    "precision": "unknown",
+    "start_precision": "unknown",
+    "end_precision": "unknown",
+    "conditions_note": "For candidates checking the result of the Fall 2026 graduate qualification exam; the notice gives only an approximate availability period.",
+    "conditions": {},
+    "steps": [
+      "After late October, check MySNU > 학사정보 > 졸업 > 졸업시험 신청 > 종합시험 판정결과 조회."
+    ],
+    "importance": "conditional",
+    "source_hash": "fe3f67b1f2590b5e1a9845fc8f72442a4a98e70f047f49e8e21e854fe0b57023",
     "review_status": "AI_source_checked_not_human_reviewed"
   }
 ]

@@ -22,12 +22,6 @@
     "at": "2026-11-10T06:35:47.163Z"
   },
   {
-    "notice_id": "58160",
-    "source_hash": "33bb26b367a9d9831f7c10b16099ada583b4b7e1eef2f7f11552a4b0a0161cbb",
-    "status": "complete",
-    "at": "2026-11-10T09:01:51.578Z"
-  },
-  {
     "notice_id": "58203",
     "source_hash": "29b287add9776705c0fba1ece486c65a9a8b9d6da7958fdde403baaf7d2bd594",
     "status": "complete",
@@ -108,5 +102,29 @@
     "source_hash": "787bc779afb90f6d6f0103848b4bd11c783e1e4166f3e332836d5eaff2c03900",
     "status": "complete",
     "at": "2026-11-12T03:05:16.498Z"
+  },
+  {
+    "notice_id": "58160",
+    "source_hash": "da4a3dfb5f0b599493b3b370d4d8a524ebf30d72f9f36d5aa82ca3de5e21edca",
+    "status": "complete",
+    "at": "2026-11-13T02:40:51.145Z"
+  },
+  {
+    "notice_id": "58056",
+    "source_hash": "a835e43ab47a515f326905f47235a6830d78fa4812932ffaa0547f0935735260",
+    "status": "complete",
+    "at": "2026-11-13T02:41:39.815Z"
+  },
+  {
+    "notice_id": "58057",
+    "source_hash": "a2e7b9e9f7a4bf47e4206dcbbd26cbee2547542111f1bec883f7025f7ec41e7f",
+    "status": "complete",
+    "at": "2026-11-13T02:42:29.529Z"
+  },
+  {
+    "notice_id": "58043",
+    "source_hash": "fe3f67b1f2590b5e1a9845fc8f72442a4a98e70f047f49e8e21e854fe0b57023",
+    "status": "complete",
+    "at": "2026-11-13T02:43:08.663Z"
   }
 ]
